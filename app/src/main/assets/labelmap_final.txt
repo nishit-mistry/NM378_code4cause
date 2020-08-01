@@ -1,0 +1,19 @@
+bitter_gourd
+chilly
+coffee
+cotton
+fenugreek
+indian mustard
+lentil
+maize
+peas
+pumpkin
+rice
+sesame
+sorghum
+soyabean
+sugarcane
+tea
+tobacco
+turmeric
+wheat

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="275dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/rice_farm"/>
+    <TextView
+        android:id="@+id/tv_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:text="Rice is the basic food crop and being a tropical plant,it flourishes comfortably in hot and humid climate.It is mainly grown in rain fed areas that receive heavy annual rainfall.That is why it is fundamentally a kharif crop in India."
+        />
+</LinearLayout>

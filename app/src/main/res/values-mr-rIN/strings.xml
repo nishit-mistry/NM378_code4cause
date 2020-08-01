@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //Alert box
+<!--    <string-array name="roles">-->
+<!--        <item>Regional View</item>-->
+<!--        <item>Country View</item>-->
+<!--    </string-array>-->
+<!--        <string name="role"> आपली भूमिका निवडा: </string>-->
+
+    //Crop info page
+    <string name="cropnametext"> पिकाचे नाव : </string>
+    <string name="Ph"> मातीची पी.एच. : </string>
+    <string name="sunlight"> सूर्यप्रकाश : </string>
+    <string name="soiltype"> मातीचा प्रकार : </string>
+    <string name="cultitime"> लागवडीची वेळ : </string>
+    <string name="climate"> हवामान : </string>
+    <string name="water"> पाणी : </string>
+    <string name="culti"> लागवडीची ठिकाणे : </string>
+    <string name="description"> वर्णन : </string>
+    <string name="sciname"> शास्त्रीय नाव : </string>
+    <string name="cropinfo"> पिकाची माहिती </string>
+
+    <string name="your_loc"> आपले स्थान समन्वय : </string>
+
+    //BitterGourd information
+    <string name="bg_name"> कारले </string>
+    <string name="bg_water"> कारलेंना त्यांच्या जीवनचक्रात सतत पाणी पिण्याची गरज असते. पाणी त्यांच्या वाढीसाठी आणि जगण्यासाठी आवश्यक आहे. अपुरा पाणी फुलांच्या उशीरामुळे आणि डुकराच्या फळ्यांमध्ये परिणाम होऊ शकतो. </string>
+    <string name="bg_sun"> ५ ते ६ तासांचा प्रकाश  </string>
+    <string name="bg_des"> कारले (मोमॉर्डिका चरंटीया) एक भाजीपाला पीक आहे आणि तिची अपरिपक्व क्षयरोगाच्या फळांसाठी लागवड केली जाते ज्यात एक अनोखी कडू चव असतो. </string>
+    <string name="bg_ph"> ६.०  ते  ६.७ </string>
+    <string name="bg_soil"> चांगली विचारलेले चिकणमाती किंवा वालुकामय चिकणमाती; मध्यम काळ्या माती </string>
+    <string name="bg_climate"> सुरुवातीच्या वाढीच्या अवस्थेदरम्यान किमान तापमान 18 डिग्री सेल्सियस असते परंतु इष्टतम तापमान 24 डिग्री सेल्सियस ते 27 डिग्री सेल्सियसच्या श्रेणीत असते. </string>
+    <string name="bg_culti"> बंगलोर, नवी दिल्ली, केरळ, तामिळनाडू, दापोली, पंजाब, कानपूर आणि राहुरी </string>
+    <string name="bg_ctime"> जानेवारी ते मार्च, जून ते जुलै </string>
+    <string name="bg_sciname"> मोमोरडिका चरंता </string>
+
+    //chilly information
+    <string name="chilly_name"> मिरची </string>
+    <string name="chilly_water">उन्हाळ्याच्या सरासरी हवामान परिस्थिती मध्ये त्यांना आठवड्यातून दोन ते तीन वेळा पाणी द्यावे. </string>
+    <string name="chilly_sun"> पूर्ण सूर्य </string>
+    <string name="chilly_des"> मिरची सोलॅनासी कुटुंबातील आहे. हे एक लहान आणि वार्षिक झुडूप आहे ज्यात सरळ आणि फांद्या असलेल्या कोंब आहेत. चिलीला साधी पाने आहेत आणि त्याची फुले पांढर्‍या रंगात आहेत. भारतात मिरचीला मिरची, लंका वगैरे देखील म्हणतात. </string>
+    <string name="chilly_ph"> ६.५ आणि ७.५ </string>
+    <string name="chilly_soil"> वालुकामय चिकणमाती </string>
+    <string name="chilly_climate"> उष्णकटिबंधीय </string>
+    <string name="chilly_culti"> आंध्र प्रदेश, महाराष्ट्र, तामिळनाडू आणि कर्नाटक </string>
+    <string name="chilly_ctime"> सप्टेंबर ते ऑक्टोबर </string>
+    <string name="chilly_sciname"> कॅप्सिकम ॲन्युम </string>
+
+    //Coffee information
+    <string name="coffee_name"> कॉफी </string>
+    <string name="coffee_water"> १२०० ते १६०० मिलीलीटर </string>
+    <string name="coffee_sun"> पूर्ण सूर्य </string>
+    <string name="coffee_des"> भारतीय कॉफी बहुतेक दक्षिणेकडील राज्यात पावसाळ्याच्या परिस्थितीत पिकविली जाते म्हणूनच याला “भारतीय मॉन्सून कॉफी” असेही म्हटले जाते. भारतात उगवल्या गेलेल्या सर्व कॉफी सावलीत पिकल्या जातात. भारतीय कॉफीला एक अनोखा ऐतिहासिक स्वाद आहे आणि तो एक आवश्यक मसाला म्हणून मानला जातो. </string>
+    <string name="coffee_ph"> ६ ते ६.५. </string>
+    <string name="coffee_soil"> सुपीक ज्वालामुखीय लाल पृथ्वी किंवा खोल वालुकामय चिकणमाती </string>
+    <string name="coffee_climate"> अर्ध ते उष्णकटिबंधीय हवामान </string>
+    <string name="coffee_culti"> कर्नाटक, केरळ आणि तामिळनाडू </string>
+    <string name="coffee_ctime"> फेब्रुवारी ते एप्रिल </string>
+    <string name="coffee_sciname"> कॉफी </string>
+
+    //cotton information
+    <string name="cotton_name"> कापूस </string>
+    <string name="cotton_water"> ८०० ते १००० मिलीलीटर </string>
+    <string name="cotton_sun"> पूर्ण सूर्य </string>
+    <string name="cotton_des"> कापूस एक मऊ आणि मुख्य रेशम आहे जो कापूस वनस्पतींच्या बियाभोवती बॉल किंवा संरक्षक केसांमध्ये वाढतो. कापूस हे भारताच्या शाश्वत अर्थव्यवस्थेसाठी आणि भारतीय कापूस शेती समुदायाच्या रोजीरोटीसाठी अत्यंत महत्वाचे पीक आहे. जगभरात सुमारे ३१२ लाख हेक्टर आणि देशातील सुमारे ११७ लाख हेक्टर क्षेत्रावर याची लागवड केली जाते. </string>
+    <string name="cotton_ph"> ७.० ते ८.० </string>
+    <string name="cotton_soil"> काळी माती </string>
+    <string name="cotton_climate"> उष्णकटिबंधीय </string>
+    <string name="cotton_culti"> पंजाब, हरियाणा, महाराष्ट्र, तामिळनाडू, मध्य प्रदेश आणि गुजरात  </string>
+    <string name="cotton_ctime"> एप्रिल ते मे </string>
+    <string name="cotton_sciname"> गॉसिपियम </string>
+
+    //Lentil information
+    <string name="lentil_name"> डाळ </string>
+    <string name="lentil_water"> सुमारे १ इंच पाणी. </string>
+    <string name="lentil_sun"> पूर्ण सूर्य </string>
+    <string name="lentil_des"> मसूर (लेन्स क्युलिनेरिस किंवा लेन्स एस्क्युन्टा) एक खाद्यतेल शेंगा आहे. ही एक वार्षिक वनस्पती आहे जी त्याच्या लेन्स-आकाराच्या बियाण्यासाठी ओळखली जाते.हे सुमारे ४० सेमी (१६ इंच) उंच आहे आणि बिया शेंगामध्ये वाढतात, सहसा प्रत्येकामध्ये दोन बिया असतात. अन्नधान्य पीक म्हणून जगातील बहुतेक उत्पादन कॅनडा आणि भारतमधून होते आणि जगातील एकूण उत्पादनापैकी 58% उत्पादन होते. </string>
+    <string name="lentil_ph"> ६.० आणि ६.५ </string>
+    <string name="lentil_soil"> वालुकामय चिकणमाती </string>
+    <string name="lentil_climate"> थंड (समशीतोष्ण) </string>
+    <string name="lentil_culti"> बिहार, उत्तर प्रदेश आणि राजस्थान </string>
+    <string name="lentil_ctime"> एप्रिल </string>
+    <string name="lentil_sciname"> लेन्स कल्लिनेरीस </string>
+
+    //Maize information
+    <string name="maize_name"> मका </string>
+    <string name="maize_ph"> ५.८ आणि ६.८ </string>
+    <string name="maize_sun"> पूर्ण सूर्य </string>
+    <string name="maize_soil"> वालुकामय चिकण माती, लाल माती </string>
+    <string name="maize_ctime"> मे ते जून </string>
+    <string name="maize_climate"> पूर्ण सूर्यप्रकाशीत हवामान </string>
+    <string name="maize_water"> जोरदार वाढणार्‍या मक्याच्या रोपासाठी पीक वाढीच्या काळात दररोज सुमारे २ ते ३ लिटर पाण्याची आवश्यकता असते किंवा पाण्याचा सरासरी वापर २.५ ते ४.३ मिलीलीटर प्रति दिवसापर्यंत असतो. </string>
+    <string name="maize_culti"> उत्तर प्रदेश, राजस्थान, मध्य प्रदेश, बिहार आणि हिमाचल प्रदेश </string>
+    <string name="maize_des"> युनायटेड स्टेट्स, कॅनडा आणि ऑस्ट्रेलियामध्ये कॉर्न म्हणून ओळखले जाणारे मका हे जगभरात सर्वाधिक प्रमाणात उत्पादित पीक आहे. मकामध्ये कार्बोहायड्रेट (७०%), प्रथिने (1०%) आणि तेल (४%) असतात. </string>
+    <string name="maize_sciname"> झी मैस </string>
+
+    //Methi information
+    <string name="methi_name"> मेथी </string>
+    <string name="methi_water"> दर आठवड्याला सुमारे १ इंच पाण्याने वनस्पतीला पाणी द्या. </string>
+    <string name="methi_sun"> पूर्ण सूर्य ते आंशिक सावली  </string>
+    <string name="methi_des"> मेथी हा भारतातील एक लोकप्रिय मसाला आहे आणि तो अन्ना तयार करताना चवदार म्हणून वापरला जातो. दररोज स्वयंपाक करताना कोवळ्या शेंगा आणि पाने भाज्या म्हणून वापरल्या जातात. </string>
+    <string name="methi_ph"> ६.१ ते ७ </string>
+    <string name="methi_soil"> चांगल्या ड्रेनेजसह चिकट किंवा वालुकामय चिकणमाती जमीन </string>
+    <string name="methi_climate"> माफक प्रमाणात थंड, दंव मुक्त आणि स्वच्छ आकाश </string>
+    <string name="methi_culti"> राजस्थान, तामिळनाडू, गुजरात, मध्य प्रदेश, पंजाब आणि उत्तर प्रदेश </string>
+    <string name="methi_ctime"> ऑक्टोबरचा पहिला पंधरवाडा, जूनचा जुलै ते अखेरचा दुसरा पंधरवडा </string>
+    <string name="methi_sciname"> ट्रायगोनेला फोएनम-ग्रीकम </string>
+
+    //Indian mustard information
+    <string name="mustard_name"> भारतीय मोहरी </string>
+    <string name="mustard_water"> मोहरीला सुमारे ३१ ते ४० सेंटीमीटर पाण्याची आवश्यकता असते. </string>
+    <string name="mustard_sun"> पूर्ण सूर्य किंवा आंशिक सावली. </string>
+    <string name="mustard_des"> मोहरी ही भारतातील पारंपारिकरित्या महत्त्वपूर्ण तेलबिया पीक आहे. हे रब्बीचे प्रमुख पीक आहे.  </string>
+    <string name="mustard_ph"> ६.० ते ७.५  </string>
+    <string name="mustard_soil"> वालुकामय चिकणमाती  </string>
+    <string name="mustard_climate"> समशीतोष्ण </string>
+    <string name="mustard_culti"> राजस्थान, उत्तर प्रदेश, हरियाणा, मध्य प्रदेश, गुजरात. </string>
+    <string name="mustard_ctime"> ऑक्टोबर </string>
+    <string name="mustard_sciname"> ब्रासिका जोंसिया </string>
+
+    //peas information
+    <string name="peas_name"> वाटाणे </string>
+    <string name="peas_water"> दर आठवड्याला १ इंच पाणी. </string>
+    <string name="peas_sun"> पूर्ण सूर्य </string>
+    <string name="peas_des"> हिरवे वाटाणे, ज्याला "बाग वाटाणे" म्हणून देखील ओळखले जाते, ही भारतातील एक भाजीपाला आहे आणि मुळात या पिकाची लागवड हिरव्या शेंगासाठी केली जाते. हिरवे वाटाणे लेगुमिनेसी कुटुंबातील आहेत. हिरवे वाटाणे भाजीपाला स्वयंपाकासाठी, सूप आणि गोठवलेल्या कॅन फूडमध्ये देखील वापरला जातो. </string>
+    <string name="peas_ph"> ६.५ ते ७.० </string>
+    <string name="peas_soil"> सुपीक, वालुकामय चिकणमाती जे चांगले कोरडे होते </string>
+    <string name="peas_climate"> समशीतोष्ण </string>
+    <string name="peas_culti"> हिमाचल प्रदेश, मध्य प्रदेश, राजस्थान, महाराष्ट्र, पंजाब, हरियाणा, कर्नाटक आणि बिहार  </string>
+    <string name="peas_ctime"> ऑक्टोबर ते नोव्हेंबर, मिड मार्च ते मे पर्यंत </string>
+    <string name="peas_sciname"> पिझम सॅटिव्हम </string>
+
+    //Pumpkin information
+    <string name="pumpkin_name"> भोपळा </string>
+    <string name="pumpkin_water"> आठवड्यातून एक इंच पाणी </string>
+    <string name="pumpkin_sun"> पुरेसा सूर्यप्रकाश </string>
+    <string name="pumpkin_des"> भोपळा हा भाजीपाला पावसाळ्यातील लोकप्रिय फळ आहे. भोपळा “कुकुरबीटासी” कुटूंबाचा आहे आणि खरीप हंगामात (मान्सून) आणि उन्हाळी हंगामात, अपरिपक्व आणि कोमल फळांसाठी मोठ्या प्रमाणात पीक घेतले जाते. </string>
+    <string name="pumpkin_ph"> ६.०  ते  ७.० </string>
+    <string name="pumpkin_soil"> चांगल्या सेंद्रिय पदार्थांसह वालुकामय चिकणमाती  </string>
+    <string name="pumpkin_climate"> किमान त्याच्या वाढीच्या सुरुवातीच्या टप्प्यावर १८ डिग्री सेल्सिअस तापमान. आदर्श तापमान श्रेणी २५ ते २८ डिग्री सेल्सिअस आहे. </string>
+    <string name="pumpkin_culti"> मध्य प्रदेश, छत्तीसगड, कर्नाटक आणि हरियाणा  </string>
+    <string name="pumpkin_ctime"> जानेवारी ते मार्च आणि सप्टेंबर ते डिसेंबर  </string>
+    <string name="pumpkin_sciname"> कुकुरबिता </string>
+
+    //Rice information
+    <string name="rice_name"> तांदूळ </string>
+    <string name="rice_water"> तांदळाचा दररोजचा वापर ६ ते १० मिमी पर्यंत असतो आणि एकूण पाणी ११०० ते १२५० मिलीलीटर पर्यंत असते. </string>
+    <string name="rice_sun"> पूर्ण सूर्य </string>
+    <string name="rice_des"> तांदूळ संपूर्ण वर्षभर पाऊस पडणार्‍या भारताच्या पूर्वेकडील आणि दक्षिणेकडील भागातील उष्ण आणि दमट प्रदेशात जवळपास वर्षभरात पिकविला जातो. तांदूळ एक उष्णकटिबंधीय वनस्पती आहे ज्यास योग्य वाढण्यास पुरेसे पाणी आवश्यक असते म्हणूनच हे मूलभूतपणे भारतात खरीप पीक आहे. </string>
+    <string name="rice_ph"> ६.० ते ७ </string>
+    <string name="rice_soil"> चिकण माती </string>
+    <string name="rice_climate"> गरम आणि दमट </string>
+    <string name="rice_culti"> पश्चिम बंगाल, बिहार, ओडिशा, उत्तर प्रदेश, आसाम आणि मध्य प्रदेश </string>
+    <string name="rice_ctime"> जून ते जुलै </string>
+    <string name="rice_sciname"> ओरिझा सॅटिवा </string>
+
+    //Seasame information
+    <string name="sesame_name"> तीळ  </string>
+    <string name="sesame_water"> २० ते २६ मिलिमीटर पर्यंत किमान पाऊस. </string>
+    <string name="sesame_sun"> पूर्ण सूर्य </string>
+    <string name="sesame_des"> तीळ तेलीच्या सर्वात जुन्या पिकांपैकी एक आहे आणि ती तिल किंवा जिंजली म्हणून प्रसिद्ध आहे. जगभरात याचा वापर पौष्टिक, औषधी आणि औद्योगिक उद्देशाने केला जातो. भारतात तीळ पिकाची लागवड खरीप, उन्हाळी आणि अर्ध रबी म्हणून करता येते. पीक. </string>
+    <string name="sesame_ph"> ५.५ ते ८.२ </string>
+    <string name="sesame_soil"> मध्यम रचनेची निचरा होणारी आणि सुपीक जमीन  </string>
+    <string name="sesame_climate"> दिवसाचे तापमान २५° सेल्सियस ते २६.६७° फॅरनहाइट पर्यंत इष्टतम असते </string>
+    <string name="sesame_culti"> आंध्र प्रदेश, तेलंगणा, तामिळनाडू, पश्चिम बंगाल, गुजरात, मध्य प्रदेश, राजस्थान आणि महाराष्ट्र </string>
+    <string name="sesame_ctime"> मे ते ऑगस्ट </string>
+    <string name="sesame_sciname"> तीळ इंकम </string>
+
+    //Sorghum information
+    <string name="sorghum_name"> ज्वारी </string>
+    <string name="sorghum_water"> वाढत्या हंगामात ४५० ते ६५० मिमी पाणी.  </string>
+    <string name="sorghum_sun"> पूर्ण सूर्य </string>
+    <string name="sorghum_des"> जज्वारी (सॉरगम वल्गर पर्स) हे जगातील सर्वात महत्वाचे अन्नधान्य पीक आहे. हे अन्न, चारा, फायबर आणि इंधनासाठी मानवासाठी आणि इतर प्राण्यांसाठी मुख्य पीक आहे. त्याखालील वार्षिक क्षेत्रफळ १७ ते १८ दशलक्ष हेक्टर आणि वार्षिक उत्पादन ८ ते १० दशलक्ष टनांमधील आहे. </string>
+    <string name="sorghum_ph"> ६ आणि ७.५  </string>
+    <string name="sorghum_soil"> खोल, सुपीक, निचरा झालेल्या चिकणमाती मातीत  </string>
+    <string name="sorghum_climate"> उबदार परिस्थिती </string>
+    <string name="sorghum_culti"> महाराष्ट्र, कर्नाटक, आंध्र प्रदेश, मध्य प्रदेश, गुजरात, राजस्थान, उत्तर प्रदेश (बुंदेलखंड प्रदेश) आणि तामिळनाडू  </string>
+    <string name="sorghum_ctime"> मे आणि जूनच्या सुरूवातीस  </string>
+    <string name="sorghum_sciname"> सॉरगम बायकलर  </string>
+
+    //soybean Information
+    <string name="soybean_name"> सोयाबीन  </string>
+    <string name="soybean_water">  ४५०  ते  ७०० मिमी </string>
+    <string name="soybean_sun"> पूर्ण सूर्य  </string>
+    <string name="soybean_des"> सोयाबीन ही सर्वात जास्त पिकलेली व वापरली जाणारी तेलबियापैकी एक आहे. भारतात मध्य प्रदेशातील सर्व राज्यात सोयाबीनची लागवड प्रामुख्याने पावसाळी पीक म्हणून केली जाते </string>
+    <string name="soybean_ph"> ६.७  ते  ७.२ </string>
+    <string name="soybean_soil"> निचरा होणारी, चिकट माती </string>
+    <string name="soybean_climate">उबदार आणि ओलसर हवामान. बहुतेक पावसाळ्यात हे पीक पिकले जाते. </string>
+    <string name="soybean_culti"> मध्य प्रदेश, उत्तर प्रदेश महाराष्ट्र आणि गुजरात, हिमाचल प्रदेश, पंजाब आणि दिल्ली </string>
+    <string name="soybean_ctime"> जून ते ऑक्टोबर </string>
+    <string name="soybean_sciname"> ग्लाइसिन मॅक्सॅक्स </string>
+
+    //Sugarcane information
+    <string name="sugarcane_name"> ऊस </string>
+    <string name="sugarcane_water"> १२०० ते ३५०० मिलीलीटर </string>
+    <string name="sugarcane_sun"> पूर्ण सूर्य </string>
+    <string name="sugarcane_des"> ऊस हे खरीप पीक म्हणून ओळखले जाते. त्यास सरासरी २१ डिग्री सेल्सियस ते २७ डिग्री सेल्सियस तापमान असलेल्या उष्ण आणि दमट हवामानाची आवश्यकता आहे. ऊस कोणत्याही मातीत उगवू शकतो ज्यामुळे ओलावा टिकेल. </string>
+    <string name="sugarcane_ph"> ५ ते ८.५ </string>
+    <string name="sugarcane_soil"> चिकण माती, काळी माती  </string>
+    <string name="sugarcane_climate"> उष्णकटिबंधीय </string>
+    <string name="sugarcane_culti"> उत्तर प्रदेश, महाराष्ट्र, कर्नाटक </string>
+    <string name="sugarcane_ctime"> ऑक्टोबर, फेब्रुवारी ते मार्च आणि जुलै </string>
+    <string name="sugarcane_sciname"> सॅचरम ऑफिसिनारम </string>
+
+    //tea information
+    <string name="tea_name"> चहा </string>
+    <string name="tea_water"> उन्हाळ्यात दर आठवड्यात दोन किंवा तीन वेळा, जेव्हा शक्य असेल तेव्हा पावसाचे पाणी वापरा. पाण्यामध्ये माती किंचित सुकण्यास परवानगी द्या. </string>
+    <string name="tea_sun"> पूर्ण किंवा घट्ट सूर्यप्रकाश </string>
+    <string name="tea_des"> भारतातील चहा लागवड देशातील चहा पिकविणार्‍या प्रदेशातील लोकांच्या सामाजिक आर्थिक विकासासाठी महत्त्वपूर्ण योगदान देत आहे. </string>
+    <string name="tea_ph"> ४.५ ते ५.६ </string>
+    <string name="tea_soil"> चांगली निचरा झालेली माती </string>
+    <string name="tea_climate"> २१ डिग्री सेल्सियस ते २९ डिग्री सेल्सियस आदर्श आहे. </string>
+    <string name="tea_culti"> दार्जिलिंग, तामिळनाडू, मुन्नार, आसाम, हिमाचल प्रदेश, कर्नाटक आणि पश्चिम बंगाल </string>
+    <string name="tea_ctime"> एप्रिल ते जून आणि ऑक्टोबर ते डिसेंबर </string>
+    <string name="tea_sciname"> कॅमेलिया सायनेन्सिस </string>
+
+    //tobacco information
+    <string name="tobacco_name"> तंबाखू  </string>
+    <string name="tobacco_water"> ६१.६० ते १५२.१० मिमी </string>
+    <string name="tobacco_sun"> पूर्ण सूर्य </string>
+    <string name="tobacco_des"> आज तंबाखू हा भारतामध्ये पिकविल्या जाणा .्या मुख्य पीकांपैकी एक आहे. तंबाखूजन्य पदार्थ सिगरेट, बिडी, सिगार, चेरूट, हुक्का, च्युइंग आणि स्नूफ सारख्या तंबाखू उत्पादनांमध्ये वापरण्यासाठी भारतात विविध प्रकारच्या तंबाखूची लागवड केली जाते.  </string>
+    <string name="tobacco_ph"> ५.० ते ६.० </string>
+    <string name="tobacco_soil"> गाळयुक्त मातीत, काळ्या मातीची किंवा चिकणमाती जमीन, राखाडी ते लाल माती  </string>
+    <string name="tobacco_climate"> उष्णकटिबंधीय, उपोष्णकटिबंधीय आणि समशीतोष्ण </string>
+    <string name="tobacco_culti"> आंध्र प्रदेश, गुजरात, कर्नाटक, उत्तर प्रदेश आणि बिहार </string>
+    <string name="tobacco_ctime"> डिसेंबर ते मार्च, जुलै ते सप्टेंबर, जानेवारी ते फेब्रुवारी </string>
+    <string name="tobacco_sciname"> निकोटियाना तबकेम  </string>
+
+    //Turmeric information
+    <string name="turmeric_name"> हळद </string>
+    <string name="turmeric_water"> दर दोन दिवसांनी त्यास पाणी द्या आणि बाटलीमधून दव शिंपडा. </string>
+    <string name="turmeric_sun"> अर्धवट सूर्य  </string>
+    <string name="turmeric_des"> हळद (कर्क्युमा लॉन्गा एल), भारतातील प्राचीन आणि पवित्र मसाला, ज्याला ‘भारतीय केशर’ म्हणून ओळखले जाते, हा भारतामध्ये लागवड करणारा एक महत्त्वाचा व्यावसायिक मसाला पीक आहे. </string>
+    <string name="turmeric_ph"> ४.५  ते  ७.५  </string>
+    <string name="turmeric_soil"> चांगली विचारलेले वाळू वा चिकणमाती </string>
+    <string name="turmeric_climate"> उबदार आणि दमट हवामान </string>
+    <string name="turmeric_culti"> आंध्र प्रदेश, तामिळनाडू, ओरिसा, कर्नाटक, पश्चिम बंगाल, गुजरात, मेघालय, महाराष्ट्र आणि आसाम </string>
+    <string name="turmeric_ctime"> मध्य डिसेंबर आणि मार्चच्या मध्यभागी </string>
+    <string name="turmeric_sciname"> कर्क्युमा लाँग </string>
+
+    //wheat information
+    <string name="wheat_name"> गहू </string>
+    <string name="wheat_water"> ४५० ते ६५० मिलीलीटर </string>
+    <string name="wheat_sun"> पूर्ण सूर्य </string>
+    <string name="wheat_des"> गहू (ट्रिटिकम एसपीपी.) जगातील अन्नधान्य पिकांमध्ये प्रमुख स्थान आहे. भातशेती पाठोपाठ हे दुसरे महत्त्वाचे अन्नधान्य पीक आहे आणि देशाच्या एकूण अन्नधान्य उत्पादनात सुमारे २५% पर्यंत योगदान आहे.  </string>
+    <string name="wheat_ph"> ६.० आणि ७.० </string>
+    <string name="wheat_soil"> चिकण माती </string>
+    <string name="wheat_climate"> कमी आर्द्रता </string>
+    <string name="wheat_culti"> पंजाब, उत्तर प्रदेश, हरियाणा, मध्य प्रदेश, राजस्थान आणि बिहार </string>
+    <string name="wheat_ctime"> ऑक्टोबर ते डिसेंबर  </string>
+    <string name="wheat_sciname"> ट्रिटिकम </string>
+
+</resources>

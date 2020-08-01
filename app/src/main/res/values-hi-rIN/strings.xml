@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"> क्रोपीफायर </string>
+
+    //Alert box
+<!--    <string-array name="roles">-->
+<!--        <item>Regional View</item>-->
+<!--        <item>Country View</item>-->
+<!--    </string-array>-->
+<!--    <string name="role"> अपनी भूमिका चुनें: </string>-->
+
+
+    //Crop info page
+    <string name="cropnametext"> फसल का नाम : </string>
+    <string name="Ph"> मिट्टी का पी.एच. : </string>
+    <string name="sunlight"> सूरज की रोशनी : </string>
+    <string name="soiltype"> मिट्टी का प्रकार : </string>
+    <string name="cultitime"> खेती का समय : </string>
+    <string name="climate"> जलवायु : </string>
+    <string name="water"> पानी : </string>
+    <string name="culti"> साधना का स्थान : </string>
+    <string name="description"> विवरण : </string>
+    <string name="sciname"> वैज्ञानिक नाम : </string>
+    <string name="cropinfo"> फसल की जानकारी </string>
+
+    <string name="your_loc"> आपका स्थान निर्देशांक: </string>
+
+    //BitterGourd information
+    <string name="bg_name"> करेला </string>
+    <string name="bg_water"> करेले को अपने जीवन चक्र के माध्यम से सभी को निरंतर पानी देने की आवश्यकता होती है। पानी उनके विकास और अस्तित्व के लिए महत्वपूर्ण है। अपर्याप्त नमी फूलने में देरी कर सकती है । </string>
+    <string name="bg_sun"> ५ से ६ घंटे की धूप </string>
+    <string name="bg_des"> करेला एक महत्वपूर्ण सबजी है और इसके अपरिपक्व कंद वाले फलों के लिए उगाया जाता है, जिसमें एक कड़वा स्वाद होता है। </string>
+    <string name="bg_ph"> ६.० से ६.७ </string>
+    <string name="bg_soil"> अच्छी तरह से सूखा रेतीले दोमट मिट्टी या मध्यम काली मिट्टी </string>
+    <string name="bg_climate"> शुरुआती वृद्धि के दौरान न्यूनतम तापमान १८° सेल्सियस हैं, लेकिन इष्टतम तापमान २४° से २७° सेल्सियस की सीमा में हैं। </string>
+    <string name="bg_culti"> बैंगलोर, नई दिल्ली, केरल, तमिलनाडु, दापोली, पंजाब, कानपुर और राहुरी </string>
+    <string name="bg_ctime"> जनवरी से मार्च, जून से जुलाई </string>
+    <string name="bg_sciname"> मोमोर्डिका चारेंटिया </string>
+
+    //chilly information
+    <string name="chilly_name"> मिर्च </string>
+    <string name="chilly_water"> औसत गर्मी के मौसम की स्थिति से उन्हें सप्ताह में दो से तीन बार पानी की आवश्यकता होगी। </string>
+    <string name="chilly_sun"> पूर्ण सूर्य </string>
+    <string name="chilly_des">मिर्च परिवार सोलानेसी से संबंधित है। यह सीधा और शाखायुक्त शूट वाला एक छोटा सा वार्षिक झाड़ है। मिर्च में सरल पत्तियां होती हैं और इसके फूल सफेद रंग के होते हैं। भारत में मिर्च को मिर्ची, लंका आदि भी कहा जाता है। </string>
+    <string name="chilly_ph"> ६.५ और ७.५ </string>
+    <string name="chilly_soil"> रेतीली दोमट </string>
+    <string name="chilly_climate"> उष्णकटिबंधीय </string>
+    <string name="chilly_culti"> आंध्र प्रदेश, महाराष्ट्र, तमिलनाडु और कर्नाटक </string>
+    <string name="chilly_ctime"> सितंबर से अक्टूबर </string>
+    <string name="chilly_sciname"> केपसीकम एनुयम </string>
+
+    //Coffee information
+    <string name="coffee_name"> कॉफ़ी </string>
+    <string name="coffee_water"> १२०० से १६०० मिलीमीटर </string>
+    <string name="coffee_sun"> पूर्ण सूर्य </string>
+    <string name="coffee_des"> भारतीय कॉफी ज्यादातर मॉनसून वर्षा की स्थिति के तहत दक्षिणी राज्यों में उगाई जाती है इसलिए इसे "भारतीय मानसून कॉफी" भी कहा जाता है। भारत में उगाई जाने वाली सभी कॉफी को छाया में उगाया जाता है। भारतीय कॉफी का एक अनूठा ऐतिहासिक स्वाद है और इसे एक आवश्यक मसाला माना जाता है। </string>
+    <string name="coffee_ph"> ६ से ६.५ </string>
+    <string name="coffee_soil"> उपजाऊ ज्वालामुखी लाल पृथ्वी या गहरी रेतीली दोमट मिट्टी </string>
+    <string name="coffee_climate"> अर्ध सेउष्णकटिबंधीय जलवायु </string>
+    <string name="coffee_culti"> कर्नाटक, केरल और तमिलनाडु </string>
+    <string name="coffee_ctime"> फरवरी से अप्रैल </string>
+    <string name="coffee_sciname"> कॉफ़िया </string>
+
+    //cotton information
+    <string name="cotton_name"> कपास </string>
+    <string name="cotton_water"> ८०० से १००० मिलीमीटर </string>
+    <string name="cotton_sun"> पूर्ण सूर्य </string>
+    <string name="cotton_des"> कपास एक नरम, भुरभुरी स्टेपल फाइबर है जो कपास के पौधों के बीजों के आसपास, एक बोले या सुरक्षात्मक मामले में बढ़ता है। कॉटन भारत की स्थायी अर्थव्यवस्था और भारतीय कपास कृषि समुदाय की आजीविका के लिए एक अत्यंत महत्वपूर्ण फसल है। इसकी खेती दुनिया भर में लगभग ३१२ लाख हेक्टेयर और देश में लगभग ११७ लाख हेक्टेयर में की जाती है।</string>
+    <string name="cotton_ph"> ७.० से ८.० </string>
+    <string name="cotton_soil"> काली मिट्टी </string>
+    <string name="cotton_climate"> उष्णकटिबंधीय </string>
+    <string name="cotton_culti"> पंजाब, हरियाणा, महाराष्ट्र, तमिलनाडु, मध्य प्रदेश और गुजरात </string>
+    <string name="cotton_ctime"> अप्रैल से मई </string>
+    <string name="cotton_sciname"> गौसिपियम </string>
+
+    //Lentil information
+    <string name="lentil_name"> दाल </string>
+    <string name="lentil_water"> लगभग १ इंच पानी। </string>
+    <string name="lentil_sun"> पूर्ण सूर्य </string>
+    <string name="lentil_des"> दाल एक खाद्य फलन है। यह एक वार्षिक पौधा है जो अपने लेंस के आकार के बीज के लिए जाना जाता है। यह लगभग 40 सेमी (१६ इंच) लंबा है,और फली में बीज उगते हैं, आमतौर पर प्रत्येक में दो बीज होते हैं। खाद्य फसल के रूप में, विश्व उत्पादन का अधिकांश हिस्सा कनाडा और भारत से आता है, जो कुल विश्व का ५८% संयुक्त उत्पादन करता है </string>
+    <string name="lentil_ph"> ६.० और ६.५ </string>
+    <string name="lentil_soil"> सैंडी दोमट </string>
+    <string name="lentil_climate"> शीत (समशीतोष्ण) </string>
+    <string name="lentil_culti"> बिहार, उत्तर प्रदेश और राजस्थान </string>
+    <string name="lentil_ctime"> अप्रैल </string>
+    <string name="lentil_sciname"> लेंस सिनारिसिस </string>
+
+    //Maize information
+    <string name="maize_name"> मक्का </string>
+    <string name="maize_ph"> ५.८ और ६.८ </string>
+    <string name="maize_sun"> पूर्ण सूर्य </string>
+    <string name="maize_soil"> रेतीली दोमट, लाल मिट्टी </string>
+    <string name="maize_ctime"> मई से जून </string>
+    <string name="maize_climate"> धूप </string>
+    <string name="maize_water"> एक जोरदार बढ़ते मक्का के पौधे को शिखर की बढ़ती अवधि के दौरान प्रति दिन लगभग २ से ३ लीटर पानी की आवश्यकता होती है या पानी का औसत उपभोगात्मक उपयोग २.५ से ४.३ मिमी / दिन तक भिन्न होता है। </string>
+    <string name="maize_culti"> उत्तर प्रदेश, राजस्थान, मध्य प्रदेश, बिहार और हिमाचल प्रदेश </string>
+    <string name="maize_des"> मक्का, जिसे अमेरिका, कनाडा और ऑस्ट्रेलिया में मकई के रूप में भी जाना जाता है, पूरी दुनिया में सबसे व्यापक रूप से उत्पादित फसल है। मक्का में कार्बोहाइड्रेट (७०%), प्रोटीन (१०%) और तेल (४%) होता है। </string>
+    <string name="maize_sciname"> ज़िया मेन्स </string>
+
+    //Methi information
+    <string name="methi_name"> मेथी </string>
+    <string name="methi_water"> प्रति सप्ताह लगभग १ इंच पानी के साथ पौधे को पानी दें। </string>
+    <string name="methi_sun"> पूर्ण सूर्य से लेकर आंशिक छाया तक </string>
+    <string name="methi_des"> मेथी भारत में एक लोकप्रिय मसाला है और इसका उपयोग भोजन तैयार करने में एक सस्वादिष्टकारक के रूप में किया जाता है। युवा फली और पत्तियों को दैनिक खाना पकाने में सब्जियों के रूप में उपयोग किया जाता है। </string>
+    <string name="methi_ph"> ६.१ से ७ </string>
+    <string name="methi_soil"> अच्छी जल निकासी वाली दोमट या बलुई दोमट मिट्टी </string>
+    <string name="methi_climate"> मध्यम शांत, ठंढ से मुक्त और स्पष्ट आकाश </string>
+    <string name="methi_culti"> राजस्थान, तमिलनाडु, गुजरात, मध्य प्रदेश, पंजाब और उत्तर प्रदेश </string>
+    <string name="methi_ctime"> अक्टूबर के पहले पखवाड़े, जून के दूसरे पखवाड़े से जुलाई से अंत तक </string>
+    <string name="methi_sciname"> ट्राइगोनेला फेनम ग्रेकनम </string>
+
+    //Indian mustard information
+    <string name="mustard_name"> भारतीय सरसों </string>
+    <string name="mustard_water"> सरसों के लिए पानी में लगभग ३० से ४० सेंटीमीटर की आवश्यकता होती है। </string>
+    <string name="mustard_sun"> पूर्ण सूर्य या आंशिक छाया। </string>
+    <string name="mustard_des"> भारत में सरसों एक पारंपरिक रूप से महत्वपूर्ण तिलहन फसल है। यह एक प्रमुख रबी की फसल है। </string>
+    <string name="mustard_ph"> ६.० से ७.५ </string>
+    <string name="mustard_soil"> सैंडी दोमट मिट्टी </string>
+    <string name="mustard_climate"> शीतोष्ण </string>
+    <string name="mustard_culti"> राजस्थान, उत्तर प्रदेश, हरियाणा, मध्य प्रदेश और गुजरात </string>
+    <string name="mustard_ctime"> अक्टूबर </string>
+    <string name="mustard_sciname"> ब्रासिका जुनसिया </string>
+
+    //peas information
+    <string name="peas_name"> मटर </string>
+    <string name="peas_water"> प्रति सप्ताह १ इंच पानी। </string>
+    <string name="peas_sun"> पूर्ण सूर्य </string>
+    <string name="peas_des"> हरी मटर, जिसे "बगीचे का मटर" के नाम से भी जाना जाता है, यह भारत में सब्जी की फसलों में से एक है और मूल रूप से इस फसल की खेती इसकी हरी फली के लिए की जाती है। हरी मटर लेगूमीनासेय परिवार के हैं। हरी मटर का उपयोग सब्जी पकाने, सूप और जमे हुए डिब्बाबंद भोजन में भी किया जाता है। </string>
+    <string name="peas_ph"> ६.५ से ७.०। </string>
+    <string name="peas_soil"> उपजाऊ, रेतीले दोमटजो अच्छी तरह से सूखे </string>
+    <string name="peas_climate"> शीतोष्ण </string>
+    <string name="peas_culti"> हिमाचल प्रदेश, मध्य प्रदेश, राजस्थान, महाराष्ट्र, पंजाब, हरियाणा, कर्नाटक और बिहार </string>
+    <string name="peas_ctime"> अक्टूबर से नवंबर, मध्य मार्च से मई के अंत तक </string>
+    <string name="peas_sciname"> पिसुम सतिवुम </string>
+
+    //Pumpkin information
+    <string name="pumpkin_name"> कद्दू </string>
+    <string name="pumpkin_water"> प्रति सप्ताह एक इंच पानी  </string>
+    <string name="pumpkin_sun"> पर्याप्त धूप </string>
+    <string name="pumpkin_des"> कद्दू भारत में एक लोकप्रिय सब्जी वर्षा ऋतु की फसल है। कद्दू "क्यूकरबीटसीआई" परिवार से संबंधित है और पूरे भारत में अपरिपक्व और कोमल फलों के लिए खरीफ मौसम (मानसून) और गर्मियों के मौसम के दौरान बड़े पैमाने पर उगाया जाता है। </string>
+    <string name="pumpkin_ph"> ६.० से ७.० </string>
+    <string name="pumpkin_soil"> अच्छे कार्बनिक पदार्थों के साथ सैंडी दोमट </string>
+    <string name="pumpkin_climate"> न्यूनतम इसके विकास के प्रारंभिक चरण में १८ सेल्सियस का तापमान अपेक्षित है । आदर्श तापमान सीमा २५ से २८ सेल्सियस है ।</string>
+    <string name="pumpkin_culti"> मध्य प्रदेश, छत्तीसगढ़, कर्नाटक और हरियाणा </string>
+    <string name="pumpkin_ctime"> जनवरी से मार्च और सितंबर से दिसंबर </string>
+    <string name="pumpkin_sciname"> ककुर्बिता </string>
+
+    //rice information
+    <string name="rice_name"> चावल </string>
+    <string name="rice_water"> चावल का दैनिक उपभोग्य ६ से१० मिमी से भिन्न होता है और कुल पानी ११०० से १२५० मिमी तक होता है। </string>
+    <string name="rice_sun"> पूर्ण सूर्य </string>
+    <string name="rice_des"> भारत के पूर्वी और दक्षिणी भागों के गर्म और आर्द्र क्षेत्रों में जिसमें भारी वर्षा होती है, चावल लगभग पूरे वर्ष उगाया जाता है। चावल एक उष्णकटिबंधीय पौधा है जिसे अच्छी तरह से विकसित होने के लिए पर्याप्त पानी की आवश्यकता होती है। यही कारण है कि यह मूल रूप से भारत में खरीफ की फसल है। </string>
+    <string name="rice_ph"> ६.० से ७ </string>
+    <string name="rice_soil"> उपजाऊ नदी की जलोढ़ मिट्टी </string>
+    <string name="rice_climate"> गर्म और आर्द्र </string>
+    <string name="rice_culti"> पश्चिम बंगाल, बिहार, ओडिशा, उत्तर प्रदेश, असम और मध्य प्रदेश </string>
+    <string name="rice_ctime"> जून से जुलाई </string>
+    <string name="rice_sciname"> ओरिजा सातिवा </string>
+
+    //Seasame information
+    <string name="sesame_name"> तिल </string>
+    <string name="sesame_water"> २० से २६ मिलिमीटर की न्यूनतम वर्षा। </string>
+    <string name="sesame_sun"> पूर्ण सूर्य </string>
+    <string name="sesame_des"> तिल सबसे पुरानी तिलहनी फसलों में से एक है और लोकप्रिय रूप से तिल या गिंगेली के नाम से जानी जाती है। इसका प्रयोग, इसके पौष्टिक, औषधीय और औद्योगिक उद्देश्यों के लिए किया जाता है। भारत में, तिल की फसल खरीफ, गर्मी और अर्ध रबी के रूप में भी उगाई जा सकती है। </string>
+    <string name="sesame_ph"> ५.५ से ८.२ </string>
+    <string name="sesame_soil"> मध्यम बनावट की अच्छी तरह से सूखी और उपजाऊ मिट्टी </string>
+    <string name="sesame_climate"> २५° सेल्सियस से २६.६७° फॅरनहाइट का दिन का तापमान इष्टतम है </string>
+    <string name="sesame_culti"> आंध्र प्रदेश, तेलंगाना, तमिलनाडु, पश्चिम बंगाल, गुजरात, मध्य प्रदेश, राजस्थान और महाराष्ट्र </string>
+    <string name="sesame_ctime"> मई से अगस्त </string>
+    <string name="sesame_sciname"> सीसमम इन्दीकम </string>
+
+    //Sorghum information
+    <string name="sorghum_name"> ज्वार </string>
+    <string name="sorghum_water"> बढ़ते मौसम के दौरान ४५० से ६५० मिमी पानी। </string>
+    <string name="sorghum_sun"> पूर्ण सूर्य </string>
+    <string name="sorghum_des"> सोरघम, लोकप्रिय रूप से ज्वार के रूप में जाना जाता है, जो दुनिया में सबसे महत्वपूर्ण अनाज की फसल है। यह भोजन, चारा, फाइबर और ईंधन के लिए मानव और अन्य जानवरों के लिए एक प्रधान फसल है। इसके तहत वार्षिक क्षेत्र १७ से १८ मिलियन हेक्टेयर और वार्षिक उत्पादन ८ से १० मिलियन टन के बीच है। </string>
+    <string name="sorghum_ph"> ६ और ७.५ </string>
+    <string name="sorghum_soil"> गहरी, उपजाऊ, अच्छी तरह से सूखा दोमट मिट्टी </string>
+    <string name="sorghum_climate"> गर्म स्थिति </string>
+    <string name="sorghum_culti"> महाराष्ट्र, कर्नाटक, आंध्र प्रदेश, मध्य प्रदेश, गुजरात, राजस्थान, उत्तर प्रदेश (बुंदेलखंड क्षेत्र) और तमिलनाडु </string>
+    <string name="sorghum_ctime"> मई और जून की शुरुआत </string>
+    <string name="sorghum_sciname"> सोरघम बाइकलर </string>
+
+    //soybean Information
+    <string name="soybean_name"> सोयाबीन </string>
+    <string name="soybean_water"> ४५० से ७०० मिमी </string>
+    <string name="soybean_sun"> पूर्ण सूर्य </string>
+    <string name="soybean_des"> सोयाबीन सबसे अधिक उगाया और इस्तेमाल किया जाने वाला तिलहन है। भारत में, सोयाबीन मुख्य रूप से मध्य प्रदेश के सभी राज्यों में वर्षा आधारित फसल के रूप में उगाया जाता है। </string>
+    <string name="soybean_ph"> ६.७ से ७.२ </string>
+    <string name="soybean_soil"> अच्छी तरह से सूखा, दोमट मिट्टी </string>
+    <string name="soybean_climate"> गर्म और नम जलवायु और मानसून के मौसम में उगाया जाता है </string>
+    <string name="soybean_culti"> मध्य प्रदेश, उत्तर प्रदेश महाराष्ट्र और गुजरात, हिमाचल प्रदेश, पंजाब और दिल्ली </string>
+    <string name="soybean_ctime"> जून से अक्टूबर </string>
+    <string name="soybean_sciname"> ग्लाइसीन मैक्सएक्स </string>
+
+    //Sugarcane information
+    <string name="sugarcane_name"> गन्ना </string>
+    <string name="sugarcane_water"> १२०० से ३५०० मिलीमीटर </string>
+    <string name="sugarcane_sun"> पूर्ण सूर्य </string>
+    <string name="sugarcane_des"> गन्ने को खरीफ फसल के रूप में उगाया जाता है। इसे २१° से २७° सेल्सियस के औसत तापमान के साथ गर्म और आर्द्र जलवायु की आवश्यकता होती है। गन्ना किसी भी मिट्टी में बढ़ सकता है जो नमी को बरकरार रख सके। </string>
+    <string name="sugarcane_ph"> ५ से ८.५ </string>
+    <string name="sugarcane_soil"> दोमट मिट्टी, काली मिट्टी </string>
+    <string name="sugarcane_climate"> उष्णकटिबंधीय </string>
+    <string name="sugarcane_culti"> उत्तर प्रदेश, महाराष्ट्र और कर्नाटक </string>
+    <string name="sugarcane_ctime"> अक्टूबर, फरवरी सेमार्च, जुलाई </string>
+    <string name="sugarcane_sciname"> सेकरुम ऑफ़िसिनारम </string>
+
+    //tea information
+    <string name="tea_name"> चाय </string>
+    <string name="tea_water"> गर्मी के दौरान प्रति सप्ताह दो या तीन बार, जब भी संभव हो, वर्षा जल का उपयोग करें। पानी के बीच मिट्टी को थोड़ा सूखने दें। </string>
+    <string name="tea_sun"> पूर्ण या डूबी हुई धूप </string>
+    <string name="tea_des"> भारत में चाय बागान का देश के चाय उत्पादक क्षेत्रों के लोगों के सामाजिक आर्थिक विकास में महत्वपूर्ण योगदान रहा है। </string>
+    <string name="tea_ph"> ४.५ से ५.६ </string>
+    <string name="tea_soil"> अच्छी तरह से सूखी हुई मिट्टी </string>
+    <string name="tea_climate"> २१° सेल्सियस से २९° सेल्सियस आदर्श है </string>
+    <string name="tea_culti"> दार्जिलिंग, तमिलनाडु, मुन्नार, असम, हिमाचल प्रदेश, कर्नाटक और पश्चिम बंगाल </string>
+    <string name="tea_ctime"> अप्रैल से जून और अक्टूबर से दिसंबर </string>
+    <string name="tea_sciname"> कैमेलिया साइनेंसिस </string>
+
+    //tobacco information
+    <string name="tobacco_name"> तंबाकू </string>
+    <string name="tobacco_water"> ६१.६० से १५२.१० मिमी </string>
+    <string name="tobacco_sun"> पूर्ण सूर्य </string>
+    <string name="tobacco_des"> आज, तम्बाकू भारत में उगाई जाने वाली प्रमुख व्यावसायिक फसलों में से एक है। भारत में तम्बाकू उत्पादों जैसे सिगरेट, बीड़ी, सिगार, चेरूट, हुक्का, चबाने और सूंघने के लिए विभिन्न प्रकार के टोबैको की खेती की जाती है। </string>
+    <string name="tobacco_ph"> ५.० से ६.० </string>
+    <string name="tobacco_soil"> जलोढ़ मिट्टी, काली मिट्टी या दोमट मिट्टी, भूरे से लाल मिट्टी </string>
+    <string name="tobacco_climate"> उष्णकटिबंधीय, उपोष्णकटिबंधीय और समशीतोष्ण </string>
+    <string name="tobacco_culti"> आंध्र प्रदेश, गुजरात, कर्नाटक, उत्तर प्रदेश और बिहार </string>
+    <string name="tobacco_ctime"> दिसंबर सेमार्च, जुलाई से सितंबर, जनवरी से फरवरी </string>
+    <string name="tobacco_sciname"> निकोटियाना टैबैकम </string>
+
+    //Turmeric information
+    <string name="turmeric_name"> हल्दी </string>
+    <string name="turmeric_water"> इसे हर दो दिन में पानी दें, और पानी के बीच बोतल से ओस छिड़कें </string>
+    <string name="turmeric_sun"> आंशिक सूर्य </string>
+    <string name="turmeric_des"> हल्दी भारत का प्राचीन और पवित्र मसाला जिसे भारतीय केसर के रूप में जाना जाता है, भारत में उगाई जाने वाली एक महत्वपूर्ण व्यावसायिक मसाला फसल है। </string>
+    <string name="turmeric_ph"> ४.५ से ७.५ </string>
+    <string name="turmeric_soil"> अच्छी तरह से सूखा रेतीली मिट्टी या दोमट मिट्टी </string>
+    <string name="turmeric_climate"> गर्म और आर्द्र जलवायु </string>
+    <string name="turmeric_culti"> आंध्र प्रदेश, तमिलनाडु, उड़ीसा, कर्नाटक, पश्चिम बंगाल, गुजरात, मेघालय, महाराष्ट्र और असम </string>
+    <string name="turmeric_ctime"> मध्य दिसंबर और मध्य मार्च </string>
+    <string name="turmeric_sciname"> करकुमा लोंगा </string>
+
+    //wheat information
+    <string name="wheat_name"> गेहूँ </string>
+    <string name="wheat_water"> ४५० से६५०mm </string>
+    <string name="wheat_sun"> पूर्ण सूर्य </string>
+    <string name="wheat_des"> गेहूं (ट्रिटिकम एसपीपी) दुनिया में खाद्य फसलों के बीच प्रमुख स्थान रखता है। भारत में, यह चावल के बगल में होने वाली दूसरी महत्वपूर्ण खाद्य फसल है और देश के कुल खाद्यान्न उत्पादन में लगभग २५% का योगदान देता है। </string>
+    <string name="wheat_ph"> ६.० और ७.० </string>
+    <string name="wheat_soil"> बलुई मिट्टी </string>
+    <string name="wheat_climate"> कम नमी </string>
+    <string name="wheat_culti"> पंजाब, उत्तर प्रदेश, हरियाणा, मध्य प्रदेश, राजस्थान और बिहार </string>
+    <string name="wheat_ctime"> अक्टूबर से दिसंबर </string>
+    <string name="wheat_sciname"> ट्रिटिकम </string>
+
+</resources>

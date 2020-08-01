@@ -1,0 +1,258 @@
+<resources>
+
+    //Alert box
+<!--    <string-array name="roles">-->
+<!--        <item>Regional View</item>-->
+<!--        <item>Country View</item>-->
+<!--    </string-array>-->
+<!--    <string name="role"> Select Your Role: </string>-->
+
+<!--    <string name="camera_error">This device doesn\'t support Camera2 API.</string>-->
+
+    //Crop info page
+    <string name="cropnametext"> Crop Name :</string>
+    <string name="Ph"> Ph of soil :</string>
+    <string name="sunlight"> Sunlight :</string>
+    <string name="soiltype"> Type of soil :</string>
+    <string name="cultitime"> Cultivation time:</string>
+    <string name="climate"> Climate :</string>
+    <string name="water"> Water :</string>
+    <string name="culti"> Cultivated At :</string>
+    <string name="description"> Description :</string>
+    <string name="sciname"> Scientific Name :</string>
+    <string name ="cropinfo"> Crop Information </string>
+
+    <string name="your_loc"> Your Location Coordinates: </string>
+
+    //BitterGourd information
+    <string name="bg_name"> Bitter Gourd </string>
+    <string name="bg_water"> Bitter gourds need continuous watering all through their life cycle. Water is vital for their growth and survival. Inadequate moisture can delay flowering and result in stunted gourds.</string>
+    <string name="bg_sun"> 5 to 6 hours of sunlight </string>
+    <string name="bg_des"> Bitter gourd (Momordica charantia) is an important vegetable crop and is grown for its immature tuberculate fruits which have a unique bitter taste.</string>
+    <string name="bg_ph"> 6.0 – 6.7 </string>
+    <string name="bg_soil"> Well drained sandy to sandy loam; Medium black soils</string>
+    <string name="bg_climate"> Minimum temperature of 18°C during early growth, but optimal temperatures are in the range of 24° to 27° C </string>
+    <string name="bg_culti"> Bangalore, New Delhi, Kerala, Tamil Nadu, Dapoli, Punjab, Kanpur and Rahuri </string>
+    <string name="bg_ctime"> January to March, June-July </string>
+    <string name="bg_sciname"> Momordica charantia </string>
+
+    //chilly information
+    <string name="chilly_name"> Chilly </string>
+    <string name="chilly_water"> In average summer weather conditions, they will need watering two to three times a week.</string>
+    <string name="chilly_sun"> Full sun</string>
+    <string name="chilly_des"> Chilli belongs to family Solanaceae. It is a small, yearly shrub with a straight and branched shoot.Chilli has simple leaves and its flowers are white in color. In India, chilli is also called mirchi,lanka etc.</string>
+    <string name="chilly_ph"> 6.5 and 7.5</string>
+    <string name="chilly_soil"> Sandy loam </string>
+    <string name="chilly_climate"> Tropical</string>
+    <string name="chilly_culti"> Andhra Pradesh, Maharashtra, Tamil Nadu and Karnataka</string>
+    <string name="chilly_ctime"> September to October </string>
+    <string name="chilly_sciname"> Capsicum annuum</string>
+
+    //Coffee information
+    <string name="coffee_name"> Coffee </string>
+    <string name="coffee_water"> 1200 to 1600 mm </string>
+    <string name="coffee_sun"> Full sun</string>
+    <string name="coffee_des"> Indian coffee is grown mostly in southern states under monsoon rainfall conditions hence it is also termed as “Indian monsooned coffee". All coffee grown in India are grown in shade. Indian coffee has a unique historic flavour and it is considered as an essential spice.</string>
+    <string name="coffee_ph"> 6 – 6.5. </string>
+    <string name="coffee_soil"> Fertile volcanic red earth soil or deep sandy loam.</string>
+    <string name="coffee_climate"> Semi-tropical climate </string>
+    <string name="coffee_culti"> Karnataka, Kerala and Tamil Nadu </string>
+    <string name="coffee_ctime"> February - April </string>
+    <string name="coffee_sciname"> Coffea </string>
+
+    //cotton information
+    <string name="cotton_name"> Cotton </string>
+    <string name="cotton_water"> 800 to 1000 mm</string>
+    <string name="cotton_sun">Full sun</string>
+    <string name="cotton_des"> Cotton is a soft, fluffy staple fiber that grows in a boll, or protective case, around the seeds of the cotton plants.Cotton is an immensely important crop for the sustainable economy of India and livelihood of the Indian cotton farming community. It is cultivated in about 312 lakh hectares across the world and in around 117 lakh hectares in the country.</string>
+    <string name="cotton_ph"> 7.0 to 8.0 </string>
+    <string name="cotton_soil"> Black Soil </string>
+    <string name="cotton_climate"> Tropical </string>
+    <string name="cotton_culti"> Punjab, Haryana, Maharashtra, Tamilnadu, Madhya Pradesh and Gujarat</string>
+    <string name="cotton_ctime"> April to May</string>
+    <string name="cotton_sciname"> Gossypium</string>
+
+    //Lentil information
+    <string name="lentil_name"> Lentil </string>
+    <string name="lentil_water"> About 1 inch of water. </string>
+    <string name="lentil_sun"> Full Sun </string>
+    <string name="lentil_des"> The lentil(Lens culinaris or Lens esculenta) is an edible legume. It is an annual plant known for its lens-shaped seeds. It is about 40 cm (16 inch) tall, and the seeds grow in pods, usually with two seeds in each. As a food crop, the majority of world production comes from Canada and India, producing 58% combined of the world total.</string>
+    <string name="lentil_ph"> 6.0 and 6.5</string>
+    <string name="lentil_soil"> Sandy Loam</string>
+    <string name="lentil_climate"> Cold (temperate)</string>
+    <string name="lentil_culti"> Bihar, Uttar Pradesh and Rajasthan</string>
+    <string name="lentil_ctime"> April </string>
+    <string name="lentil_sciname"> Lens culinaris </string>
+
+    //Maize information
+
+    <string name="maize_name"> Maize </string>
+    <string name="maize_ph"> 5.8 and 6.8 </string>
+    <string name="maize_sun"> Full Sun </string>
+    <string name="maize_soil"> Sandy loam, Red soil </string>
+    <string name="maize_ctime"> May to June </string>
+    <string name="maize_climate"> Sunny </string>
+    <string name="maize_water"> A vigorous growing maize plant requires about 2 en dash 3 litres of water per day during peak growing period or an average consumptive use of water varies from 2.5 to 4.3 mm/day. </string>
+    <string name="maize_culti"> Uttar Pradesh, Rajasthan, Madhya Pradesh, Bihar and Himachal Pradesh </string>
+    <string name="maize_des" formatted="false"> Maize, also known as corn in the US, Canada and Australia is the most widely produced crop all over the world. Maize have carbohydrate(70%) ,protein(10%) and oil(4%). </string>
+    <string name="maize_sciname"> Zea mays </string>
+
+    //Methi information
+    <string name="methi_name"> Fenugreek </string>
+    <string name="methi_water"> Water the plant with about 1 inch of water per week. </string>
+    <string name="methi_sun"> Full sun to Partial shade </string>
+    <string name="methi_des"> Fenugreek is popularly known as “methi” in India and used as condiments and as a flavoring agent for food preparations.The young pods and leaves are used as vegetable consumed in daily cooking. </string>
+    <string name="methi_ph"> 6.1 to 7 </string>
+    <string name="methi_soil"> Loamy or sandy loam soils with good drainage. </string>
+    <string name="methi_climate"> Moderately cool, frost-free and clear sky </string>
+    <string name="methi_culti"> Rajasthan, Tamil Nadu, Gujarat, Madhya Pradesh, Punjab and Uttar Pradesh </string>
+    <string name="methi_ctime"> First fortnight of October, second fortnight of June to July-end </string>
+    <string name="methi_sciname"> Trigonella foenum-graecum </string>
+
+    //Indian mustard information
+    <string name="mustard_name"> Indian Mustard </string>
+    <string name="mustard_water"> Mustard requires about 31–40 cms of water.</string>
+    <string name="mustard_sun"> Full sun or Partial shade.</string>
+    <string name="mustard_des"> Mustard has been a traditionally important oilseed crop in the India. It is a major Rabi crop.</string>
+    <string name="mustard_ph"> 6.0 to 7.5 </string>
+    <string name="mustard_soil"> Sandy loam </string>
+    <string name="mustard_climate"> Temperate </string>
+    <string name="mustard_culti"> Rajasthan, Uttar Pradesh, Haryana, Madhya Pradesh and Gujarat </string>
+    <string name="mustard_ctime"> October </string>
+    <string name="mustard_sciname"> Brassica juncea</string>
+
+    //peas information
+    <string name="peas_name"> Peas </string>
+    <string name="peas_water"> 1 inch of water per week. </string>
+    <string name="peas_sun"> Full Sun </string>
+    <string name="peas_des"> Green Peas, also popularly known as “garden peas” is one of the vegetable crops in India and basically this crop is cultivated for its green pods. Green peas belong to Leguminaceae family. Green Peas are used in vegetable cooking\'s, in soups and frozen canned food as well. </string>
+    <string name="peas_ph"> 6.5 – 7.0 </string>
+    <string name="peas_soil"> Fertile, sandy loam that drains well </string>
+    <string name="peas_climate"> Temperate </string>
+    <string name="peas_culti"> Himachal Pradesh, Madhya Pradesh, Rajasthan, Maharashtra, Punjab, Haryana, Karnataka and Bihar </string>
+    <string name="peas_ctime"> Oct to November, middle of March to May end </string>
+    <string name="peas_sciname"> Pisum sativum </string>
+
+    //Pumpkin information
+    <string name="pumpkin_name"> Pumpkin </string>
+    <string name="pumpkin_water"> Water one inch per week. </string>
+    <string name="pumpkin_sun"> Adequate sunlight </string>
+    <string name="pumpkin_des"> Pumpkin is a popular vegetable rainy season crop in India. The pumpkin belongs to “Cucurbitaceae” family and is grown extensively during Kharif season (monsoon) and summer season throughout India, for immature and tender fruits. </string>
+    <string name="pumpkin_ph"> 6.0 – 7.0 </string>
+    <string name="pumpkin_soil"> Sandy loam with good organic matter </string>
+    <string name="pumpkin_climate"> Minimun temperature of 18℃ at the early stage of its growth. Ideal temperature range is 25 to 28℃ </string>
+    <string name="pumpkin_culti"> Madhya Pradesh, Chattisgarh, Karnataka and Haryana </string>
+    <string name="pumpkin_ctime"> January to March and September to December </string>
+    <string name="pumpkin_sciname"> Cucurbita </string>
+
+    //rice information
+    <string name="rice_name"> Rice </string>
+    <string name="rice_water"> The daily consumptive use of rice varies from 6–10 mm and total water is ranges from 1100 to 1250 mm. </string>
+    <string name="rice_sun"> Full Sun </string>
+    <string name="rice_des"> Rice is grown almost throughout the year in hot and humid regions of eastern and southern parts of India that receive heavy annual rainfall. Rice is a tropical plant that requires sufficient water to grow well. That is why it is fundamentally a kharif crop in India. </string>
+    <string name="rice_ph"> 6.0 to 7 </string>
+    <string name="rice_soil"> Fertile riverine alluvial soil </string>
+    <string name="rice_climate"> Hot and humid </string>
+    <string name="rice_culti"> West Bengal, Bihar, Odisha, Uttar Pradesh, Assam and Madhya Pradesh </string>
+    <string name="rice_ctime"> June to July </string>
+    <string name="rice_sciname"> Oryza sativa </string>
+
+
+    //sesame information
+    <string name="sesame_name"> Sesame </string>
+    <string name="sesame_water"> Minimum rainfall of 20 to 26 millimeter. </string>
+    <string name="sesame_sun"> Full Sun </string>
+    <string name="sesame_des"> Sesame is one of the oldest oilseed crops and popularly known as Til or Gingelly. Worldwide, it is used for its nutritional, medicinal, and industrial purposes.In India, the sesame crop can be cultivated as Kharif, summer, and also as semi rabi crop. </string>
+    <string name="sesame_ph"> 5.5 to 8.2 </string>
+    <string name="sesame_soil"> Well-drained, fertile soils of medium texture </string>
+    <string name="sesame_climate"> Daytime temperatures of 25°C to 26.67°F are optimal </string>
+    <string name="sesame_culti"> Andhra Pradesh, Telangana, Tamil Nadu, West Bengal, Gujarat, Madhya Pradesh, Rajasthan and Maharashtra </string>
+    <string name="sesame_ctime"> May to August </string>
+    <string name="sesame_sciname"> Sesamum indicum </string>
+
+    //Sorghum information
+    <string name="sorghum_name"> Sorghum </string>
+    <string name="sorghum_water"> 450 to 650 mm of water during a growing season. </string>
+    <string name="sorghum_sun"> Full sun </string>
+    <string name="sorghum_des"> Sorghum (Sorghum vulgare Pers.), popularly known as jowar, is one of the most important cereal crop in the world. It is a staple crop for human and other animals for food, fodder, fiber, and fuel. The annual area under it ranges between 17 and 18 million hectares and the annual production between 8 and 10 million tonnes. </string>
+    <string name="sorghum_ph"> 6 and 7.5</string>
+    <string name="sorghum_soil"> Deep, fertile, well-drained loamy soils </string>
+    <string name="sorghum_climate"> Warm conditions</string>
+    <string name="sorghum_culti"> Maharashtra, Karnataka, Andhra Pradesh, Madhya Pradesh, Gujarat, Rajasthan, Uttar Pradesh (the Bundelkhand region) and Tamil Nadu</string>
+    <string name="sorghum_ctime"> May and early June</string>
+    <string name="sorghum_sciname"> Sorghum bicolor </string>
+
+    //soybean Information
+    <string name="soybean_name"> Soyabean </string>
+    <string name="soybean_water"> 450 – 700 mm </string>
+    <string name="soybean_sun"> Full sun </string>
+    <string name="soybean_des"> Soybean is one of the most grown and used oilseeds. In India, soybean is predominantly grown as a rainfed crop in all the states of Madhya Pradesh. </string>
+    <string name="soybean_ph"> 6.7 – 7.2 </string>
+    <string name="soybean_soil"> Well-drained, Loamy Soil </string>
+    <string name="soybean_climate"> Warm and moist climate .It is mostly grown in monsoon season </string>
+    <string name="soybean_culti"> Madhya Pradesh, Uttar Pradesh, Maharashtra. Gujarat, Himachal Pradesh, Punjab and Delhi </string>
+    <string name="soybean_ctime"> June to October </string>
+    <string name="soybean_sciname"> Glycine max </string>
+
+    //Sugarcane information
+    <string name="sugarcane_name"> Sugarcane </string>
+    <string name="sugarcane_water"> 1200 to 3500 mm </string>
+    <string name="sugarcane_sun"> Full sun </string>
+    <string name="sugarcane_des"> Sugarcane is grown as a Kharif Crop. It needs hot and humid climate with an average temperature of 21°C to 27°C.Sugarcane can grow in any soil which can retain moisture. </string>
+    <string name="sugarcane_ph"> 5 to 8.5 </string>
+    <string name="sugarcane_soil"> Loamy soil, Black soil </string>
+    <string name="sugarcane_climate"> Tropical </string>
+    <string name="sugarcane_culti"> Uttar Pradesh, Maharashtra and Karnataka </string>
+    <string name="sugarcane_ctime"> October, February-march, July </string>
+    <string name="sugarcane_sciname"> Saccharum officinarum </string>
+
+    //tea information
+    <string name="tea_name"> Tea </string>
+    <string name="tea_water"> Two or three times per week during the summer, using rainwater whenever possible. Allow the soil to dry slightly between waterings. </string>
+    <string name="tea_sun"> Full or Dappled sunlight </string>
+    <string name="tea_des"> Tea plantation in India has been contributing significantly towards the socio economic development of the people of the tea growing regions of the country. </string>
+    <string name="tea_ph"> 4.5 – 5.6 </string>
+    <string name="tea_soil"> Well drained soil </string>
+    <string name="tea_climate"> 21°C to 29°C is ideal </string>
+    <string name="tea_culti"> Darjeeling, Tamil Nadu, Munnar, Assam, Himachal Pradesh, Karnataka and West Bengal </string>
+    <string name="tea_ctime"> April to June and October to December </string>
+    <string name="tea_sciname"> Camellia sinensis </string>
+
+    //tobacco information
+    <string name="tobacco_name"> Tobacco </string>
+    <string name="tobacco_water"> 61.60 to 152.10 mm</string>
+    <string name="tobacco_sun"> Full sun</string>
+    <string name="tobacco_des"> Today, tobacco is one of the major commercial crops grown in India. Various types of tobaccos are cultivated in India for use in tobacco products such as Cigarette, Bidi, Cigar, Cheroot, Hookah, Chewing and Snuff.</string>
+    <string name="tobacco_ph"> 5.0 to 6.0</string>
+    <string name="tobacco_soil"> Alluvial soils, black clayey or loamy soils, grey to red soils</string>
+    <string name="tobacco_climate"> Tropical, subtropical and temperate</string>
+    <string name="tobacco_culti"> Andhra Pradesh, Gujarat, Karnataka, Uttar Pradesh and Bihar</string>
+    <string name="tobacco_ctime"> December-March, July-September, January-February</string>
+    <string name="tobacco_sciname"> Nicotiana tabacum</string>
+
+    //Turmeric information
+    <string name="turmeric_name"> Turmeric </string>
+    <string name="turmeric_water"> Water it about every two days, and spray it with a mist bottle between waterings. </string>
+    <string name="turmeric_sun"> Partial sun </string>
+    <string name="turmeric_des"> Turmeric (Curcuma longa L), the ancient and sacred spice of India known as ‘Indian saffron’ is an important commercial spice crop grown in India. </string>
+    <string name="turmeric_ph"> 4.5 – 7.5 </string>
+    <string name="turmeric_soil"> Well-drained sandy or clay loam soils </string>
+    <string name="turmeric_climate"> Warm and humid climate </string>
+    <string name="turmeric_culti"> Andhra Pradesh, Tamil Nadu, Orissa, Karnataka, West Bengal, Gujarat, Meghalaya, Maharashtra and Assam </string>
+    <string name="turmeric_ctime"> Mid-December and Mid-March </string>
+    <string name="turmeric_sciname"> Curcuma longa </string>
+
+    //wheat information
+    <string name="wheat_name"> Wheat </string>
+    <string name="wheat_water"> 450 to 650mm </string>
+    <string name="wheat_sun"> Full sun </string>
+    <string name="wheat_des" > Wheat (Triticum spp.) occupies the prime position among the food crops in the world. In India, it is the second important food crop being next to rice and contributes to the total food grain production of the country to the extent of about 25%. </string>
+    <string name="wheat_ph"> 6.0 and 7.0 </string>
+    <string name="wheat_soil"> Loamy soil </string>
+    <string name="wheat_climate"> Low humidity </string>
+    <string name="wheat_culti"> Punjab, Uttar Pradesh, Haryana, Madhya Pradesh, Rajashthan and Bihar </string>
+    <string name="wheat_ctime"> October- December </string>
+    <string name="wheat_sciname"> Triticum </string>
+
+
+</resources>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //Alert box
+<!--    <string-array name="roles">-->
+<!--        <item>Regional View</item>-->
+<!--        <item>Country View</item>-->
+<!--    </string-array>-->
+<!--    <string name="role"> તમારી ભૂમિકા પસંદ કરો: </string>-->
+
+    //Crop info page
+    <string name="cropnametext"> પાકનું નામ : </string>
+    <string name="Ph"> માટી પી.એચ. : </string>
+    <string name="sunlight"> સૂર્યપ્રકાશ : </string>
+    <string name="soiltype"> માટીનો પ્રકાર : </string>
+    <string name="cultitime"> ખેતીનો સમય : </string>
+    <string name="climate"> વાતાવરણ : </string>
+    <string name="water"> પાણી : </string>
+    <string name="culti"> વાવેતરના સ્થળો : </string>
+    <string name="description"> વર્ણન : </string>
+    <string name="sciname"> વૈજ્ઞાનિક નામ : </string>
+    <string name="cropinfo"> પાકની માહિતી </string>
+
+    <string name="your_loc"> તમારા સ્થાન સંકલન: </string>
+
+    //BitterGourd information
+    <string name="bg_name"> કારેલા </string>
+    <string name="bg_water"> કારેલાને તેમના જીવન ચક્ર દરમ્યાન સતત પાણી આપવાની જરૂર રહે છે.પાણી તેમના વિકાસ અને અસ્તિત્વ માટે મહત્વપૂર્ણ છે.અપૂરતું ભેજ ફૂલોમાં વિલંબ કરી શકે છે. જો કે,વધુ પડતી ભીના પરિસ્થિતિઓ મૂળમાં ફૂગના વિકાસનું કારણ બને છે. </string>
+    <string name="bg_sun"> ૫ થી ૬ કલાકનો સૂર્યપ્રકાશ </string>
+    <string name="bg_des"> કારેલા (મોમોર્દિકા ચરંટિયા) એ શાકભાજીનો મહત્વપૂર્ણ પાક છે અને તે તેના અપરિપક્વ ટ્યુબરક્યુલેટ ફળો માટે ઉગાડવામાં આવે છે, જેનો સ્વાદ અનન્ય કડવો હોય છે. </string>
+    <string name="bg_ph"> ૬.૦ થી ૬.૭ </string>
+    <string name="bg_soil"> સારી રીતે ડ્રેઇન કરેલી રેતાળ થી રેતાળ ગમગીન માટી; મધ્યમ કાળી માટી </string>
+    <string name="bg_climate"> પ્રારંભિક વૃદ્ધિ દરમિયાન લઘુત્તમ તાપમાન ૧૮° સેલ્સિયસ, પરંતુ શ્રેષ્ઠ તાપમાન ૨૪° થી ૨૭° સેલ્સિયસ ની રેન્જમાં હોય છે. </string>
+    <string name="bg_culti"> બેંગ્લોર, નવી દિલ્હી, કેરળ, તામિલનાડુ, દપોલી, પંજાબ, કાનપુર અને રાહુરી </string>
+    <string name="bg_ctime"> જાન્યુઆરી થી માર્ચ, જૂન થી જુલાઈ </string>
+    <string name="bg_sciname"> મોમોર્ડિકા ચરંટિયા </string>
+
+    //chilly information
+    <string name="chilly_name"> મરચાં </string>
+    <string name="chilly_water"> ઉનાળાની સરેરાશ હવામાન પરિસ્થિતિઓમાં, મરચાંને અઠવાડિયામાં બેથી ત્રણ વાર પાણી આપવાની જરૂર પડશે. </string>
+    <string name="chilly_sun"> પૂર્ણ સૂર્ય </string>
+    <string name="chilly_des"> મરચાં સોલાનાસી કુટુંબના છે. તે એક નાનો, વાર્ષિક ઝાડવા છે જે સીધો અને ડાળીઓવાળો શૂટ છે. મરચાંના સરળ પાંદડા છે અને તેના ફૂલો સફેદ રંગના છે.ભારતમાં મરચાંને મિર્ચી, લંકા વગેરે પણ કહેવામાં આવે છે. </string>
+    <string name="chilly_ph"> ૬.૫ અને ૭.૫ </string>
+    <string name="chilly_soil"> રેતાળ ગમગીન </string>
+    <string name="chilly_climate"> ઉષ્ણકટિબંધીય </string>
+    <string name="chilly_culti"> આંધ્ર પ્રદેશ, મહારાષ્ટ્ર, તામિલનાડુ અને કર્ણાટક </string>
+    <string name="chilly_ctime"> સપ્ટેમ્બર થી ઓક્ટોબર </string>
+    <string name="chilly_sciname"> કેપ્સિકમ એન્યુયમ </string>
+
+    //Coffee information
+    <string name="coffee_name"> કોફી </string>
+    <string name="coffee_water"> ૧૨૦૦ થી ૧૬૦૦ મિલિલીટર </string>
+    <string name="coffee_sun"> પૂર્ણ સૂર્ય </string>
+    <string name="coffee_des"> ભારતીય કોફી મોટે ભાગે દક્ષિણ રાજ્યોમાં ચોમાસાની વરસાદની પરિસ્થિતિમાં ઉગાડવામાં આવે છે તેથી તેને "ભારતીય ચોમાસાની કોફી" પણ કહેવામાં આવે છે. ભારતમાં ઉગાડવામાં આવતી બધી કોફી છાંયડોમાં ઉગાડવામાં આવે છે. ભારતીય કોફીનો એક વિશિષ્ટ ઐતિહાસિક સ્વાદ છે અને તે એક મસાલા તરીકે ગણવામાં આવે છે. </string>
+    <string name="coffee_ph"> ૬ થી ૬.૫ </string>
+    <string name="coffee_soil"> ફળદ્રુપ જ્વાળામુખી લાલ પૃથ્વીની માટી અથવા ઊંડી રેતાળ ગમગીન માટી </string>
+    <string name="coffee_climate"> અર્ધથી ઉષ્ણકટિબંધીય વાતાવરણ </string> છ
+    <string name="coffee_culti"> કર્ણાટક, કેરળ અને તામિલનાડુ </string>
+    <string name="coffee_ctime"> ફેબ્રુઆરી થી એપ્રિલ </string>
+    <string name="coffee_sciname"> કોફિયા </string>
+
+    //cotton information
+    <string name="cotton_name"> કપાસ </string>
+    <string name="cotton_water"> ૮૦૦ થી ૧૦૦૦ મિલિલીટર </string>
+    <string name="cotton_sun"> પૂર્ણ સૂર્ય </string>
+    <string name="cotton_des"> કપાસ એ નરમ, રુંવાટીવાળું મુખ્ય ફાઇબર છે જે કપાસના છોડના બીજની આસપાસ બોલ અથવા રક્ષણાત્મક કિસ્સામાં ઉગે છે.કપાસ એ ભારતની ટકાઉ અર્થવ્યવસ્થા અને ભારતીય સુતરાઉ ખેડૂત સમુદાયની આજીવિકા માટે ખૂબ જ મહત્વપૂર્ણ પાક છે. સમગ્ર વિશ્વમાં લગભગ ૩૧૨ લાખ હેક્ટરમાં અને દેશમાં ૧૧૭ લાખ હેક્ટરમાં વાવેતર થાય છે. </string>
+    <string name="cotton_ph"> ૭.૦ થી ૮.૦ </string>
+    <string name="cotton_soil"> કાળી માટી </string>
+    <string name="cotton_climate"> ઉષ્ણકટિબંધીય </string>
+    <string name="cotton_culti"> પંજાબ, હરિયાણા, મહારાષ્ટ્ર, તામિલનાડુ, મધ્યપ્રદેશ અને ગુજરાત </string>
+    <string name="cotton_ctime"> એપ્રિલ થી મે </string>
+    <string name="cotton_sciname"> ગોસિપિયમ </string>
+
+    //Lentil information
+    <string name="lentil_name"> દાળ </string>
+    <string name="lentil_water"> લગભગ ૧ ઇંચ પાણી. </string>
+    <string name="lentil_sun"> પૂર્ણ સૂર્ય </string>
+    <string name="lentil_des"> દાળ (લેન્સ ક્યુલિનારીસ અથવા લેન્સ એસક્યુલન્ટા) એ ખાદ્ય લીલીઓ છે. તે એક વાર્ષિક છોડ છે જે તેના લેન્સ આકારના બીજ માટે જાણીતું છે, તે લગભગ ૪૦ સેન્ટીમીટર (૧૬ ઇંચ) )ઉચું છે, અને બીજ શીંગોમાં ઉગે છે, સામાન્ય રીતે દરેકમાં બે બીજ હોય છે. ખાદ્ય પાક તરીકે, વિશ્વનું મોટાભાગનું ઉત્પાદન કેનેડા અને ભારતમાંથી આવે છે,જે વિશ્વના કુલ ઉત્પાદનો 58% સંયુક્ત ઉત્પાદન કરે છે. </string>
+    <string name="lentil_ph"> ૬.૦ અને ૬.૫ </string>
+    <string name="lentil_soil"> રેતાળ ગમગીન માટી </string>
+    <string name="lentil_climate"> શીત (સમશીતોષ્ણ) </string>
+    <string name="lentil_culti"> બિહાર, ઉત્તર પ્રદેશ અને રાજસ્થાન </string>
+    <string name="lentil_ctime"> એપ્રિલ </string>
+    <string name="lentil_sciname"> લેન્સ ક્યુલિનારીસ </string>
+
+    //Maize information
+
+    <string name="maize_name"> મકાઈ </string>
+    <string name="maize_ph"> ૫.૮ થી ૬.૮ </string>
+    <string name="maize_sun"> પૂર્ણ સૂર્ય </string>
+    <string name="maize_soil"> રેતાળ ગમગીન, લાલ માટી </string>
+    <string name="maize_ctime"> મે થી જૂન </string>
+    <string name="maize_climate"> તડકાવાળુ ( અજવાળાવાળુ ) વાતાવરણ </string>
+    <string name="maize_water"> એક ઉત્સાહી ઉગાડતા મકાઈના છોડને ટોચ વિકસતા સમયગાળા દરમિયાન દરરોજ આશરે ૨ થી ૩ લિટર પાણીની જરૂર હોય છે અથવા પાણીનો સરેરાશ વપરાશ ૨.૫ થી ૪.૩ મિલિલીટર / દિવસ સુધી રહે છે. </string>
+    <string name="maize_culti"> ઉત્તર પ્રદેશ, રાજસ્થાન, મધ્યપ્રદેશ, બિહાર અને હિમાચલ પ્રદેશ </string>
+    <string name="maize_des"> મકાઈ, જેને યુ.એસ., કેનેડા અને સ્ટ્રેલિયામાં કોર્ન તરીકે પણ ઓળખવામાં આવે છે, તે વિશ્વભરમાં સૌથી વધુ ઉત્પાદિત થાય છે. મકાઈમાં કાર્બોહાઇડ્રેટ (૭૦%),પ્રોટીન (૧૦%) અને તેલ (૪%) હોય છે. </string>
+    <string name="maize_sciname"> ઝીયા મેસ </string>
+
+    //Methi information
+    <string name="methi_name"> મેથી </string>
+    <string name="methi_water"> દર અઠવાડિયે લગભગ ૧ ઇંચ પાણી આપો. </string>
+    <string name="methi_sun"> આંશિક છાંયો થી પૂર્ણ સૂર્ય </string>
+    <string name="methi_des"> ભારતમાં મેથી એક પ્રખ્યાત મસાલા તરીકે ઉપયોગ થાઇ છે અને ખાદ્ય પદાર્થોની તૈયારી માટે ફ્લેવરિંગ એજન્ટ તરીકે વપરાશ થાય છે. યુવાન શીંગો અને પાંદડાઓ દૈનિક રસોઈમાં શાકભાજી તરીકે વપરાય છે. </string>
+    <string name="methi_ph"> ૬.૧ થી ૭ </string>
+    <string name="methi_soil"> સારી ડ્રેનેજવાળી ગમગીન અથવા રેતાળ ગમગીન જમીન </string>
+    <string name="methi_climate"> સાધારણ ઠંડુ, હિમમુક્ત અને ચોખ્ખુ આકાશ </string>
+    <string name="methi_culti"> રાજસ્થાન, તામિલનાડુ, ગુજરાત, મધ્યપ્રદેશ, પંજાબ અને ઉત્તર પ્રદેશ. </string>
+    <string name="methi_ctime"> ક્ટોબરનો પ્રથમ પખવાડિયા, જુન નો બીજો પખવાડિયા થી જુલાઇ અંત </string>
+    <string name="methi_sciname"> ટ્રાઇગોનેલા ફોનેમથીગ્રેકમ </string>
+
+    //Indian mustard information
+    <string name="mustard_name"> ભારતીય રાઈ </string>
+    <string name="mustard_water"> રાઈને લગભગ ૩૧ થી ૪૦ સેન્ટીમીટર પાણીની જરૂર પડે છે. </string>
+    <string name="mustard_sun"> પૂર્ણ સૂર્ય અથવા આંશિક છાંયો. </string>
+    <string name="mustard_des"> રાઈ એ ભારતમાં પરંપરાગત રીતે મહત્વપૂર્ણ તેલીબિયાળનો પાક રહ્યો છે. તે મુખ્ય રવી પાક છે. </string>
+    <string name="mustard_ph"> ૬.૦ થી ૭.૫ </string>
+    <string name="mustard_soil"> રેતાળ ગમગીન માટી </string>
+    <string name="mustard_climate"> સમશીતોષ્ણ </string>
+    <string name="mustard_culti"> રાજસ્થાન, ઉત્તર પ્રદેશ, હરિયાણા, મધ્યપ્રદેશ અને ગુજરાત </string>
+    <string name="mustard_ctime"> ઓક્ટોબર </string>
+    <string name="mustard_sciname"> બ્રાસિકા જુન્સીઆ </string>
+
+    //peas information
+    <string name="peas_name"> વટાણા </string>
+    <string name="peas_water"> દર અઠવાડિયે ૧ ઇંચ પાણી. </string>
+    <string name="peas_sun"> પૂર્ણ સૂર્ય </string>
+    <string name="peas_des"> લીલો વટાણા, જેને "બગીચાના વટાણા" તરીકે પણ ઓળખવામાં આવે છે, તે ભારતના શાકભાજીના પાકમાંનું એક છે અને મૂળભૂત રીતે આ પાક તેની લીલી શીંગો માટે ઉગાડવામાં આવે છે. લીલા વટાણા લેગ્યુમિનાસી પરિવારના છે. લીલા વટાણાનો ઉપયોગ શાકભાજીમાં, સૂપ અને ફ્રોઝન તૈયાર ખોરાકમાં થાય છે. </string>
+    <string name="peas_ph"> ૬.૫ થી ૭.૦. </string>
+    <string name="peas_soil"> ફળદ્રુપ, રેતાળ ગમગીન માટી જે સારી રીતે ડ્રેઇન કરે છે </string>
+    <string name="peas_climate"> સમશીતોષ્ણ </string>
+    <string name="peas_culti"> હિમાચલ પ્રદેશ, મધ્યપ્રદેશ, રાજસ્થાન, મહારાષ્ટ્ર, પંજાબ, હરિયાણા, કર્ણાટક અને બિહાર </string>
+    <string name="peas_ctime"> ઓક્ટોબર થી નવેમ્બર, માર્ચ થી મે ના અંત સુધી </string>
+    <string name="peas_sciname"> પીસમ સટિવમ </string>
+
+    //Pumpkin information
+    <string name="pumpkin_name"> કોળુ </string>
+    <string name="pumpkin_water"> દર અઠવાડિયે એક ઇંચ પાણી. </string>
+    <string name="pumpkin_sun"> પર્યાપ્ત સૂર્યપ્રકાશ </string>
+    <string name="pumpkin_des"> કોળુ એ ભારતમાં લોકપ્રિય વરસાદની મોસમનો શાકભાજી છે. કોળું "કુકરબીટાસીએ" કુટુંબનું છે અને તે ખરીફ મોસમ (ચોમાસા) અને ઉનાળાની મોસમ દરમિયાન,અપરિપક્વ અને કોમળ ફળ માટે મોટા પ્રમાણમાં ઉગાડવામાં આવે છે. </string>
+    <string name="pumpkin_ph"> ૬.૦ થી ૭.૦ </string>
+    <string name="pumpkin_soil"> સારી કાર્બનિક પદાર્થો સાથે રેતાળ ગમગીન જમીન </string>
+    <string name="pumpkin_climate"> લઘુત્તમ તેની વૃદ્ધિના પ્રારંભિક તબક્કે ૧૮° સેલ્સિયસ તાપમાન. આદર્શ તાપમાનની શ્રેણી ૨૫° થી ૨૮° સેલ્સિયસ છે. </string>
+    <string name="pumpkin_culti"> મધ્યપ્રદેશ, છત્તીસગ., કર્ણાટક અને હરિયાણા </string>
+    <string name="pumpkin_ctime"> જાન્યુઆરી થી માર્ચ અને સપ્ટેમ્બર થી ડિસેમ્બર </string>
+    <string name="pumpkin_sciname"> કુકરબીટા </string>
+
+    //Rice inforamtion
+    <string name="rice_name"> ચોખા </string>
+    <string name="rice_water"> ચોખાના દૈનિક વપરાશ ૬ થી ૧૦ મિલિલીટર થી હોય છે અને કુલ પાણી ૧૧૦૦ થી ૧૨૫૦ મિલિલીટર સુધીની હોય છે. </string>
+    <string name="rice_sun"> પૂર્ણ સૂર્ય </string>
+    <string name="rice_des"> ચોખા લગભગ સમગ્ર વર્ષ દરમિયાન ભારતના પૂર્વ અને દક્ષિણ ભાગોમાં ગરમ અને ભેજવાળા વિસ્તારોમાં ઉગાડવામાં આવે છે જેમાં ભારે વાર્ષિક વરસાદ પડે છે. તે ઉષ્ણકટિબંધીય છોડ છે જેને સારી રીતે ઉગાડવા માટે પૂરતા પાણીની જરૂર હોય છે. તેથી જ તે ભારતમાં મૂળભૂત રીતે ખરીફ પાક છે </string>
+    <string name="rice_ph"> ૬.૦ થી ૭ </string>
+    <string name="rice_soil"> ફળદ્રુપ નદી કાંપવાળી જમીન </string>
+    <string name="rice_climate"> ગરમ અને ભેજવાળી </string>
+    <string name="rice_culti"> પશ્ચિમ બંગાળ, બિહાર, ઓડિશા, ઉત્તર પ્રદેશ, આસામ અને મધ્યપ્રદેશ </string>
+    <string name="rice_ctime"> જૂન થી જુલાઈ </string>
+    <string name="rice_sciname"> ઓરિઝા સટિવા </string>
+
+    //sesame information
+    <string name="sesame_name"> તલ </string>
+    <string name="sesame_water"> ૨૦ થી ૨૬ મિલીમીટર નો ન્યૂનતમ વરસાદ. </string>
+    <string name="sesame_sun"> પૂર્ણ સૂર્ય </string>
+    <string name="sesame_des"> તલ એ તેલીબીયાના સૌથી પાકનો પાક છે અને તે તિલ અથવા ગિંજલી તરીકે પ્રખ્યાત છે. વિશ્વવ્યાપી, તેનો ઉપયોગ તેના પોષક, ઔષધીય અને ઔદ્યોગિક હેતુઓ માટે થાય છે. ભારતમાં તલના પાકને ખરીફ, ઉનાળો અને અર્ધ રવી પાક તરીકે પણ વાવેતર કરી શકાય છે. </string>
+    <string name="sesame_ph"> ૫.૫ થી ૮.૨ </string>
+    <string name="sesame_soil"> સારી રીતે ડ્રેઇન કરેલી,મધ્યમ પોતની ફળદ્રુપ જમીન </string>
+    <string name="sesame_climate"> ૨૫° સેલ્સિયસ થી ૨૬.૬૭° ફેરનહિટ તાપમાન તાપમાન શ્રેષ્ઠ છે </string>
+    <string name="sesame_culti"> આંધ્ર પ્રદેશ, તેલંગાણા, તામિલનાડુ, પશ્ચિમ બંગાળ, ગુજરાત, મધ્યપ્રદેશ, રાજસ્થાન અને મહારાષ્ટ્ર </string>
+    <string name="sesame_ctime"> મે થી ઓગસ્ટ </string>
+    <string name="sesame_sciname"> સેસમ્યુમિ ન્ડિકમ </string>
+
+    //Sorghum information
+    <string name="sorghum_name"> જુવાર </string>
+    <string name="sorghum_water"> વધતી સીઝન દરમિયાન ૪૫૦ થી ૬૫૦ મિલિલીટર પાણી આપવાની જરૂર પડશે. </string>
+    <string name="sorghum_sun"> પૂર્ણ સૂર્ય </string>
+    <string name="sorghum_des"> જુવાર (સોરગમ વલ્ગર પર્સ.) એ વિશ્વનો સૌથી મહત્વપૂર્ણ અનાજ પાક છે. તે ખોરાક, ઘાસચારો, રેસા અને બળતણ માટે માનવ અને અન્ય પ્રાણીઓનો મુખ્ય પાક છે.તે હેઠળનું વાર્ષિક ક્ષેત્રફળ ૧૭ થી ૧૮ મિલિયન હેક્ટર અને વાર્ષિક ઉત્પાદન ૮ થી ૧૦ મિલિયન ટન વચ્ચે છે. </string>
+    <string name="sorghum_ph"> ૬ થી ૭.૫ </string>
+    <string name="sorghum_soil"> ઊંડી, ફળદ્રુપ, સારી રીતે ડ્રેઇન કરેલી જમીન </string>
+    <string name="sorghum_climate"> હૂંફાળું તાપમાન </string>
+    <string name="sorghum_culti"> મહારાષ્ટ્ર, કર્ણાટક, આંધ્રપ્રદેશ, મધ્ય પ્રદેશ, ગુજરાત, રાજસ્થાન, ઉત્તર પ્રદેશ (બુંદેલખંડ ક્ષેત્ર) અને તમિલનાડુ </string>
+    <string name="sorghum_ctime"> મે અને જૂનના પ્રારંભમાં </string>
+    <string name="sorghum_sciname"> જુવાર બાયકલર </string>
+
+    //soybean Information
+    <string name="soybean_name"> સોયાબીન </string>
+    <string name="soybean_water"> ૪૫૦ થી ૭૦૦ મિલિલીટર </string>
+    <string name="soybean_sun"> પૂર્ણ સૂર્ય </string>
+    <string name="soybean_des"> સોયાબીન એ સૌથી વધુ ઉગાડવામાં આવતી અને વપરાતી તેલીબિયાં માંની એક છે.ભારતમાં, સોયાબીન મુખ્યત્વે મધ્યપ્રદેશના તમામ રાજ્યોમાં વરસાદી પાક તરીકે ઉગાડવામાં આવે છે. </string>
+    <string name="soybean_ph"> ૬.૭ થી ૭.૨ </string>
+    <string name="soybean_soil"> સારી રીતે ડ્રેઇન કરેલી, ગમગીન માટી </string>
+    <string name="soybean_climate"> હૂંફાળું અને ભેજવાળા વાતાવરણ. સોયાબીન મોટાભાગે ચોમાસામાં ઉગાડવામાં આવે છે </string>
+    <string name="soybean_culti"> મધ્યપ્રદેશ, ઉત્તર પ્રદેશ, મહારાષ્ટ્ર, ગુજરાત, હિમાચલ પ્રદેશ, પંજાબ અને દિલ્હી </string>
+    <string name="soybean_ctime"> જૂન થી ઓક્ટોબર </string>
+    <string name="soybean_sciname"> ગ્લાયસીન મેક્સ </string>
+
+    //Sugarcane information
+    <string name="sugarcane_name"> શેરડી </string>
+    <string name="sugarcane_water"> ૧૨૦૦ થી ૩૫૦૦ મિલિલીટર </string>
+    <string name="sugarcane_sun"> પૂર્ણ સૂર્ય </string>
+    <string name="sugarcane_des"> શેરડી ખરીફ પાક તરીકે ઉગાડવામાં આવે છે. તેને તાપમાન ૨૧° થી ૨૭° સેલ્સિયસ તાપમાન સાથે ગરમ અને ભેજવાળી હવામાનની જરૂર છે. શેરડી કોઈપણ જમીનમાં ઉગી શકે છે જે ભેજ જાળવી શકે છે. </string>
+    <string name="sugarcane_ph"> ૫ થી ૮.૫ </string>
+    <string name="sugarcane_soil"> ગમગીન જમીન, કાળી માટી </string>
+    <string name="sugarcane_climate"> ઉષ્ણકટિબંધીય </string>
+    <string name="sugarcane_culti"> ઉત્તર પ્રદેશ, મહારાષ્ટ્ર અને કર્ણાટક </string>
+    <string name="sugarcane_ctime"> ઓક્ટોબર, ફેબ્રુઆરી થી માર્ચ, જુલાઈ </string>
+    <string name="sugarcane_sciname"> સાકરમ ઓફિકફિસિનરમ </string>
+
+    //tea information
+    <string name="tea_name"> ચા </string>
+    <string name="tea_water"> ઉનાળા દરમિયાન દર અઠવાડિયે બે કે ત્રણ વાર જ્યારે પણ શક્ય હોય ત્યારે વરસાદી પાણીનો ઉપયોગ કરવો. પાણી આપવાના સમય વચ્ચે માટીને થોડું સુકાવા દો. </string>
+    <string name="tea_sun"> પૂર્ણ અથવા વિશિષ્ટ સૂર્યપ્રકાશ </string>
+    <string name="tea_des"> ભારતમાં ચાના વાવેતર દેશના ચા ઉગાડતા પ્રદેશોના લોકોના સામાજિક આર્થિક વિકાસમાં નોંધપાત્ર યોગદાન આપી રહ્યું છે. </string>
+    <string name="tea_ph"> ૪.૫ થી ૫.૬ </string>
+    <string name="tea_soil"> સારી રીતે ડ્રેઇન કરેલી માટી </string>
+    <string name="tea_climate"> ૨૧° થી ૨૯°	સેલ્સિયસ તાપમાન આદર્શ છે </string>
+    <string name="tea_culti"> દાર્જિલિંગ, તમિલનાડુ, મુન્નાર, આસામ, હિમાચલ પ્રદેશ, કર્ણાટક અને પશ્ચિમ બંગાળ </string>
+    <string name="tea_ctime"> એપ્રિલ થી જૂન અને ઓક્ટોબર થી ડિસેમ્બર </string>
+    <string name="tea_sciname"> કેમેલીઆ સિનેનેસિસ </string>
+
+    //tobacco information
+    <string name="tobacco_name"> તમાકુ </string>
+    <string name="tobacco_water"> ૬૧.૬૦ થી ૧૫૨.૧૦ મિલિલીટર </string>
+    <string name="tobacco_sun"> પૂર્ણ સૂર્ય </string>
+    <string name="tobacco_des"> આજે, તમાકુ એ ભારતમાં ઉગાડવામાં આવતા મોટા વ્યવસાયિક પાકમાંનું એક છે. તમાકુના ઉત્પાદનો જેવા કે સિગારેટ, બીડી, સિગાર, ચેરુટ, હૂકા, ચ્યુઇંગ અને સ્નફ જેવા ઉત્પાદનોમાં ઉપયોગ માટે ભારતમાં વિવિધ પ્રકારના તમાકુની ખેતી કરવામાં આવે છે. </string>
+    <string name="tobacco_ph"> ૫.૦ થી ૬.૦ </string>
+    <string name="tobacco_soil"> કાંપવાળી જમીન, કાળી માટી અથવા ગમગીન માટી, ભૂખરાથી લાલ જમીન </string>
+    <string name="tobacco_climate"> ઉષ્ણકટિબંધીય, ઉષ્ણકટિબંધીય અને સમશીતોષ્ણ </string>
+    <string name="tobacco_culti"> આંધ્રપ્રદેશ, ગુજરાત, કર્ણાટક, ઉત્તર પ્રદેશ અને બિહાર </string>
+    <string name="tobacco_ctime"> ડિસેમ્બર થી માર્ચ, જુલાઈ થી સપ્ટેમ્બર, જાન્યુઆરી થી ફેબ્રુઆરી </string>
+    <string name="tobacco_sciname"> નિકોટિઆના ટેબેકમ </string>
+
+    //Turmeric information
+    <string name="turmeric_name"> હળદર </string>
+    <string name="turmeric_water"> દર બે દિવસ પછી તેને પાણી આપો, અને પાણી આપવાની વચ્ચે બોટલથી ઝાકળ છાંટો. </string>
+    <string name="turmeric_sun"> આંશિક સૂર્ય </string>
+    <string name="turmeric_des"> હળદર (કર્ક્યુમા લોન્ગા એલ), ભારતનો પ્રાચીન અને પવિત્ર મસાલા, ‘ભારતીય કેસર’ તરીકે ઓળખાય છે, તે ભારતમાં ઉગાડવામાં આવેલો એક મહત્વપૂર્ણ વ્યાપારી મસાલાનો પાક છે. </string>
+    <string name="turmeric_ph"> ૪.૫ થી ૭.૫ </string>
+    <string name="turmeric_soil"> સારી રીતે ડ્રેઇન કરેલી રેતાળ માટી અથવા ગમગીન માટી </string>
+    <string name="turmeric_climate"> હૂંફાળું અને ભેજયુક્ત વાતાવરણ </string>
+    <string name="turmeric_culti"> આંધ્ર પ્રદેશ, તામિલનાડુ, ઓરિસ્સા, કર્ણાટક, પશ્ચિમ બંગાળ, ગુજરાત, મેઘાલય, મહારાષ્ટ્ર અને આસામ </string>
+    <string name="turmeric_ctime"> મધ્ય ડિસેમ્બર અને મધ્ય માર્ચ </string>
+    <string name="turmeric_sciname"> કર્ક્યુમા લોન્ગા </string>
+
+    //wheat information
+    <string name="wheat_name"> ઘઉં </string>
+    <string name="wheat_water"> ૪૫૦ થી ૬૫૦ મિલિલીટર </string>
+    <string name="wheat_sun"> પૂર્ણ સૂર્ય </string>
+    <string name="wheat_des"> ઘઉં (ટ્રિટિકમ એસપીપી.) વિશ્વના ખાદ્ય પાકમાં મુખ્ય સ્થાન ધરાવે છે. ભારતમાં, તે ચોખાની બાજુમાં બીજો મહત્વપૂર્ણ ખાદ્ય પાક છે અને દેશના કુલ અનાજ ઉત્પાદનમાં લગભગ ૨૫% જેટલો ફાળો આપે છે. </string>
+    <string name="wheat_ph"> ૬.૦ અને ૭.૦ </string>
+    <string name="wheat_soil"> ગમગીન માટી </string>
+    <string name="wheat_climate"> ઓછી ભેજ </string>
+    <string name="wheat_culti"> પંજાબ, ઉત્તર પ્રદેશ, હરિયાણા, મધ્યપ્રદેશ, રાજસ્થાન અને બિહાર </string>
+    <string name="wheat_ctime"> ઓક્ટોબર થી ડિસેમ્બર </string>
+    <string name="wheat_sciname"> ટ્રિટિકમ </string>
+
+</resources>
