@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CropInfo">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/llScroll_cropInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="9dp"
+                android:weightSum="100">
+        
+                    <TextView
+                        android:id="@+id/cropname_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:drawablePadding="2dp"
+                        android:textSize="18sp"
+                        android:drawableLeft="@drawable/ic_action_crop"
+                        android:text="@string/cropnametext"
+                        android:fontFamily="sans-serif"/>
+        
+                    <TextView
+                        android:id="@+id/crop_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:autoSizeMaxTextSize="18sp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeTextType="uniform"
+                        android:maxLines="16"
+                        android:gravity="fill_horizontal"
+                        android:layout_weight="40"
+                        android:textSize="18sp"
+                        android:text="@string/cropnametext"
+                        android:fontFamily="sans-serif"/>
+        
+            </LinearLayout>
+        
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="9dp"
+                android:weightSum="100"
+                android:background="#E8E8E8">
+                <TextView
+                    android:id="@+id/description_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="@string/description"
+                    android:drawableLeft="@drawable/ic_action_des"
+                    android:layout_weight="60"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:drawablePadding="2dp"
+                    android:fontFamily="sans-serif"/>
+                <TextView
+                    android:id="@+id/crop_des"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:autoSizeMaxTextSize="18sp"
+                    android:autoSizeMinTextSize="12sp"
+                    android:autoSizeTextType="uniform"
+                    android:maxLines="16"
+                    android:gravity="fill_horizontal"
+                    android:layout_weight="40"
+                    android:text="@string/description"
+                    android:fontFamily="sans-serif"/>
+            </LinearLayout>
+        
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="9dp"
+                android:weightSum="100">
+                    <TextView
+                        android:id="@+id/ph_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:drawablePadding="2dp"
+                        android:textSize="18sp"
+                        android:drawableLeft="@drawable/ic_action_ph"
+                        android:text="@string/Ph"
+                        android:fontFamily="sans-serif"/>
+        
+                    <TextView
+                        android:id="@+id/crop_ph"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:autoSizeMaxTextSize="18sp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeTextType="uniform"
+                        android:maxLines="16"
+                        android:gravity="fill_horizontal"
+                        android:layout_weight="40"
+                        android:textSize="18sp"
+                        android:text="@string/Ph"
+                        android:fontFamily="sans-serif"/>
+        
+            </LinearLayout>
+        
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="9dp"
+                android:weightSum="100"
+                android:background="#E8E8E8">
+        
+                    <TextView
+                        android:id="@+id/sunlight_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:drawablePadding="2dp"
+                        android:textSize="18sp"
+                        android:drawableLeft="@drawable/ic_action_sun"
+                        android:text="@string/sunlight"
+                        android:fontFamily="sans-serif"/>
+        
+                    <TextView
+                        android:id="@+id/crop_sun"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:autoSizeMaxTextSize="18sp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeTextType="uniform"
+                        android:maxLines="16"
+                        android:gravity="fill_horizontal"
+                        android:layout_weight="40"
+                        android:textSize="18sp"
+                        android:text="@string/sunlight"
+                        android:fontFamily="sans-serif"/>
+        
+            </LinearLayout>
+        
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="9dp"
+                android:weightSum="100">
+        
+                    <TextView
+                        android:id="@+id/soiltype_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:drawablePadding="2dp"
+                        android:textSize="18sp"
+                        android:drawableLeft="@drawable/ic_action_soil"
+                        android:text="@string/soiltype"
+                        android:fontFamily="sans-serif"/>
+        
+                    <TextView
+                        android:id="@+id/crop_soil"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:autoSizeMaxTextSize="18sp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeTextType="uniform"
+                        android:maxLines="16"
+                        android:gravity="fill_horizontal"
+                        android:layout_weight="40"
+                        android:textSize="18sp"
+                        android:text="@string/soiltype"
+                        android:fontFamily="sans-serif"/>
+            </LinearLayout>
+        
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="9dp"
+                android:weightSum="100"
+                android:background="#E8E8E8">
+        
+                    <TextView
+                        android:id="@+id/cultitime_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:drawablePadding="2dp"
+                        android:drawableLeft="@drawable/ic_action_time"
+                        android:textSize="18sp"
+                        android:text="@string/cultitime"
+                        android:fontFamily="sans-serif"/>
+        
+                    <TextView
+                        android:id="@+id/crop_ctime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:autoSizeMaxTextSize="18sp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeTextType="uniform"
+                        android:maxLines="16"
+                        android:gravity="fill_horizontal"
+                        android:layout_weight="40"
+                        android:textSize="18sp"
+                        android:text="@string/cultitime"
+                        android:fontFamily="sans-serif"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="9dp"
+                android:weightSum="100">
+        
+                    <TextView
+                        android:id="@+id/climate_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:drawablePadding="2dp"
+                        android:textSize="18sp"
+                        android:drawableLeft="@drawable/ic_action_climate"
+                        android:text="@string/climate"
+                        android:fontFamily="sans-serif"/>
+        
+                    <TextView
+                        android:id="@+id/crop_climate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:autoSizeMaxTextSize="18sp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeTextType="uniform"
+                        android:maxLines="16"
+                        android:gravity="fill_horizontal"
+                        android:layout_weight="40"
+                        android:textSize="18sp"
+                        android:text="@string/climate"
+                        android:fontFamily="sans-serif"/>
+            </LinearLayout>
+        
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="9dp"
+                android:weightSum="100"
+                android:background="#E8E8E8">
+        
+                    <TextView
+                        android:id="@+id/water_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:drawablePadding="2dp"
+                        android:textSize="18sp"
+                        android:drawableLeft="@drawable/ic_action_water"
+                        android:text="@string/water"
+                        android:fontFamily="sans-serif"/>
+        
+                    <TextView
+                        android:id="@+id/crop_water"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:autoSizeMaxTextSize="18sp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeTextType="uniform"
+                        android:maxLines="16"
+                        android:gravity="fill_horizontal"
+                        android:layout_weight="40"
+                        android:textSize="18sp"
+                        android:text="@string/water"
+                        android:fontFamily="sans-serif"/>
+            </LinearLayout>
+        
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="9dp"
+                android:weightSum="100">
+        
+                    <TextView
+                        android:id="@+id/cultiAt_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:drawablePadding="2dp"
+                        android:textSize="18sp"
+                        android:drawableLeft="@drawable/ic_action_culti_at"
+                        android:text="@string/culti"
+                        android:fontFamily="sans-serif"/>
+        
+                    <TextView
+                        android:id="@+id/crop_cultiAt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:autoSizeMaxTextSize="18sp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeTextType="uniform"
+                        android:maxLines="16"
+                        android:gravity="fill_horizontal"
+                        android:layout_weight="40"
+                        android:textSize="18sp"
+                        android:text="@string/culti"
+                        android:fontFamily="sans-serif"/>
+            </LinearLayout>
+        
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="9dp"
+                android:weightSum="100"
+                android:background="#E8E8E8">
+        
+                    <TextView
+                        android:id="@+id/sciname_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="60"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:gravity="center_vertical"
+                        android:drawablePadding="2dp"
+                        android:drawableLeft="@drawable/ic_action_sci_name"
+                        android:text="@string/sciname"
+                        android:fontFamily="sans-serif"/>
+        
+                    <TextView
+                        android:id="@+id/crop_sciName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:autoSizeMaxTextSize="18sp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeTextType="uniform"
+                        android:maxLines="16"
+                        android:gravity="fill_horizontal"
+                        android:layout_weight="40"
+                        android:textSize="18sp"
+                        android:text="@string/sciname"
+                        android:fontFamily="sans-serif"/>
+        
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="bottom">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:tint="@color/gblack"
+            android:background="@color/colorPrimaryDark"
+            android:src="@drawable/ic_action_share" />
+    </LinearLayout>
+
+
+</RelativeLayout>
