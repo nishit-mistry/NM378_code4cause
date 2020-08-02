@@ -1,12 +1,601 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+     //Language Selector Activity
+<!--    <string name="intro_lang_pref" >તમારી ભાષા પસંદ કરો:</string>-->
+    <string name="btn_get_started">શરૂ કરો</string>
+
+    //Home page
+    <string name="tagline">નવી દ્રષ્ટિ સાથે પાક સાથે વાતચીત</string>
+    <string name="open_camera" > કેમેરા બટન પર ક્લિક કરો અને પાકના ફોટા ઓળખો </string>
+
+
+    //Cardviews
+    <string-array name="home_cardview">
+        <item> ચિત્ર લો અને તરત જ ઓળખો </item>
+        <item> નકશા પર પાકને શોધો </item>
+<!--        <item> પાકની માહિતી નિકાસ કરી શકાય છે </item>-->
+        <item> વાસ્તવિક સમય માં પાક ઓળખ </item>
+        <item> બહુવિધ ભાષામાં આધારભૂત </item>
+        <item> હવામાનની આગાહીનો ઉપયોગ કરીને પાકની ટીપ્સ </item>
+        <item> પાકની માહિતી ઓફલાઇન ઉપલબ્ધ છે </item>
+<!--        <item> ક્રોસ પ્લેટફોર્મ સુસંગતતા </item>-->
+    </string-array>
+
+    //Location permission in main activity
+    <string name="loc_permission_line1">ચાલુ રાખવા માટે, ઉપકરણ સ્થાન ચાલુ કરો, જે ગૂગલની સ્થાન સેવાનો ઉપયોગ કરે છે</string>
+    <string name="loc_permission_line2">તમારા ઉપકરણને આની જરૂર પડશે:</string>
+    <string name="loc_permission_line3">વાઇફાઇ, સેલ-નેટવર્ક અને સેન્સરનો ઉપયોગ કરો </string>
+    <string name="loc_permission_line4">આ સેવાના ભાગ રૂપે ગૂગલની લોકેશન સર્વિસનો ઉપયોગ કરવા માટે, ગૂગલ લોકેશન ડેટાને પેરોઇડ રૂપે એકત્રિત કરી શકે છે અને સ્થાનની ચોકસાઈ અને સ્થાન-આધારિત સેવાઓ સુધારવા માટે આ ડેટાને અલૌકિક રીતે ઉપયોગ કરી શકે છે.</string>
+    <string name="loc_permission_line5">આ તમારા ઉપકરણ માટે તમે પસંદ કરેલ સ્થાન મોડ બદલી શકે છે. વિગતો માટે, સ્થાન સેટિંગ્સ પર જાઓ.</string>
+    <string name="loc_permission_know_more">વધુ જાણો</string>
+    <string name="loc_permission_no_thanks">ના આભાર</string>
+    <string name="loc_permission_ok">ઠીક છે</string>
+    <string name="your_loc"> તમારા સ્થાન સંકલન: </string>
+
+    //nav bar
+    <string name="navbar_home"> મુખપૃષ્ઠ </string>
+    <string name="navbar_explore"> નકશો </string>
+    <string name="navbar_camera"> પાકને ઓળખો </string>
+    <string name="navbar_livefeed"> લાઈવફિડ </string>
+    <string name="choose_lang"> ભાષા પસંદ કરો: </string>
+    <string name="cropinfo"> પાકની માહિતી </string>
+    <string name="dashboard"> ડેશબોર્ડ </string>
+
+    //Explore page
     //Alert box
-<!--    <string-array name="roles">-->
-<!--        <item>Regional View</item>-->
-<!--        <item>Country View</item>-->
-<!--    </string-array>-->
-<!--    <string name="role"> તમારી ભૂમિકા પસંદ કરો: </string>-->
+    <string-array name="roles">
+        <item>પ્રાદેશિક દૃશ્ય</item>
+        <item>દેશ દૃશ્ય</item>
+    </string-array>
+    <string name="role"> નકશા નો દૃશ્ય પસંદ કરો: </string>
+    <string name="gps_permission"> તમારું GPS બંધ લાગે છે, શું તમે તેને ચાલુ કરવા માંગો છો? </string>
+
+    //snackbar
+    <string name="snackbar"> વધુ વિગતો માટે માર્કર અને તેની માહિતી સ્નિપેટને ક્લિક કરો </string>
+    <string name="okay"> ઠીક છે </string>
+
+    //marker
+    <string name="own_loc"> તમે અહિંયા છો </string>
+    //Bitter Gourd
+    <string name="bitter1"> બિલાસપુર, છત્તીસગઢ </string>
+    <string name="bitter2"> નેલ્લોર, આંધ્રપ્રદેશ </string>
+    <string name="bitter3"> કોલ્હાપુર, મહારાષ્ટ્ર </string>
+    <string name="bitter4"> જૂનાગઢ, ગુજરાત </string>
+    <string name="bitter5"> જયપુર, રાજસ્થાન </string>
+    <string name="bitter6"> જલંદર, પંજાબ</string>
+    <string name="bitter7"> કુડલોર, તમિલનાડુ</string>
+    <string name="bitter8"> તિરુવંતપુરમ, કેરળ</string>
+    <string name="bitter9"> બગલકોટ, કર્ણાટક </string>
+    <string name="bitter10"> પશ્ચિમ મેદનીપુર, પશ્ચિમ બંગાળ</string>
+    <string name="bitter11"> નયગઢ, ઓડિશા </string>
+    <string name="bitter12"> દરંગ, આસામ </string>
+    <string name="bitter13"> લખનઉ, ઉત્તર પ્રદેશ </string>
+    <string name="bitter14"> મુઝફ્ફરપુર, બિહાર</string>
+    //chilli
+    <string name="chilli1"> કૃષ્ણા, આંધ્રપ્રદેશ </string>
+    <string name="chilli2"> સોલાપુર, મહારાષ્ટ્ર </string>
+    <string name="chilli3"> ભાવનગર, ગુજરાત </string>
+    <string name="chilli4"> નેલ્લોર, આંધ્રપ્રદેશ </string>
+    <string name="chilli5"> મુઝફ્ફરપુર, બિહાર </string>
+    <string name="chilli6"> વૈશાલી, બિહાર </string>
+    <string name="chilli8"> પટના, બિહાર </string>
+    <string name="chilli9"> પલામુ, ઝારખંડ </string>
+    <string name="chilli10"> બેલગામ, કર્ણાટક </string>
+    <string name="chilli11"> હવેરી, કર્ણાટક </string>
+    <string name="chilli12"> ચિત્રદુર્ગ, કર્ણાટક </string>
+    <string name="chilli13"> વાયનાડ, કેરળ  </string>
+    <string name="chilli14"> એર્નાકુલમ, કેરળ </string>
+    <string name="chilli15"> પલક્કડ, કેરળ </string>
+    <string name="chilli16"> ફતેહગગઢ સાહિબ, પંજાબ </string>
+    <string name="chilli17"> પટિયાલા, પંજાબ </string>
+    <string name="chilli18"> નાગૌર, રાજસ્થાન </string>
+    <string name="chilli19"> પાલી, રાજસ્થાન </string>
+    <string name="chilli20"> તિરુનેલવેલી, તામિલનાડુ </string>
+    <string name="chilli21"> વિરુધુનગર, તામિલનાડુ </string>
+    <string name="chilli22"> નાગપટ્ટિનમ, તમિલનાડુ </string>
+    <string name="chilli23"> જલપાઇગુરી, પશ્ચિમ બંગાળ </string>
+    <string name="chilli24"> સિદ્ધાર્થ નાગર, ઉત્તર પ્રદેશ </string>
+    <string name="chilli25"> ગુના, મધ્યપ્રદેશ </string>
+    //coffee
+    <string name="coffee1"> કોપલ, કર્ણાટક </string>
+    <string name="coffee2"> પઠાણમિતિ, કેરળ </string>
+    <string name="coffee3"> વિશાખાપટ્ટનમ, આંધ્રપ્રદેશ </string>
+    <string name="coffee4"> મૈસુર, કર્ણાટક </string>
+    <string name="coffee5"> કોટ્ટાયમ, કેરળ </string>
+    <string name="coffee6"> તિરુવન્નામલાઈ, તમિલનાડુ </string>
+    <string name="coffee7"> મેડક, તેલંગાણા </string>
+    <string name="coffee8"> બારગગઢ, ઓડિશા </string>
+    <string name="coffee9"> કામરૂપ, આસામ </string>
+    <string name="coffee10"> દિમાપુર, નાગાલેન્ડ </string>
+    <string name="coffee11"> ઇમ્ફાલ, મણિપુર </string>
+    <string name="coffee12"> લેપા-રાડા, અરુણાચલ પ્રદેશ </string>
+    <string name="coffee13"> સેરશીપ, મિઝોરમ </string>
+    // cotton
+    <string name="cotton1"> લુધિયાણા, પંજાબ </string>
+    <string name="cotton2"> ભરૂચ, ગુજરાત </string>
+    <string name="cotton3"> અમરાવતી, મહારાષ્ટ્ર </string>
+    <string name="cotton4"> વશીમ, મહારાષ્ટ્ર </string>
+    <string name="cotton5"> અમદાવાદ, ગુજરાત </string>
+    <string name="cotton6"> પોરબંદર, ગુજરાત </string>
+    <string name="cotton7"> સુરેન્દ્રનગર, ગુજરાત </string>
+    <string name="cotton8"> અમરેલી, ગુજરાત </string>
+    <string name="cotton9"> ભાવનગર, ગુજરાત </string>
+    <string name="cotton10"> ગુંટુર, આંધ્રપ્રદેશ </string>
+    <string name="cotton11"> અનંતપુર, આંધ્રપ્રદેશ </string>
+    <string name="cotton12"> વાયએસઆર કડપા, આંધ્રપ્રદેશ </string>
+    <string name="cotton13"> પૂર્ણિયા, બિહાર </string>
+    <string name="cotton14"> ગાડાગ, કર્ણાટક </string>
+    <string name="cotton15"> રાયચુર, કર્ણાટક </string>
+    <string name="cotton16"> ગુલબર્ગ, કર્ણાટક </string>
+    <string name="cotton17"> શ્રી મુકતસર સાહેબ, પંજાબ </string>
+    <string name="cotton18"> ફિરોઝપુર, પંજાબ </string>
+    <string name="cotton19"> જયપુર, રાજસ્થાન </string>
+    <string name="cotton20"> બાંસવારા, રાજસ્થાન </string>
+    <string name="cotton21"> ચિત્તોડગગઢ, રાજસ્થાન </string>
+    <string name="cotton22"> તિરુપુર, તમિળનાડુ </string>
+    <string name="cotton23"> ડીંડીગુલ, તામિલનાડુ </string>
+    <string name="cotton24"> કન્યાકુમારી, તમિળનાડુ </string>
+    <string name="cotton25"> ખોવાઈ, ત્રિપુરા </string>
+    <string name="cotton26"> મેરઠ, ઉત્તર પ્રદેશ </string>
+    <string name="cotton27"> અલીગ,, ઉત્તર પ્રદેશ </string>
+    <string name="cotton28"> ઉજ્જૈન, મધ્યપ્રદેશ </string>
+    <string name="cotton29"> હરદા, મધ્યપ્રદેશ </string>
+    <string name="cotton30"> શીઓપુર, મધ્યપ્રદેશ </string>
+    // methi
+    <string name="methi1"> રાજસમંદ, રાજસ્થાન </string>
+    <string name="methi2"> કુડ્લોર, તામિલનાડુ </string>
+    <string name="methi3"> દહેરાદૂન, ઉત્તરાખંડ </string>
+    <string name="methi4"> બુલંદશહેર, ઉત્તર પ્રદેશ </string>
+    <string name="methi5"> જયપુર, રાજસ્થાન </string>
+    <string name="methi6"> મુર્શિદાબાદ, પશ્ચિમ બંગાળ </string>
+    <string name="methi7"> ભરૂચ, ગુજરાત </string>
+    <string name="methi8"> કાટની, મધ્યપ્રદેશ </string>
+    <string name="methi9"> બસ્તર, ચેટીસગગઢ </string>
+    //mustard
+    <string name="mustard1"> કોટા, રાજસ્થાન </string>
+    <string name="mustard2"> હિસાર, હરિયાણા </string>
+    <string name="mustard3"> સિબસાગર, આસામ </string>
+    <string name="mustard4"> ધેમાજી, આસામ </string>
+    <string name="mustard5"> પૂર્વ ચંપારણ, બિહાર </string>
+    <string name="mustard6"> પૂંછ, જમ્મુ કાશ્મીર </string>
+    <string name="mustard7"> અનંતનાગ, જમ્મુ કાશ્મીર </string>
+    <string name="mustard8"> પશ્ચિમ ગારો હિલ્સ, મેઘાલય </string>
+    <string name="mustard9"> ધરમપુરી, તામિલનાડુ </string>
+    <string name="mustard10"> ઝાંસી, ઉત્તર પ્રદેશ </string>
+    <string name="mustard11"> બેટ્વાર, ઉત્તર પ્રદેશ </string>
+    <string name="mustard12"> સીતાપુર, ઉત્તર પ્રદેશ </string>
+    <string name="mustard13"> ભીંડ, મધ્યપ્રદેશ </string>
+    //lentil
+    <string name="lentil1"> બોકારો, ઝારખંડ </string>
+    <string name="lentil2"> સીધી, મધ્યપ્રદેશ </string>
+    <string name="lentil3"> પૂર્વ ગોદાવરી, આંધ્ર પ્રદેશ </string>
+    <string name="lentil4"> પશ્ચિમ ગોદાવરી, આંધ્ર પ્રદેશ </string>
+    <string name="lentil5"> પ્રકાશ, આંધ્રપ્રદેશ </string>
+    <string name="lentil6"> કૈમૂર, બિહાર </string>
+    <string name="lentil7"> ફાજિલકા, પંજાબ </string>
+    <string name="lentil8"> બાથિંડા, પંજાબ </string>
+    <string name="lentil9"> સંગરુર, પંજાબ </string>
+    <string name="lentil10"> ચુરુ, રાજસ્થાન </string>
+    <string name="lentil11"> બિકાનેર, રાજસ્થાન </string>
+    <string name="lentil12"> ઝુનઝુનૂન, રાજસ્થાન </string>
+    <string name="lentil13"> અજમેર, રાજસ્થાન </string>
+    <string name="lentil14"> થુથુકુડી, તામિલનાડુ </string>
+    <string name="lentil15"> રામાનાથપુરમ, તામિલનાડુ </string>
+    <string name="lentil16"> શિવગંગાળ, તામિલનાડુ </string>
+    <string name="lentil17"> માલદા, પશ્ચિમ બંગાળ </string>
+    //maize
+    <string name="maize1"> ભિલવારા, રાજસ્થાન </string>
+    <string name="maize2"> દક્ષિણ કન્નડ, કર્ણાટક </string>
+    <string name="maize3"> સાબરકાંઠા, ગુજરાત </string>
+    <string name="maize4"> ઉદેપુર, ગુજરાત </string>
+    <string name="maize5"> બાંસવારા, રાજસ્થાન </string>
+    <string name="maize6"> પૂર્વ ગોદાવરી, આંધ્ર પ્રદેશ </string>
+    <string name="maize7"> ગોલાઘાટ, આસામ </string>
+    <string name="maize8"> કટિહાર, બિહાર </string>
+    <string name="maize9"> સમસ્તીપુર, બિહાર </string>
+    <string name="maize10"> મુઝફ્ફરપુર, બિહાર </string>
+    <string name="maize11"> સૂરજપુર, ચેટીસગ </string>
+    <string name="maize12"> બિલાસપુર, છત્તીસગ </string>
+    <string name="maize13"> બાંદીપોરા, જમ્મુ કાશ્મીર </string>
+    <string name="maize14"> કઠુઆ, જમ્મુ કાશ્મીર </string>
+    <string name="maize15"> મૈસુર, કર્ણાટક </string>
+    <string name="maize16"> પૂર્વ ગારો હિલ્સ, મેઘાલય </string>
+    <string name="maize17"> રાયગડા, ઓડિશા </string>
+    <string name="maize18"> બૌધ, ઓડિશા </string>
+    <string name="maize19"> તરણ તરણ, પંજાબ </string>
+    <string name="maize20"> સાસ નગર, પંજાબ </string>
+    <string name="maize21"> બરાન, રાજસ્થાન </string>
+    <string name="maize22"> ડુંગરપુર, રાજસ્થાન </string>
+    <string name="maize23"> તિરુચિરાપલ્લી, તમિલનાડુ </string>
+    <string name="maize24"> મુઝફ્ફરનગર, ઉત્તર પ્રદેશ </string>
+    <string name="maize25"> નીમચ, મધ્ય પ્રદેશ </string>
+    <string name="maize26"> બરવાની, મધ્યપ્રદેશ </string>
+    //peas
+    <string name="peas1"> મુઝફ્ફરનગર, ઉત્તર પ્રદેશ </string>
+    <string name="peas2"> ગ્વાલિયર, મધ્યપ્રદેશ </string>
+    <string name="peas3"> સિરમૌર, હિમાચલ પ્રદેશ </string>
+    <string name="peas4"> ભોપાલ, મધ્યપ્રદેશ </string>
+    <string name="peas5"> ધોલપુર, રાજસ્થાન </string>
+    <string name="peas6"> જાલ્ગોઆન, મહારાષ્ટ્ર </string>
+    <string name="peas7"> ભંડારા, મહારાષ્ટ્ર </string>
+    <string name="peas8"> મોગા, પંજાબ </string>
+    <string name="peas9"> ગુરદાસપુર, પંજાબ </string>
+    <string name="peas10"> જીંદ, હરિયાણા </string>
+    <string name="peas11"> બલારી, કર્ણાટક </string>
+    <string name="peas12"> નવાડા, બિહાર </string>
+    //pumpkin
+    <string name="pumpkin1"> બાલનગીર, ઓડિશા </string>
+    <string name="pumpkin2"> ચાંદૌલી, ઉત્તર પ્રદેશ </string>
+    <string name="pumpkin3"> સોનભદ્ર, ઉત્તર પ્રદેશ </string>
+    <string name="pumpkin4"> ઇન્દોર, મધ્યપ્રદેશ </string>
+    <string name="pumpkin5"> દુર્ગ, ચેટીસગ </string>
+    <string name="pumpkin6"> શિવમોગા, કર્ણાટક </string>
+    <string name="pumpkin7"> રોહતક, હરિયાણા </string>
+    <string name="pumpkin8"> પૂર્વ ખાસી હિલ્સ, મેઘાલય </string>
+    <string name="pumpkin9"> ગંગાનગર, રાજસ્થાન </string>
+    //rice
+    <string name="rice1"> દાર્જિલિંગ, પશ્ચિમ બંગાળ </string>
+    <string name="rice2"> મહારાજગંજ, ઉત્તર પ્રદેશ </string>
+    <string name="rice3"> નાસિક, મહારાષ્ટ્ર </string>
+    <string name="rice4"> ધુલે, મહારાષ્ટ્ર </string>
+    <string name="rice5"> પુણે, મહારાષ્ટ્ર </string>
+    <string name="rice6"> ગાંધીનગર, ગુજરાત </string>
+    <string name="rice7"> વડોદરા, ગુજરાત </string>
+    <string name="rice8"> નવસારી, ગુજરાત </string>
+    <string name="rice9"> વિઝિયાનાગારામ, આંધ્ર પ્રદેશ </string>
+    <string name="rice10"> પશ્ચિમ ગોદાવરી, આંધ્ર પ્રદેશ </string>
+    <string name="rice11"> કૃષ્ણ, આંધ્ર પ્રદેશ </string>
+    <string name="rice12"> ગુંટુર, આંધ્ર પ્રદેશ </string>
+    <string name="rice13"> પ્રકાશ, આંધ્રપ્રદેશ </string>
+    <string name="rice14"> પ્રકાશ, આંધ્રપ્રદેશ </string>
+    <string name="rice15"> કુર્નૂલ, આંધ્ર પ્રદેશ </string>
+    <string name="rice16"> અનંતપુર, આંધ્રપ્રદેશ </string>>
+    <string name="rice17"> વાયએસઆર કડપા, આંધ્રપ્રદેશ </string>
+    <string name="rice18"> નેલ્લોર, આંધ્ર પ્રદેશ </string>
+    <string name="rice19"> મોરીગાંવ, આસામ </string>
+    <string name="rice20"> કરબી એંગલોંગ, આસામ </string>
+    <string name="rice21"> જોરહટ, આસામ </string>
+    <string name="rice22"> તિનસુકાઇ, આસામ </string>
+    <string name="rice23"> અરરિયા, બિહાર </string>
+    <string name="rice24"> ભાગલપુર, બિહાર </string>
+    <string name="rice25"> સુપૌલ, બિહાર </string>
+    <string name="rice26"> મધુબાની, બિહાર </string>
+    <string name="rice27"> ગયા, બિહાર </string>
+    <string name="rice28"> પશ્ચિમ ચંપારણ, બિહાર </string>
+    <string name="rice29"> સિમલા, હિમાચલ પ્રદેશ </string>
+    <string name="rice30"> કિશ્તવાર, જમ્મુ કાશ્મીર </string>
+    <string name="rice31"> ઉધમપુર, જમ્મુ કાશ્મીર </string>
+    <string name="rice32"> જમ્મુ, જમ્મુ કાશ્મીર </string>
+    <string name="rice33"> કોપલ, કર્ણાટક </string>
+    <string name="rice34"> ઉત્તરા કન્નડ, કર્ણાટક </string>
+    <string name="rice35"> ઉડુપી, કર્ણાટક </string>
+    <string name="rice36"> કટક, ઓડિશા </string>>
+    <string name="rice37"> રૂપનગર, પંજાબ </string>
+    <string name="rice38"> અમૃતસર, પંજાબ </string>
+    <string name="rice39"> કપૂરથલા, પંજાબ </string>
+    <string name="rice40"> પઠાણકોટ, પંજાબ </string>
+    <string name="rice41"> સવાઈ માધપુર, રાજસ્થાન </string>
+    <string name="rice42"> સહારનપુર, ઉત્તર પ્રદેશ </string>
+    <string name="rice43"> ગાઝિયાબાદ, ઉત્તર પ્રદેશ </string>
+    <string name="rice44"> આગ્રા, ઉત્તર પ્રદેશ </string>
+    <string name="rice45"> ખેરિયા, ઉત્તર પ્રદેશ </string>
+    <string name="rice46"> બહરાઇચ, ઉત્તર પ્રદેશ </string>
+    //sesame
+    <string name="sesame1"> રાજકોટ, ગુજરાત </string>
+    <string name="sesame2"> બાંકુરા, પશ્ચિમ બંગાળ </string>
+    <string name="sesame3"> અમદાવાદ, ગુજરાત </string>
+    <string name="sesame4"> કરબી એંગલોંગ, આસામ </string>
+    <string name="sesame5"> ઉત્તર કેચર હિલ્સ, આસામ </string>
+    <string name="sesame6"> રોહતાસ, બિહાર </string>
+    <string name="sesame7"> હસન, કર્ણાટક </string>
+    <string name="sesame8"> પૂર્વા મેડિનીપુર, પશ્ચિમ બંગાળ </string>
+    <string name="sesame9"> બરવારા, ઉત્તર પ્રદેશ </string>
+    <string name="sesame10"> મુરેના, ઉત્તર પ્રદેશ </string>
+    //sorghum
+    <string name="sorghum1"> બીડ, મહારાષ્ટ્ર </string>
+    <string name="sorghum2"> હવેરી, કર્ણાટક </string>
+    <string name="sorghum3"> ધુલે, મહારાષ્ટ્ર </string>
+    <string name = "sorghum4"> નંદુરબાર, મહારાષ્ટ્ર </string>
+    <string name = "sorghum5"> પુણે, મહારાષ્ટ્ર </string>
+    <string name = "sorghum6"> અમદાવાદ, ગુજરાત </string>
+    <string name = "sorghum7"> વડોદરા, ગુજરાત </string>
+    <string name = "sorghum8"> ગુંટુર, આંધ્ર પ્રદેશ </string>
+    <string name = "sorghum9"> બેલગામ, કર્ણાટક </string>
+    <string name = "sorghum10"> બીજપુર, કર્ણાટક </string>
+    <string name="sorghum11"> કલાહંડી, ઓડિશા </string>
+    <string name="sorghum12"> કોરાપુટ, ઓડિશા </string>
+    <string name="sorghum13"> ઝાલાવાડ, રાજસ્થાન </string>
+    <string name = "sorghum14"> કોટા, રાજસ્થાન </string>
+    <string name="sorghum15"> મંદસૌર, મધ્યપ્રદેશ </string>
+    <string name="sorghum16"> નરસિંહપુર, મધ્ય પ્રદેશ </string>
+    //soybean
+    <string name="soybean1"> ભોપાલ, મધ્યપ્રદેશ </string>
+    <string name="soybean2"> નાગપુર, મહારાષ્ટ્ર </string>
+    <string name="soybean3"> કરાઉલી, રાજસ્થાન </string>
+    <string name="soybean4"> ભરતપુર, રાજસ્થાન </string>
+    <string name="soybean5"> પશ્ચિમ ત્રિપુરા, ત્રિપુરા </string>
+    <string name="soybean6"> ગોમતી, ​​ત્રિપુરા </string>
+    <string name="soybean7"> શિવપુરી, મધ્યપ્રદેશ </string>
+    <string name="soybean8"> છીંદવાડા, મધ્ય પ્રદેશ </string>
+    <string name="soybean9"> રાજગગઢ, મધ્યપ્રદેશ </string>
+    <string name="soybean10"> દોહદ, ગુજરાત </string>
+    //sugarcane
+    <string name="sugarcane1"> અહમદનગર, મહારાષ્ટ્ર </string>
+    <string name="sugarcane2"> અમરાવતી, મહારાષ્ટ્ર </string>
+    <string name="sugarcane3"> શ્રીકાકુલમ, આંધ્ર પ્રદેશ </string>
+    <string name="sugarcane4"> વિઝિયાનાગારામ, આંધ્ર પ્રદેશ </string>
+    <string name="sugarcane5"> વિશાખાપટ્ટનમ, આંધ્ર પ્રદેશ </string>
+    <string name="sugarcane6"> પશ્ચિમ ગોદાવરી, આંધ્ર પ્રદેશ </string>
+    <string name="sugarcane7"> કૃષ્ણા, આંધ્રપ્રદેશ </string>
+    <string name="sugarcane8"> ચિત્તૂર, આંધ્ર પ્રદેશ </string>
+    <string name="sugarcane9"> સોનીતપુર, આસામ </string>
+    <string name="sugarcane10"> કરીમગંજ, આસામ </string>
+    <string name="sugarcane11"> લખિમપુર, આસામ </string>
+    <string name="sugarcane12"> મધેપુર, બિહાર </string>
+    <string name="sugarcane13"> ઉના, હિમાચલ પ્રદેશ </string>
+    <string name="sugarcane14"> ઉધમપુર, જમ્મુ કાશ્મીર </string>
+    <string name="sugarcane15"> થ્રિસુર, કેરળ </string>
+    <string name="sugarcane16"> કેન્દ્રપરા, ઓડિશા </string>
+    <string name="sugarcane17"> હુગલી, પશ્ચિમ બંગાળ </string>
+    //tea
+    <string name="tea1"> નાગાઓન, આસામ </string>
+    <string name="tea2"> ઉત્તર ૨૪ પરગણા, પશ્ચિમ બંગાળ </string>
+    <string name="tea3"> જોરહટ, આસામ </string>
+    <string name="tea4"> કેચર, આસામ </string>
+    <string name="tea5"> કાંગરા, હિમાચલ પ્રદેશ </string>
+    <string name="tea6"> ઇડુક્કી, કેરળ </string>
+    <string name="tea7"> ધલાઈ, ત્રિપુરા </string>
+    <string name="tea8"> ખોવાઈ, ત્રિપુરા </string>
+    <string name="tea9"> દક્ષિણ ત્રિપુરા, ત્રિપુરા </string>
+    <string name="tea10"> સિપહિજલા, ત્રિપુરા </string>
+    <string name="tea11"> દાર્જિલિંગ, પશ્ચિમ બંગાળ </string>
+    //tobacco
+    <string name="tobacco1"> ખમ્મમ, તેલંગાણા </string>
+    <string name="tobacco2"> નેલ્લોર, આંધ્ર પ્રદેશ </string>
+    <string name="tobacco3"> ગુંટુર, આંધ્ર પ્રદેશ </string>
+    <string name="tobacco4"> પૂર્ણિયા, બિહાર </string>
+    <string name="tobacco5"> કતિહાર, બિહાર </string>
+    <string name="tobacco6"> આણંદ, ગુજરાત </string>
+    <string name="tobacco7"> નિપાની, કર્ણાટક </string>
+    <string name="tobacco8"> કોઈમ્બતુર, તામિલનાડુ </string>
+    <string name="tobacco9"> પૂર્વ ગોદાવરી, આંધ્ર પ્રદેશ </string>
+    <string name="tobacco10"> પશ્ચિમ ગોદાવરી, આંધ્ર પ્રદેશ </string>
+    <string name="tobacco11"> કન્નુર, કેરળ </string>
+    <string name="tobacco12"> હુશીપુર, પંજાબ </string>
+    <string name="tobacco13"> ગોમતી, ​​ત્રિપુરા </string>
+    <string name="tobacco14"> ઝાંસી, ઉત્તર પ્રદેશ </string>
+    <string name="tobacco15"> લલિતપુર, ઉત્તર પ્રદેશ </string>
+    <string name="tobacco16"> મણિપુર, ઉત્તર પ્રદેશ </string>
+    <string name="tobacco17"> સાગર, મધ્યપ્રદેશ </string>
+    <string name="tobacco18"> સત્ના, મધ્યપ્રદેશ </string>
+    //turmeric
+    <string name="turmeric1"> ચિત્તૂર, આંધ્ર પ્રદેશ </string>
+    <string name="turmeric2"> બારગગઢ, ઓડિશા </string>
+    <string name="turmeric3"> નેલ્લોર, આંધ્ર પ્રદેશ </string>
+    <string name="turmeric4"> ઇરોડ, તામિલનાડુ </string>
+    <string name="turmeric5"> જાજપુર, ઓડિશા </string>
+    <string name= "turmeric6"> નૌપડા, ઓડિશા </string>
+    <string name="turmeric7"> યાદગીર, કર્ણાટક </string>
+    <string name="turmeric8"> બીરભૂમ, પશ્ચિમ બંગાળ </string>
+    <string name="turmeric9"> મહીસાગર, ગુજરાત </string>
+    <string name="turmeric10"> ખેડા, ગુજરાત </string>
+    <string name="turmeric11"> દક્ષિણ પશ્ચિમ ખાસી હિલ્સ, મેઘાલય </string>
+    <string name="turmeric12"> ગોંડિયા, મહારાષ્ટ્ર </string>
+    <string name="turmeric13"> ધુબરી, આસામ </string>
+    <string name="turmeric14"> કોકરાઝાર, આસામ </string>
+    //wheat
+    <string name="wheat1"> સિરસા, હરિયાણા </string>
+    <string name="wheat2"> ખારગોન, મધ્યપ્રદેશ </string>
+    <string name="wheat3"> નાસિક, મહારાષ્ટ્ર </string>
+    <string name="wheat4"> અમરેલી, ગુજરાત </string>
+    <string name="wheat5"> પશ્ચિમ ગોદાવરી, આંધ્ર પ્રદેશ </string>
+    <string name="wheat6"> ગોલાઘાટ, આસામ </string>
+    <string name="wheat7"> બાર્પેટા, આસામ </string>
+    <string name="wheat8"> બક્સર, બિહાર </string>
+    <string name="wheat9"> ભોજપુર, બિહાર </string>
+    <string name="wheat10"> સિરમૌર, હિમાચલ પ્રદેશ </string>
+    <string name="wheat11"> ઉધમપુર, જમ્મુ કાશ્મીર </string>
+    <string name="wheat12"> જમ્મુ, જમ્મુ કાશ્મીર </string>
+    <string name="wheat13"> ધારવાડ, કર્ણાટક </string>
+    <string name="wheat14"> મયુરભંજ, ઓડિશા </string>
+    <string name="wheat15"> સુંદરગગઢ, ઓડિશા </string>
+    <string name="wheat16"> દેબગh, ઓડિશા </string>
+    <string name="wheat18"> ગજપતિ, ઓડિશા </string>
+    <string name="wheat19"> ભિલવારા, રાજસ્થાન </string>
+    <string name="wheat20"> અલવર, રાજસ્થાન </string>
+    <string name="wheat21"> ગંગાનગર, રાજસ્થાન </string>
+    <string name="wheat22"> હનુમાનગ,, રાજસ્થાન </string>
+    <string name="wheat23"> પૌરી ગarhવાલ, ઉત્તરાખંડ </string>
+    <string name="wheat24"> મુર્શિદાબાદ, પશ્ચિમ બંગાળ </string>
+    <string name="wheat25"> નાડિયા, પશ્ચિમ બંગાળ </string>
+    <string name="wheat26"> કુશીનગર, ઉત્તર પ્રદેશ </string>
+    <string name="wheat27"> શાહજહાંપુર, ઉત્તર પ્રદેશ </string>
+    <string name="wheat28"> બરેલી, ઉત્તર પ્રદેશ </string>
+
+    //if own location clicked then weather
+    <string name="if_weather"> હવામાન અને પાકના સૂચનો </string>
+    <string name="if_weather_msg"> શું તમે હવામાનની આગાહી જાણવા અને તમારા સ્થાન અનુસાર પાક સૂચનો મેળવવા માંગો છો? </string>
+    <string name="yes"> હા </string>
+    <string name="no"> ના </string>
+
+    <string name = "action_search"> શોધ </string>
+    <string name = "action_refresh"> ફરીથી લોડ કારો </string>
+    <string name = "action_settings"> સેટિંગ્સ </string>
+    <string name = "action_about">વિશે </string>
+
+    <string name = "today"> આજે </string>
+    <string name = "tomorrow"> આવતીકાલે </string>
+    <string name = "later"> પછીથી </string>
+
+    <string name = "wind"> પવન </string>
+    <string name = "wind_speed"> પવનની ગતિ </string>
+    <string name = "pressure"> દબાણ </string>
+    <string name = "humidity"> ભેજ </string>
+    <string name = "sunrise"> સૂર્યોદય </string>
+    <string name = "sunset"> સૂર્યાસ્ત </string>
+    <string name = "uvindex"> યુવી અનુક્રમણિકા </string>
+
+
+    <string name="last_update">છેલ્લે અપડેટ કર્યું:\n%s</string>
+    <string name="last_update_widget">\nછેલ્લો સુધારો: %s</string>
+
+    <string name="search_title">શહેર માટે શોધ</string>
+
+    <string name="downloading_data">તમારો ડેટા ડાઉનલોડ કરી રહ્યાં છે ...</string>
+    <string name="getting_location">તમારું સ્થાન મેળવી રહ્યું છે ...</string>
+
+    <string name="loading_data">લોડ કરી રહ્યું છે ...</string>
+
+    <string name="error_dateFormat">DATE FORMAT ERROR</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <!--    <string name="setting_dateFormat">Date Format</string>-->
+    <!--    <string name="setting_dateFormatCustom">Custom Date Format</string>-->
+    <!--    <string name="setting_dateFormatCustom_summary">Provide the custom SimpleDateFormat string to be used</string>-->
+    <!--    <string name="setting_lengthUnits">Length units</string>-->
+    <!--    <string name="setting_speedUnits">Speed units</string>-->
+    <!--    <string name="setting_tempUnits">Temperature units</string>-->
+    <!--    <string name="setting_showTempAsInteger">Show temperature only as an integer</string>-->
+    <!--    <string name="setting_pressureUnits">Pressure units</string>-->
+    <!--    <string name="setting_theme">Theme</string>-->
+    <!--    <string name="setting_transparent_widget">Make widget transparent</string>-->
+    <!--    <string name="setting_auto_detect_location">Detect Location</string>-->
+    <!--    <string name="setting_differentiateDaysByTint">Differentiate Days with Color</string>-->
+    <string name="setting_refreshInterval">પૃષ્ઠભૂમિ ફરીથી લોડ અંતરાલ</string>
+    <string name="setting_unit_mps"> મીટર પ્રતિ સેકંડ (એમ / સે)</string>
+        <string name="setting_unit_kph">Kilometers per hour (kph)</string>
+        <string name="setting_unit_mph">Miles per hour (mph)</string>
+        <string name="setting_unit_bft">Beaufort wind scale (bft)</string>
+        <string name="setting_unit_kn">Knots (kn)</string>
+    <!--    <string name="setting_wind_direction_format">Wind direction format</string>-->
+        <string name="settings_none">None</string>
+    <!--    <string name="setting_apiKey">API key</string>-->
+    <!--    <string name="setting_apiKey_summary">Custom API key for OpenWeatherMap queries</string>-->
+
+    <string name="setting_unit_Celsuis">સેલ્સિયસ</string>
+        <string name="setting_unit_Fahrenheit">Fahrenheit</string>
+        <string name="setting_unit_Kelvin">Kelvin</string>
+
+    <string name="setting_unit_mm">મિલીમીટર(મીમી)</string>
+        <string name="setting_unit_in">इंच (in)</string>
+
+    <string name="setting_unit_hpa">એચ પીએ</string>
+        <string name="setting_unit_kpa">kPa</string>
+        <string name="setting_unit_mmhg">mm Hg</string>
+        <string name="setting_unit_inhg">in Hg</string>
+
+    <string name="speed_unit_mps">એમ / સે</string>
+        <string name="speed_unit_kph">kph</string>
+        <string name="speed_unit_mph">mph</string>
+        <string name="speed_unit_kn">kn</string>
+
+        <string name="wind_direction_format_none">No indication</string>
+        <string name="wind_direction_format_arrows">Arrows</string>
+        <string name="wind_direction_format_abbreviations">Abbreviations</string>
+
+    <string name="pressure_unit_hpa">એચ પીએ</string>
+        <string name="pressure_unit_kpa">kPa</string>
+        <string name="pressure_unit_mmhg">mm Hg</string>
+
+    <!--    <string name="setting_theme_fresh">Fresh</string>-->
+    <!--    <string name="setting_theme_classic">Classic</string>-->
+    <!--    <string name="setting_theme_dark">Fresh Dark</string>-->
+    <!--    <string name="setting_theme_classic_dark">Classic Dark</string>-->
+    <!--    <string name="setting_theme_black">Fresh Black</string>-->
+    <!--    <string name="setting_theme_classic_black">Classic Black</string>-->
+
+    <string name="dialog_ok">ઠીક છે</string>
+    <string name="dialog_cancel">રદ કરો</string>
+
+    <string name="msg_err_parsing_json">કનેક્શન સમયસમાપ્તિ.</string>
+    <string name="msg_connection_problem">તમારા ઇન્ટરનેટ કનેક્શનમાં સમસ્યા છે.</string>
+    <string name="msg_connection_not_available">કનેક્શન ઉપલબ્ધ નથી.</string>
+    <string name="msg_city_not_found">ઉલ્લેખિત શહેર મળ્યું નથી.</string>
+
+    <string name="weather_sunny" translatable="false">&#xf00d;</string>
+    <string name="weather_clear_night" translatable="false">&#xf02e;</string>
+    <string name="weather_foggy" translatable="false">&#xf014;</string>
+    <string name="weather_cloudy" translatable="false">&#xf013;</string>
+    <string name="weather_rainy" translatable="false">&#xf019;</string>
+    <string name="weather_snowy" translatable="false">&#xf01b;</string>
+    <string name="weather_thunder" translatable="false">&#xf01e;</string>
+    <string name="weather_drizzle" translatable="false">&#xf01c;</string>
+
+
+    <string name="wind_direction_north">N</string>
+    <string name="wind_direction_north_north_east">NNE</string>
+    <string name="wind_direction_north_east">NE</string>
+    <string name="wind_direction_east_north_east">ENE</string>
+    <string name="wind_direction_east">E</string>
+    <string name="wind_direction_east_south_east">ESE</string>
+    <string name="wind_direction_south_east">SE</string>
+    <string name="wind_direction_south_south_east">SSE</string>
+    <string name="wind_direction_south">S</string>
+    <string name="wind_direction_south_south_west">SSW</string>
+    <string name="wind_direction_south_west">SW</string>
+    <string name="wind_direction_west_south_west">WSW</string>
+    <string name="wind_direction_west">W</string>
+    <string name="wind_direction_west_north_west">WNW</string>
+    <string name="wind_direction_north_west">NW</string>
+    <string name="wind_direction_north_north_west">NNW</string>
+    <string name="msg_too_many_requests">ઘણી બધી વિનંતીઓ. મેહરબાની કરી ને ફરી થી પ્રયાસ કરો.</string>
+
+    <!-- 1: temperature; 2: unit -->
+    <string name="dash_clock_status">%1$s%2$s</string>
+    <!-- 1: temperature; 2: unit; 3: weather description -->
+    <string name="dash_clock_expanded_title">%1$s%2$s - %3$s</string>
+    <!-- 1: city; 2: country; 3: wind; 4: speed units; 5: pressure; 6: pressure units; 7: humidity -->
+    <string name="dash_clock_expanded_body">%1$s, %2$s\nપવન: %3$s %4$s\nદબાણ: %5$s %6$s\nભેજ: %7$s %%\n</string>
+    <!--    <string name="settings_title_units">Units</string>-->
+    <!--    <string name="settings_title_display">Display</string>-->
+    <string name="settings_title_data">ડેટા</string>
+    <!--    <string name="setting_displayDecimalZeroes">Display decimal zeroes</string>-->
+    <string name="settings_title_location">સ્થાન</string>
+    <string name="setting_update_location_automatically">પૃષ્ઠભૂમિમાં સ્થાન અપડેટ કરો</string>
+
+    <string name="location_settings">સ્થાન સેટિંગ્સ</string>
+    <string name="location_settings_message">સ્થાન સક્ષમ નથી. શું તમે સેટિંગ્સ મેનૂ પર જવા માંગો છો?</string>
+    <string name="location_settings_button">સેટિંગ્સ</string>
+    <string name="action_weather_map">હવામાન નકશો</string>
+    <string name="rain">વરસાદ</string>
+    <string name="temperature">તાપમાન</string>
+    <!--    <string name="action_graphs">Graphs</string>-->
+    <!--    <string name="app_sign_name">Weathercast</string>-->
+    <!--    <string name="pref_previously_started" />-->
+    <string name="permission_request_denied">પરવાનગી વિનંતી નકારી</string>
+    <!--    <string name="error_gif">x or y bound size should be at least %1$dpx and file size should be no more than %2$sM</string>-->
+    <string name="button_sure_default">થઈ ગયું</string>
+    <string name="button_sure">બહાર નીકળો</string>
+    <!--    <string name="button_preview">Pin</string>-->
+
+    //weather my strings
+    <string name="thunderstorm"> ઘણા વિસ્તારોમાં જોરદાર પવન અને વીજળી પડવાની સંભાવના છે. </string>
+    <string name="drizzle"> અલગતા વરસાદથી થોડા પ્રદેશો ઠંડા પડે છે, જ્યારે અન્ય લોકો ગરમ રહે છે </string>
+    <string name="rain1"> અલગતા વરસાદથી થોડા પ્રદેશો ઠંડા પડે છે, જ્યારે અન્ય લોકો ગરમ રહે છે </string>
+    <string name="snow"> શહેરના બરફથી ઢંકાયેલા રસ્તાઓ દ્વારા સમય પસાર થાય છે.. </string>
+    <string name="mist"> સમય શહેરના ઝાકળથી ઢંકાયેલા વિસ્તારમાંથી પસાર થાય છે. </string>
+    <string name="smoke"> ડસ્ટ સ્ટોર્મ કેટલાક ક્ષેત્રમાં હવાનું ગુણવત્તા નક્કી કરવા માટે. </string>
+    <string name="haze_clear"> આકાશમાં વાદળો ન હોવાનો સ્પષ્ટ અને આનંદકારક દિવસ. </string>
+    <string name="dust_sand"> કેટલાક ક્ષેત્રમાં હવાની ગુણવત્તા બગડવાની ધૂળની વાવાઝોડા. </string>
+    <string name="fog"> લઘુત્તમ તાપમાનમાં ઘટાડો થવાની સંભાવના સાથે બીજો એક ફુગી દિવસ. </string>
+    <string name="ash"> જ્વાળામુખી હિંસક રીતે આકાશમાં સ્પાય રાઈ અને ધૂમ્રપાન ફેલાવે છે. </string>
+    <string name="squall"> વરસાદની સંભાવના સાથે અચાનક પવનની ગતિમાં તીવ્ર વધારો. </string>
+    <string name="clouds"> વાદળો દ્વારા અસ્પષ્ટ આકાશનું અપૂર્ણાંક, વરસાદની સંભાવના. </string>
+    <string name="more_info"> વધુ માહિતી </string>
+
+    //Suggestions
+    <string name="suggestion_button">પાક સૂચનો</string>
+    <string name="weatherinfo_suggestion"> હવામાન માહિતી </string>
+    <string name="today_temperature"> આજનું તાપમાન: </string>
+    <string name="ok_got_it"> ઠીક છે, સમજી ગયા </string>
+    <string name="today_humidity"> આજની ભેજ: </string>
+
+    //Crop identification Camera activity
+    <string name="classify_button">વર્ગીકરણ કરવું</string>
+    <string name="crop_label">પાક નામ</string>
+    <string name="crop_confidence">ચોકસાઈ</string>
+    <string name="crop_more_details">વધુ વિગતો</string>
+    
 
     //Crop info page
     <string name="cropnametext"> પાકનું નામ : </string>
