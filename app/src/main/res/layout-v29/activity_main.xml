@@ -8,289 +8,20 @@
     android:background="@drawable/background1"
     tools:context=".MainActivity">
 
-
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-
     <TextView
         android:id="@+id/tagline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerView"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:text="Interacting with crops through a new eye"
-        android:layout_marginBottom="5dp"
-        android:textSize="34sp"
-        android:padding="5dp"
-        android:layout_marginTop="20dp"
+        android:text="@string/tagline"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/gblack"
+        android:layout_marginBottom="15dp"
         android:textStyle="bold"
-        android:textColor="@color/gblack"/>
-
-
-        <HorizontalScrollView
-            android:id="@+id/cardview"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:fillViewport="true"
-            android:scrollbars="none"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="400dp"
-                android:layout_marginTop="160dp"
-                android:paddingTop="15dp">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="250dp"
-                    android:layout_height="350dp"
-                    android:layout_marginStart="15.4dp"
-                    android:layout_marginLeft="15.4dp"
-                    android:layout_marginEnd="10dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginBottom="60dp"
-                    android:elevation="0dp"
-                    android:clickable="true"
-                    android:contextClickable="true"
-                    android:onClick="identification"
-                    app:cardCornerRadius="25dp"
-                    app:cardElevation="15dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@color/bg1"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="15.4dp"
-                            android:layout_marginLeft="15.4dp"
-                            android:layout_marginTop="10dp"
-                            android:lineSpacingExtra="2sp"
-                            android:text="Snap &amp; Identify at Once"
-                            android:textColor="#131314"
-                            android:textSize="20sp" />
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="15dp"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/finalimg1_nobg" />
-
-
-                        <!--                    <TextView-->
-                        <!--                        android:layout_width="wrap_content"-->
-                        <!--                        android:layout_height="wrap_content"-->
-                        <!--                        android:textSize="13.4sp"-->
-                        <!--                        android:textColor="#8f8f8f"-->
-                        <!--                        android:layout_gravity="center"-->
-                        <!--                        android:layout_marginLeft="15.4dp"-->
-                        <!--                        android:layout_marginRight="15.4dp"-->
-                        <!--                        android:layout_marginTop="8dp"-->
-                        <!--                        android:lineSpacingExtra="2.3sp"-->
-                        <!--                        android:text="Identical Towers, Identical Wonders. Enjoy and capture the spires…"-->
-                        <!--                        />-->
-
-
-                    </LinearLayout>
-
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="250dp"
-                    android:layout_height="350dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginEnd="16.8dp"
-                    android:layout_marginRight="16.8dp"
-                    android:clickable="true"
-                    android:onClick="map"
-                    android:layout_marginBottom="60dp"
-                    android:elevation="0dp"
-                    app:cardCornerRadius="25dp"
-                    app:cardElevation="15dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@color/bg2a"
-                        android:orientation="vertical">
-
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="15.4dp"
-                            android:layout_marginLeft="15.4dp"
-                            android:layout_marginTop="10dp"
-                            android:lineSpacingExtra="2.5sp"
-                            android:text="Explore on Map"
-                            android:textColor="#131314"
-                            android:textSize="20sp" />
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="15dp"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/finalimg2_nobg" />
-
-
-                        <!--                    <TextView-->
-                        <!--                        android:layout_width="wrap_content"-->
-                        <!--                        android:layout_height="wrap_content"-->
-                        <!--                        android:textSize="13.4sp"-->
-                        <!--                        android:textColor="#8f8f8f"-->
-                        <!--                        android:layout_gravity="center"-->
-                        <!--                        android:layout_marginLeft="15.4dp"-->
-                        <!--                        android:layout_marginRight="15.4dp"-->
-                        <!--                        android:layout_marginTop="5dp"-->
-                        <!--                        android:lineSpacingExtra="2sp"-->
-                        <!--                        android:text="Identical Towers, Identical Wonders. Enjoy and capture the spires…"-->
-                        <!--                        />-->
-
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="250dp"
-                    android:layout_height="350dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginEnd="16.8dp"
-                    android:layout_marginRight="16.8dp"
-                    android:layout_marginBottom="60dp"
-                    android:elevation="0dp"
-                    android:clickable="true"
-                    android:onClick="live"
-                    app:cardCornerRadius="25dp"
-                    app:cardElevation="15dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@color/white"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="15.4dp"
-                            android:layout_marginLeft="15.4dp"
-                            android:layout_marginTop="10dp"
-                            android:lineSpacingExtra="2.5sp"
-                            android:text="Real Time Crop Identification"
-                            android:textColor="#131314"
-                            android:textSize="20sp" />
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="15dp"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/finalimg4_nobg" />
-
-
-                        <!--                    <TextView-->
-                        <!--                        android:layout_width="wrap_content"-->
-                        <!--                        android:layout_height="wrap_content"-->
-                        <!--                        android:textSize="13.4sp"-->
-                        <!--                        android:textColor="#8f8f8f"-->
-                        <!--                        android:layout_gravity="center"-->
-                        <!--                        android:layout_marginLeft="15.4dp"-->
-                        <!--                        android:layout_marginRight="15.4dp"-->
-                        <!--                        android:layout_marginTop="8dp"-->
-                        <!--                        android:lineSpacingExtra="2.3sp"-->
-                        <!--                        android:text="Identical Towers, Identical Wonders. Enjoy and capture the spires…"-->
-                        <!--                        />-->
-
-
-                    </LinearLayout>
-
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="250dp"
-                    android:layout_height="350dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginEnd="16.8dp"
-                    android:layout_marginRight="16.8dp"
-                    android:layout_marginBottom="60dp"
-                    android:elevation="0dp"
-                    android:clickable="true"
-                    android:onClick="export"
-                    app:cardCornerRadius="25dp"
-                    app:cardElevation="15dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@color/bg3a"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="15.4dp"
-                            android:layout_marginLeft="15.4dp"
-                            android:layout_marginTop="10dp"
-                            android:lineSpacingExtra="2.5sp"
-                            android:text="Crop Info be Exported"
-                            android:textColor="#131314"
-                            android:clickable="true"
-                            android:textSize="20sp" />
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="15dp"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/finalimg3_nobg" />
-
-
-                        <!--                    <TextView-->
-                        <!--                        android:layout_width="wrap_content"-->
-                        <!--                        android:layout_height="wrap_content"-->
-                        <!--                        android:textSize="13.4sp"-->
-                        <!--                        android:textColor="#8f8f8f"-->
-                        <!--                        android:layout_gravity="center"-->
-                        <!--                        android:layout_marginLeft="15.4dp"-->
-                        <!--                        android:layout_marginRight="15.4dp"-->
-                        <!--                        android:layout_marginTop="8dp"-->
-                        <!--                        android:lineSpacingExtra="2.3sp"-->
-                        <!--                        android:text="Identical Towers, Identical Wonders. Enjoy and capture the spires…"-->
-                        <!--                        />-->
-
-
-                    </LinearLayout>
-
-
-                </androidx.cardview.widget.CardView>
-
-
-            </LinearLayout>
-        </HorizontalScrollView>
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        android:textSize="34sp"
+        android:padding="10dp"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
@@ -298,11 +29,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="35dp"
         android:backgroundTint="@color/white"
         android:clickable="true"
         android:focusable="true"
-        android:focusableInTouchMode="true"
         android:src="@drawable/ic_baseline_camera_enhance_24"
         app:fabCustomSize="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -315,17 +45,23 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="0dp"
-        app:itemIconTint="@color/gblack"
-        app:itemTextColor="@color/gblack"
+        app:itemIconTint="@drawable/tab_color"
+        app:itemTextColor="@drawable/tab_color"
+        android:background="@drawable/actionbar_gradient"
+        app:itemRippleColor="@color/white"
         app:labelVisibilityMode="labeled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_nav_menu" />
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/customBottomNavBar"
+        android:layout_marginBottom="50dp" />
 
-<!--        <include-->
-<!--            layout="@layout/horizontal_view"/>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
