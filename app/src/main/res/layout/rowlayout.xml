@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="230dp"
+    app:cardElevation="15dp"
+    android:padding="5dp"
+    app:cardCornerRadius="15dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    android:id="@+id/cardview"
+    android:clickable="true"
+    android:background="@drawable/custom_item_layout"
+    android:layout_marginLeft="10dp">
+    <!--
+    grid items for RecyclerView
+    -->
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/bg1">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/gblack"
+            android:layout_marginLeft="15.4dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-light"
+            android:text="Snap &amp; Identify at Once"
+            android:layout_marginStart="5dp" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/image1"/>
+
+    </LinearLayout>
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/image"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:scaleType="fitXY"-->
+<!--        android:src="@mipmap/ic_launcher" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/name"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:text="ABCD"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textColor="#fff" />-->
+
+
+</androidx.cardview.widget.CardView>

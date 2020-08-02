@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:layout_marginLeft="20dip"
+    android:layout_marginRight="20dip"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:text="@string/loc_permission_line1"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_hidden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:padding="5sp"
+            android:text="@string/loc_permission_line2"
+            android:lineSpacingExtra="2sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:drawableLeft="@drawable/ic_action_my_location"
+            android:drawablePadding="5dp"
+            android:text="@string/loc_permission_line3"
+            android:padding="5sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_action_my_location"
+            android:textSize="15sp"
+            android:text="@string/loc_permission_line4"
+            android:padding="5sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:text="@string/loc_permission_line5"
+            android:padding="5sp"
+            />
+    </LinearLayout>
+    <RelativeLayout  android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/know_more"
+            android:text="@string/loc_permission_know_more"
+            android:textColor="@color/gblue"
+            android:background="@android:color/transparent"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/no_thanks"
+                android:text="@string/loc_permission_no_thanks"
+                android:textColor="@color/gred"
+
+                android:background="@android:color/transparent"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/OK"
+                android:text="@string/loc_permission_ok"
+                android:textColor="@color/ggreen"
+                android:background="@android:color/transparent"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+
+
+

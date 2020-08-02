@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background1"
+    tools:context=".activities.SuggestionsActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--bitter gourd-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bitter_cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:cardCornerRadius="12dp"
+                android:elevation="6dp"
+                android:layout_margin="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgcar0"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/bittergourd_img" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title0"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/bg_name"
+                            android:textColor="@color/grey_800"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif"/>
+                        <TextView
+                            android:id="@+id/subtitle0"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/bg_sciname"
+                            android:textColor="@color/colorMain"
+                            android:textSize="15sp"
+                            android:textStyle="bold|italic"
+                            android:fontFamily="sans-serif"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+            <!--chilli-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/chilli_cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:elevation="6dp"
+                android:visibility="gone"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgcar1"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/chilly_img" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/chilly_name"
+                            android:textColor="@color/grey_800"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif"/>
+                        <TextView
+                            android:id="@+id/subtitle1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/chilly_sciname"
+                            android:textColor="@color/colorMain"
+                            android:textSize="15sp"
+                            android:textStyle="bold|italic"
+                            android:fontFamily="sans-serif"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!--coffee-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/coffee_cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="6dp"
+                android:visibility="gone"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgcar2"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/coffee_img" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/coffee_name"
+                            android:textColor="@color/grey_800"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif"/>
+                        <TextView
+                            android:id="@+id/subtitle2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/coffee_sciname"
+                            android:textColor="@color/colorMain"
+                            android:textSize="15sp"
+                            android:textStyle="bold|italic"
+                            android:fontFamily="sans-serif"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!--cotton-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cotton_cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:elevation="6dp"
+                android:visibility="gone"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgcar3"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/cotton_img" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/cotton_name"
+                            android:textColor="@color/grey_800"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif"/>
+                        <TextView
+                            android:id="@+id/subtitle3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/cotton_sciname"
+                            android:textColor="@color/colorMain"
+                            android:textSize="15sp"
+                            android:textStyle="bold|italic"
+                            android:fontFamily="sans-serif"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!--lentil-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lentil_cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:elevation="6dp"
+                android:visibility="gone"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgcar17"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/lentils_img" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title17"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/lentil_name"
+                            android:textColor="@color/grey_800"
+                            android:textSize="25sp"
+                            android:textStyle="bold" android:fontFamily="sans-serif" />
+                        <TextView
+                            android:id="@+id/subtitle17"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/lentil_sciname"
+                            android:textColor="@color/colorMain"
+                            android:textSize="15sp"
+                            android:textStyle="bold|italic"
+                            android:fontFamily="sans-serif"/>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!--maize-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/maize_cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:elevation="6dp"
+                android:visibility="gone"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgcar4"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/maize_img" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/maize_name"
+                            android:textColor="@color/grey_800"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif"/>
+                        <TextView
+                            android:id="@+id/subtitle4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/maize_sciname"
+                            android:textColor="@color/colorMain"
+                            android:textSize="15sp"
+                            android:textStyle="bold|italic"
+                            android:fontFamily="sans-serif"/>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!--methi-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/methi_cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:elevation="6dp"
+                android:visibility="gone"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgcar5"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/methi_img" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/methi_name"
+                            android:textColor="@color/grey_800"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif"/>
+                        <TextView
+                            android:id="@+id/subtitle5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/methi_sciname"
+                            android:textColor="@color/colorMain"
+                            android:textSize="15sp"
+                            android:textStyle="bold|italic"
+                            android:fontFamily="sans-serif"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!--mustard-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/rai_cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:elevation="6dp"
+                android:visibility="gone"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgcar6"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/mustard_img" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/mustard_name"
+                            android:textColor="@color/grey_800"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif"/>
+                        <TextView
+                            android:id="@+id/subtitle6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/mustard_sciname"
+                            android:textColor="@color/colorMain"
+                            android:textSize="15sp"
+                            android:textStyle="bold|italic"
+                            android:fontFamily="sans-serif"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!--peas-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/peas_cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:elevation="6dp"
+                android:visibility="gone"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgcar7"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/peas_img" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/peas_name"
+                            android:textColor="@color/grey_800"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif"/>
+                        <TextView
+                            android:id="@+id/subtitle7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/peas_sciname"
+                            android:textColor="@color/colorMain"
+                            android:textSize="15sp"
+                            android:textStyle="bold|italic"
+                            android:fontFamily="sans-serif"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!--pum-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/pum_cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:elevation="6dp"
+                android:visibility="gone"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgcar8"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/pum_img" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/pumpkin_name"
+                            android:textColor="@color/grey_800"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif"/>
+                        <TextView
+                            android:id="@+id/subtitle8"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/pumpkin_sciname"
+                            android:textColor="@color/colorMain"
+                            android:textSize="15sp"
+                            android:textStyle="bold|italic"
+                            android:fontFamily="sans-serif"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!--rice-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/rice_cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:elevation="6dp"
+                android:visibility="gone"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgcar9"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/rice_img" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title9"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/rice_name"
+                            android:textColor="@color/grey_800"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif"/>
+                        <TextView
+                            android:id="@+id/subtitle9"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/rice_sciname"
+                            android:textColor="@color/colorMain"
+                            android:textSize="15sp"
+                            android:textStyle="bold|italic"
+                            android:fontFamily="sans-serif"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!--sesame-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sesame_cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:elevation="6dp"
+                android:visibility="gone"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgcar15"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/sesame_img" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title15"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/sesame_name"
+                            android:textColor="@color/grey_800"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif"/>
+                        <TextView
+                            android:id="@+id/subtitle15"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/sesame_sciname"
+                            android:textColor="@color/colorMain"
+                            android:textSize="15sp"
+                            android:textStyle="bold|italic"
+                            android:fontFamily="sans-serif"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!--sorghum-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sor_cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:elevation="6dp"
+                android:visibility="gone"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgcar16"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/sorghum_img" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title16"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/sorghum_name"
+                            android:textColor="@color/grey_800"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif"/>
+                        <TextView
+                            android:id="@+id/subtitle16"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/sorghum_sciname"
+                            android:textColor="@color/colorMain"
+                            android:textSize="15sp"
+                            android:textStyle="bold|italic"
+                            android:fontFamily="sans-serif"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!--soyabean-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/soy_cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:elevation="6dp"
+                android:visibility="gone"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgcar10"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/soyabean_img" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title10"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/soybean_name"
+                            android:textColor="@color/grey_800"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif"/>
+                        <TextView
+                            android:id="@+id/subtitle10"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/soybean_sciname"
+                            android:textColor="@color/colorMain"
+                            android:textSize="15sp"
+                            android:textStyle="bold|italic"
+                            android:fontFamily="sans-serif"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!--sugarcane-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sugar_cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:elevation="6dp"
+                android:visibility="gone"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgcar11"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/sugarcane_img" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title11"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/sugarcane_name"
+                            android:textColor="@color/grey_800"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif"/>
+                        <TextView
+                            android:id="@+id/subtitle11"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/sugarcane_sciname"
+                            android:textColor="@color/colorMain"
+                            android:textSize="15sp"
+                            android:textStyle="bold|italic"
+                            android:fontFamily="sans-serif"/>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!--tea-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/tea_cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:elevation="6dp"
+                android:visibility="gone"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgcar18"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/tea_img" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title18"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/tea_name"
+                            android:textColor="@color/grey_800"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif"/>
+                        <TextView
+                            android:id="@+id/subtitle18"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/tea_sciname"
+                            android:textColor="@color/colorMain"
+                            android:textSize="15sp"
+                            android:textStyle="bold|italic"
+                            android:fontFamily="sans-serif"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!--tobacco-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/tob_cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:elevation="6dp"
+                android:visibility="gone"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgcar14"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/tobacco_img" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title14"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/tobacco_name"
+                            android:textColor="@color/grey_800"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif"/>
+                        <TextView
+                            android:id="@+id/subtitle14"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/tobacco_sciname"
+                            android:textColor="@color/colorMain"
+                            android:textSize="15sp"
+                            android:textStyle="bold|italic"
+                            android:fontFamily="sans-serif"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!--turmeric-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/tur_cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:elevation="6dp"
+                android:visibility="gone"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgcar12"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/turmeric_img" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title12"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/turmeric_name"
+                            android:textColor="@color/grey_800"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif"/>
+                        <TextView
+                            android:id="@+id/subtitle12"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/turmeric_sciname"
+                            android:textColor="@color/colorMain"
+                            android:textSize="15sp"
+                            android:textStyle="bold|italic"
+                            android:fontFamily="sans-serif"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <!--wheat-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/wheat_cv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:elevation="6dp"
+                android:visibility="gone"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imgcar13"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/wheat_img" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title13"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/wheat_name"
+                            android:textColor="@color/grey_800"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:fontFamily="sans-serif"/>
+                        <TextView
+                            android:id="@+id/subtitle13"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/wheat_sciname"
+                            android:textColor="@color/colorMain"
+                            android:textSize="15sp"
+                            android:textStyle="bold|italic"
+                            android:fontFamily="sans-serif"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_home_24"
+            android:tint="@color/gblack"
+            android:layout_gravity="end"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp" />
+    </LinearLayout>
+
+</RelativeLayout>
