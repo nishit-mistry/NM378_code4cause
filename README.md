@@ -18,18 +18,22 @@ Cropifier is a AI based mobile application developed to identify crop using only
 
 7. **Crop Information Sharing** - Save crop information file in all 4 different langauges and share with anyone,anywhere.
 
+8. **Crop Suggestions using Weather** - Weather details and forecast are used to get customized crop suggestions.
+
+9. **Offline Access to Crop Information** - Get information about multiple crops without Crops with Internet.
+
+10. **Cross Platform Compatibility** - Available in both Android and iOS devices.
+
 
 ## **Screenshots**
-![Image of Yaktocat](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/image123.png)
-Photo of splash screen along with a plant sapling been identified
-![Image of Yaktocat](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/image456.png)
-Photo of crop information in different language and livefeed
-![Image of Yaktocat](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/image789.png)
-Photo of regional,country view of map and on clicking the marker short info of that crop is displayed
-
-## **Mentors**
-- https://github.com/techgeeks18
-- https://github.com/softwarekranti
+![Image of Yaktocat](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/collage1.png)
+Multi-Lingual Support
+![Image of Yaktocat](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/collage2.png)
+Crops in initial growth stages can also be identified
+![Image of Yaktocat](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/collage3.png)
+Regional and Country View of map along with crop suggestions using weather conditions 
+![Image of Yaktocat](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/collage4.png)
+Real time crop identification and Offline access to information
 
 ## **Authors**
 - https://github.com/nmistry45
@@ -38,4 +42,9 @@ Photo of regional,country view of map and on clicking the marker short info of t
 - https://github.com/ParthJ39
 - https://github.com/4mi0607
 - https://github.com/NillShah 
+
+## **Mentors**
+- https://github.com/techgeeks18
+- https://github.com/softwarekranti
+
 
