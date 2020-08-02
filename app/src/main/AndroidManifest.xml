@@ -63,6 +63,15 @@
         <activity android:name=".DetectorActivity"
             android:theme="@style/SplashScreen"
             android:screenOrientation="portrait"/>
+        
+        <activity
+            android:name=".CropInfo"
+            android:parentActivityName=".KnowMore_Offline"
+            android:screenOrientation="portrait" />
+        <activity android:name=".KnowMore_Offline"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"/>
+
 
         <provider
             android:name=".GenericFileProvider"
