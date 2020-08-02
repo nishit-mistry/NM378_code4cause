@@ -1,0 +1,180 @@
+<!--suppress ALL -->
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@+id/viewApp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:id="@+id/toolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="664dp"
+        android:background="@color/white">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:titleTextColor="@color/black">
+            <!--                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"-->
+            <!--                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/citytool"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingLeft="90dp"
+                    android:text="LUCKNOW"
+                    android:textColor="#000000"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <com.miguelcatalan.materialsearchview.MaterialSearchView
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+
+        <RelativeLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="25dp">
+
+            <RelativeLayout
+                android:id="@+id/mainlay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/todayDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textAllCaps="true"
+                    android:textColor="#99b2bc"
+                    android:textSize="17.5sp"
+                    android:textStyle="bold"
+                    tools:text="" />
+
+                <ImageView
+                    android:id="@+id/todayIcon"
+                    android:layout_width="240dp"
+                    android:layout_height="240dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="50dp"
+                    android:src="@drawable/tornado" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/todayIcon"
+                    android:layout_marginBottom="20dp"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/todayTemperature"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:layout_weight="0"
+                        android:textColor="#424242"
+                        android:textSize="40sp"
+                        tools:text="0°" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="170dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/todayDescription"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginLeft="20dp"
+                                android:fontFamily="sans-serif-light"
+                                android:paddingTop="10dp"
+                                android:textColor="#424242"
+                                android:textSize="22sp"
+                                android:textStyle="bold"
+                                tools:text="No data" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/todayDes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="1dp"
+                            android:fontFamily="sans-serif-light"
+                            android:paddingRight="30dp"
+                            android:textColor="#99b2bc"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            tools:text="No data" />
+
+                        <Button
+                            android:id="@+id/send_data"
+                            android:layout_width="220dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="35dp"
+                            android:background="@drawable/button_style"
+                            android:fontFamily="sans-serif-light"
+                            android:layout_gravity="center_horizontal"
+                            android:text="@string/suggestion_button"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="22sp"
+                            android:textStyle="bold"
+                            android:theme="@style/AppTheme.Button" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </FrameLayout>
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/bottomsheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_marginTop="5dp">
+
+
+        <include layout="@layout/content_main" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
