@@ -140,7 +140,7 @@ public class AnalystMap extends FragmentActivity implements OnMapReadyCallback {
         mMap = googleMap;
         mMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
 
-        // Add a marker in Sydney and move the camera
+        // Add a marker in India and move the camera
         LatLng latLng = new LatLng(currentlocation.getLatitude(),currentlocation.getLongitude());
         Marker ownLoc = mMap.addMarker(new MarkerOptions()
                 .position(latLng)
