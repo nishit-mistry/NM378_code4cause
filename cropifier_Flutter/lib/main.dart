@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
       title: 'Cropifier Flutter',
       theme: ThemeData(
         primarySwatch: Colors.green,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: splash_screen(),
     );
