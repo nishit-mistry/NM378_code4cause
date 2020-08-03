@@ -43,6 +43,10 @@ Crops in initial growth stages can also be identified
 Regional and Country View of map along with crop suggestions using weather conditions 
 ![Image of ss4](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/collage4.png)
 Real time crop identification and Offline access to information
+![Image of ss4](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/multicrop.jpg)
+
+Multiple crops identified in one frame with good accuracy 
+
 ### **iOS Application:**
 ![Image of ss5](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/collage5.png)
 Cross Platform Compatibility.Click [Here](https://github.com/nishit-mistry/NM378_code4cause/tree/master/cropifier_Flutter) to view our iOS Repository 
