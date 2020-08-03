@@ -1,14 +1,604 @@
 <resources>
+    //App Name
     <string name="app_name" translatable="false">Cropifier</string>
 
+    //Language Selector Activity
+    <string name="intro_lang_pref" translatable="false" >Select your Language Preference:</string>
+    <string name="btn_get_started">GET STARTED</string>
+
+
+    //Home Page
+    <string name="tagline">Interacting with crops through a new eye</string>
+    <string name="open_camera" >Click on the camera button and identify field photo of crops </string>
+
+    //Cardviews
+    <string-array name="home_cardview">
+        <item> Snap &amp; Identify at Once </item>
+        <item> Explore on Map </item>
+<!--        <item> Crop Info can be Exported </item>-->
+        <item> Real Time Crop Identification </item>
+        <item> Multi-Lingual Support </item>
+        <item> Suggestions using Weather Forecast </item>
+        <item> Offline Access to Information </item>
+<!--        <item> Cross Platform Compatibility </item>-->
+    </string-array>
+
+    //Location permission in main activity
+    <string name="loc_permission_line1">To continue, turn on device location, which uses Google\'s location service</string>
+    <string name="loc_permission_line2">Your device will need to:</string>
+    <string name="loc_permission_line3">Use wifi,cell-networks, and sensors</string>
+    <string name="loc_permission_line4">Use Google\'s location service as a part of this service,Google may collect location data peroidically and use this data in an anoymonous way to improve location accuracy and location-based services.</string>
+    <string name="loc_permission_line5">This may change the location mode you\'ve selected for your device. For details, go to location settings.</string>
+    <string name="loc_permission_know_more">KNOW MORE</string>
+    <string name="loc_permission_no_thanks">NO THANKS</string>
+    <string name="loc_permission_ok">OK</string>
+    <string name="your_loc"> Your Location Coordinates: </string>
+
+
+    //nav bar
+    <string name="navbar_home"> Home </string>
+    <string name="navbar_explore"> Explore </string>
+    <string name="navbar_camera"> Camera </string>
+    <string name="navbar_livefeed"> Livefeed </string>
+    <string name="choose_lang"> Choose Language: </string>
+    <string name="cropinfo"> Crop Info </string>
+    <string name="dashboard"> Dashboard </string>
+
+    //Explore Page
     //Alert box
     <string-array name="roles">
         <item>Regional View</item>
         <item>Country View</item>
     </string-array>
-    <string name="role" translatable="false"> Select Your Role: </string>
+    <string name="role"> Select Map View: </string>
+    <string name="gps_permission"> Your GPS seems to be disabled, do you want to enable it? </string>
+    //Snackbar
+    <string name="snackbar"> Click the marker and its info snippet for more details </string>
+    <string name="okay"> OKAY </string>
 
-    <string name="camera_error" translatable="false">This device doesn\'t support Camera2 API.</string>
+    //Markers
+    <string name="own_loc"> You are here </string>
+
+    //Bitter Gourd
+    <string name="bitter1"> Bilaspur,Chattisgarh </string>
+    <string name="bitter2"> Nellore,Andhra Pradesh </string>
+    <string name="bitter3"> Kolhapur,Maharashtra </string>
+    <string name="bitter4"> Junagadh,Gujarat </string>
+    <string name="bitter5"> Jaipur,Rajasthan </string>
+    <string name="bitter6"> Jalandar,Punjab </string>
+    <string name="bitter7"> Cuddalore,Tamil Nadu </string>
+    <string name="bitter8"> Thiruvanthapuram,Kerala </string>
+    <string name="bitter9"> Bagalkot,Karnataka </string>
+    <string name="bitter10"> Paschim Medinipur,West Bengal </string>
+    <string name="bitter11"> Nayagarh,Odisha </string>
+    <string name="bitter12"> Darrang,Assam </string>
+    <string name="bitter13"> Lucknow,Uttar Pradesh </string>
+    <string name="bitter14"> Muzaffarpur,Bihar </string>
+    //chilli
+    <string name="chilli1"> Krishna,Andhra Pradesh </string>
+    <string name="chilli2"> Solapur,Maharashtra </string>
+    <string name="chilli3"> Bhavnagar,Gujarat </string>
+    <string name="chilli4"> Nellore,Andhra Pradesh </string>
+    <string name="chilli5"> Muzaffarpur,Bihar </string>
+    <string name="chilli6"> Vaishali,Bihar </string>
+    <string name="chilli8"> Patna,Bihar </string>
+    <string name="chilli9"> Palamu,Jharkhand </string>
+    <string name="chilli10"> Belgaum,Karnataka </string>
+    <string name="chilli11"> Haveri,Karnataka </string>
+    <string name="chilli12"> Chitradurga,Karnataka </string>
+    <string name="chilli13"> Wayanad,Kerala </string>
+    <string name="chilli14"> Ernakulam,Kerala </string>
+    <string name="chilli15"> Palakkad,Kerala </string>
+    <string name="chilli16"> Fatehgarh Sahib,Punjab </string>
+    <string name="chilli17"> Patiala,Punjab </string>
+    <string name="chilli18"> Nagaur,Rajasthan </string>
+    <string name="chilli19"> Pali,Rajasthan </string>
+    <string name="chilli20"> Tirunelveli,Tamil Nadu </string>
+    <string name="chilli21"> Virudhunagar,Tamil Nadu </string>
+    <string name="chilli22"> Nagapattinam,Tamil Nadu </string>
+    <string name="chilli23"> Jalpaiguri,West Bengal </string>
+    <string name="chilli24"> Siddhart nagar,Uttar Pradesh </string>
+    <string name="chilli25"> Guna,Madhya Pradesh </string>
+    //coffee
+    <string name="coffee1"> Koppal,Karnataka </string>
+    <string name="coffee2"> Pathanamthitta,Kerala </string>
+    <string name="coffee3"> Visakhapatnam,Andhra Pradesh </string>
+    <string name="coffee4"> Mysore,Karnataka </string>
+    <string name="coffee5"> Kottayam,Kerala </string>
+    <string name="coffee6"> Thiruvannamalai,Tamil Nadu </string>
+    <string name="coffee7"> Medak,Telangana </string>
+    <string name="coffee8"> Bargarh,Odisha </string>
+    <string name="coffee9"> Kamrup,Assam </string>
+    <string name="coffee10"> Dimapur,Nagaland </string>
+    <string name="coffee11"> Imphal,Manipur </string>
+    <string name="coffee12"> Lepa-Rada,Arunachal Pradesh </string>
+    <string name="coffee13"> Serchhip,Mizoram </string>
+    //cotton
+    <string name="cotton1"> Ludhiana,Punjab </string>
+    <string name="cotton2"> Bharuch,Gujarat </string>
+    <string name="cotton3"> Amravati,Maharashtra </string>
+    <string name="cotton4"> Washim,Maharashtra </string>
+    <string name="cotton5"> Ahmedabad,Gujarat </string>
+    <string name="cotton6"> Porbandar,Gujarat </string>
+    <string name="cotton7"> Surendranagar,Gujarat </string>
+    <string name="cotton8"> Amreli,Gujarat </string>
+    <string name="cotton9"> Bhavnagar,Gujarat </string>
+    <string name="cotton10"> Guntur,Andhra Pradesh </string>
+    <string name="cotton11"> Anantapur,Andhra Pradesh </string>
+    <string name="cotton12"> YSR Kadapa,Andhra Pradesh </string>
+    <string name="cotton13"> Purnia,Bihar </string>
+    <string name="cotton14"> Gadag,Karnataka </string>
+    <string name="cotton15"> Raichur,Karnataka </string>
+    <string name="cotton16"> Gulbarga,Karnataka </string>
+    <string name="cotton17"> Sri Muktsar Sahib,Punjab </string>
+    <string name="cotton18"> Firozpur,Punjab </string>
+    <string name="cotton19"> Jaipur,Rajasthan </string>
+    <string name="cotton20"> Banswara,Rajasthan </string>
+    <string name="cotton21"> Chittorgarh,Rajasthan </string>
+    <string name="cotton22"> Tiruppur,Tamil Nadu </string>
+    <string name="cotton23"> Dindigul,Tamil Nadu </string>
+    <string name="cotton24"> Kanyakumari,Tamil Nadu </string>
+    <string name="cotton25"> Khowai,Tripura </string>
+    <string name="cotton26"> Meerut,Uttar Pradesh </string>
+    <string name="cotton27"> Aligarh,Uttar Pradesh </string>
+    <string name="cotton28"> Ujjain,Madhya Pradesh </string>
+    <string name="cotton29"> Harda,Madhya Pradesh </string>
+    <string name="cotton30"> Sheopur,Madhya Pradesh </string>
+    // methi
+    <string name="methi1"> Rajsamand,Rajasthan </string>
+    <string name="methi2"> Cuddalore,Tamil Nadu </string>
+    <string name="methi3"> Dehradun,Uttrakhand </string>
+    <string name="methi4"> Bulandshahr,Uttar Pradesh </string>
+    <string name="methi5"> Jaipur,Rajasthan </string>
+    <string name="methi6"> Murshidabad,West Bengal </string>
+    <string name="methi7"> Bharuch,Gujarat </string>
+    <string name="methi8"> Katni,Madhya Pradesh </string>
+    <string name="methi9"> Bastar,Chattisgarh </string>
+    //mustard
+    <string name="mustard1"> Kota,Rajasthan </string>
+    <string name="mustard2"> Hisar,Haryana </string>
+    <string name="mustard3"> Sibsagar,Assam </string>
+    <string name="mustard4"> Dhemaji,Assam </string>
+    <string name="mustard5"> East Champaran,Bihar </string>
+    <string name="mustard6"> Poonch,Jammu Kashmir </string>
+    <string name="mustard7"> AnantNag,Jammu Kashmir </string>
+    <string name="mustard8"> West Garo Hills,Meghalaya </string>
+    <string name="mustard9"> Dharampuri,Tamil Nadu </string>
+    <string name="mustard10"> Jhansi,Uttar Pradesh </string>
+    <string name="mustard11"> Betwar,Uttar Pradesh </string>
+    <string name="mustard12"> Sitapur,Uttar Pradesh </string>
+    <string name="mustard13"> Bhind,Madhya Pradesh </string>
+    //lentil
+    <string name="lentil1"> Bokaro,Jharkhand </string>
+    <string name="lentil2"> Sidhi,Madhya Pradesh </string>
+    <string name="lentil3"> East Godavari,Andhra Pradesh </string>
+    <string name="lentil4"> West Godavari,Andhra Pradesh </string>
+    <string name="lentil5"> Prakasam,Andhra Pradesh </string>
+    <string name="lentil6"> Kaimur,Bihar </string>
+    <string name="lentil7"> Fazilka,Punjab </string>
+    <string name="lentil8"> Bathinda,Punjab </string>
+    <string name="lentil9"> Sangrur,Punjab </string>
+    <string name="lentil10"> Churu,Rajasthan </string>
+    <string name="lentil11"> Bikaner,Rajasthan </string>
+    <string name="lentil12"> Jhunjhunun,Rajasthan </string>
+    <string name="lentil13"> Ajmer,Rajasthan </string>
+    <string name="lentil14"> Thoothukudi,Tamil Nadu </string>
+    <string name="lentil15"> Ramanathapuram,Tamil Nadu </string>
+    <string name="lentil16"> Sivagangai,Tamil Nadu </string>
+    <string name="lentil17"> Malda,West Bengal </string>
+    //maize
+    <string name="maize1"> Bhilwara,Rajasthan </string>
+    <string name="maize2"> Dakshina Kannada,Karnataka </string>
+    <string name="maize3"> SabarKantha,Gujarat </string>
+    <string name="maize4"> Udepur,Gujarat </string>
+    <string name="maize5"> Banswara,Rajasthan </string>
+    <string name="maize6"> East Godavari,Andhra Pradesh </string>
+    <string name="maize7"> Golaghat,Assam </string>
+    <string name="maize8"> Katihar,Bihar </string>
+    <string name="maize9"> Samastipur,Bihar </string>
+    <string name="maize10"> Muzaffarpur,Bihar </string>
+    <string name="maize11"> Surajpur,Chattisgarh </string>
+    <string name="maize12"> Bilaspur,Chattisgarh </string>
+    <string name="maize13"> Bandipora,Jammu Kashmir </string>
+    <string name="maize14"> Kathua,Jammu Kashmir </string>
+    <string name="maize15"> Mysore,Karnataka </string>
+    <string name="maize16"> East Garo Hills,Meghalaya </string>
+    <string name="maize17"> Rayagada,Odisha </string>
+    <string name="maize18"> Baudh,Odisha </string>
+    <string name="maize19"> Tarn Taran,Punjab </string>
+    <string name="maize20"> Sas Nagar,Punjab </string>
+    <string name="maize21"> Baran,Rajasthan </string>
+    <string name="maize22"> Dungarpur,Rajasthan </string>
+    <string name="maize23"> Tiruchirappalli,Tamil Nadu </string>
+    <string name="maize24"> Muzaffarnagar,Uttar Pradesh </string>
+    <string name="maize25"> Neemuch,Madhya Pradesh </string>
+    <string name="maize26"> Barwani,Madhya Pradesh </string>
+    //peas
+    <string name="peas1"> Muzaffarnagar,Uttar Pradesh </string>
+    <string name="peas2"> Gwalior,Madhya Pradesh </string>
+    <string name="peas3"> Sirmaur,Himachal Pradesh </string>
+    <string name="peas4"> Bhopal,Madhya Pradesh </string>
+    <string name="peas5"> Dholpur,Rajasthan </string>
+    <string name="peas6"> Jalgoan,Maharashtra </string>
+    <string name="peas7"> Bhandara,Maharashtra </string>
+    <string name="peas8"> Moga,Punjab </string>
+    <string name="peas9"> Gurdaspur,Punjab </string>
+    <string name="peas10"> Jind,Haryana </string>
+    <string name="peas11"> Ballari,Karnataka </string>
+    <string name="peas12"> Nawada,Bihar </string>
+    //pumpkin
+    <string name="pumpkin1"> Balangir,Odisha </string>
+    <string name="pumpkin2"> Chandauli,Uttar Pradesh </string>
+    <string name="pumpkin3"> Sonbhadra,Uttar Pradesh </string>
+    <string name="pumpkin4"> Indore,Madhya Pradesh </string>
+    <string name="pumpkin5"> Durg,Chattisgarh </string>
+    <string name="pumpkin6"> Shivamogga,Karnataka </string>
+    <string name="pumpkin7"> Rohtak,Haryana </string>
+    <string name="pumpkin8"> East Khasi Hills,Meghalaya </string>
+    <string name="pumpkin9"> Ganganagar,Rajasthan </string>
+    //rice
+    <string name="rice1"> Darjeeling,West Bengal </string>
+    <string name="rice2"> Maharajganj,Uttar Pradesh </string>
+    <string name="rice3"> Nashik,Maharashtra </string>
+    <string name="rice4"> Dhule,Maharashtra </string>
+    <string name="rice5"> Pune,Maharashtra </string>
+    <string name="rice6"> Gandhinagar,Gujarat </string>
+    <string name="rice7"> Vadodara,Gujarat </string>
+    <string name="rice8"> Navsari,Gujarat </string>
+    <string name="rice9"> Vizianagaram,Andhra Pradesh </string>
+    <string name="rice10"> West Godavari,Andhra Pradesh </string>
+    <string name="rice11"> Krishna,Andhra Pradesh </string>
+    <string name="rice12"> Guntur,Andhra Pradesh </string>
+    <string name="rice13"> Prakasam,Andhra Pradesh </string>
+    <string name="rice14"> Prakasam,Andhra Pradesh </string>
+    <string name="rice15"> Kurnool,Andhra Pradesh </string>
+    <string name="rice16"> Anantapur,Andhra Pradesh </string>
+    <string name="rice17"> YSR Kadapa,Andhra Pradesh </string>
+    <string name="rice18"> Nellore,Andhra Pradesh </string>
+    <string name="rice19"> Morigaon,Assam </string>
+    <string name="rice20"> Karbi Anglong,Assam </string>
+    <string name="rice21"> Jorhat,Assam </string>
+    <string name="rice22"> Tinsukai,Assam </string>
+    <string name="rice23"> Araria,Bihar </string>
+    <string name="rice24"> Bhagalpur,Bihar </string>
+    <string name="rice25"> Supaul,Bihar </string>
+    <string name="rice26"> Madhubani,Bihar </string>
+    <string name="rice27"> Gaya,Bihar </string>
+    <string name="rice28"> West Champaran,Bihar </string>
+    <string name="rice29"> Shimla,Himachal Pradesh </string>
+    <string name="rice30"> Kishtwar,Jammu Kashmir </string>
+    <string name="rice31"> Udhampur,Jammu Kashmir </string>
+    <string name="rice32"> Jammu,Jammu Kashmir </string>
+    <string name="rice33"> Koppal,Karnataka </string>
+    <string name="rice34"> Uttara Kannada,Karnataka </string>
+    <string name="rice35"> Udupi,Karnataka </string>
+    <string name="rice36"> Cuttack,Odisha </string>
+    <string name="rice37"> Rupnagar,Punjab </string>
+    <string name="rice38"> Amritsar,Punjab </string>
+    <string name="rice39"> Kapurthala,Punjab </string>
+    <string name="rice40"> Pathankot,Punjab </string>
+    <string name="rice41"> Sawai Madhpur,Rajasthan </string>
+    <string name="rice42"> Saharanpur,Uttar Pradesh </string>
+    <string name="rice43"> Ghaziabad,Uttar Pradesh </string>
+    <string name="rice44"> Agra,Uttar Pradesh </string>
+    <string name="rice45"> Kheria,Uttar Pradesh </string>
+    <string name="rice46"> Bahraich,Uttar Pradesh </string>
+    //sesame
+    <string name="sesame1"> Rajkot,Gujarat </string>
+    <string name="sesame2"> Bankura,West Bengal </string>
+    <string name="sesame3"> Ahmedabad,Gujarat </string>
+    <string name="sesame4"> Karbi Anglong,Assam </string>
+    <string name="sesame5"> North Cachar Hills,Assam </string>
+    <string name="sesame6"> Rohtas,Bihar </string>
+    <string name="sesame7"> Hassan,Karnataka </string>
+    <string name="sesame8"> Purva Medinipur,West Bengal </string>
+    <string name="sesame9"> Barwara,Uttar Pradesh </string>
+    <string name="sesame10"> Morena,Uttar Pradesh </string>
+    //sorghum
+    <string name="sorghum1"> Beed,Maharastra </string>
+    <string name="sorghum2"> Haveri,Karnataka </string>
+    <string name="sorghum3"> Dhule,Maharashtra </string>
+    <string name="sorghum4"> Nandurbar,Maharashtra </string>
+    <string name="sorghum5"> Pune,Maharashtra </string>
+    <string name="sorghum6"> Ahmedabad,Gujarat </string>
+    <string name="sorghum7"> Vadodara,Gujarat </string>
+    <string name="sorghum8"> Guntur,Andhra Pradesh </string>
+    <string name="sorghum9"> Belgaum,Karnataka </string>
+    <string name="sorghum10"> Bijapur,Karnataka </string>
+    <string name="sorghum11"> Kalahandi,Odisha </string>
+    <string name="sorghum12"> Koraput,Odisha </string>
+    <string name="sorghum13"> Jhalawar,Rajasthan </string>
+    <string name="sorghum14"> Kota,Rajasthan </string>
+    <string name="sorghum15"> Mandsaur,Madhya Pradesh </string>
+    <string name="sorghum16"> Narsinghpur,Madhya Pradesh </string>
+    //soybean
+    <string name="soybean1"> Bhopal,Madhya Pradesh </string>
+    <string name="soybean2"> Nagpur,Maharashtra </string>
+    <string name="soybean3"> Karauli,Rajasthan </string>
+    <string name="soybean4"> Bharatpur,Rajasthan </string>
+    <string name="soybean5"> West Tripura,Tripura </string>
+    <string name="soybean6"> Gomati,Tripura </string>
+    <string name="soybean7"> Shivpuri,Madhya Pradesh </string>
+    <string name="soybean8"> Chhindwara,Madhya Pradesh </string>
+    <string name="soybean9"> Rajgarh,Madhya Pradesh </string>
+    <string name="soybean10"> Dohad,Gujarat </string>
+    //sugarcane
+    <string name="sugarcane1"> Ahmednagar,Maharashtra </string>
+    <string name="sugarcane2"> Amravati,Maharashtra </string>
+    <string name="sugarcane3"> Srikakulam,Andhra Pradesh </string>
+    <string name="sugarcane4"> Vizianagaram,Andhra Pradesh </string>
+    <string name="sugarcane5"> Visakhapatnam,Andhra Pradesh </string>
+    <string name="sugarcane6"> West Godavari,Andhra Pradesh </string>
+    <string name="sugarcane7"> Krishna,Andhra Pradesh </string>
+    <string name="sugarcane8"> Chittoor,Andhra Pradesh </string>
+    <string name="sugarcane9"> Sonitpur,Assam </string>
+    <string name="sugarcane10"> Karimganj,Assam </string>
+    <string name="sugarcane11"> Lakhimpur,Assam </string>
+    <string name="sugarcane12"> Madhepur,Bihar </string>
+    <string name="sugarcane13"> Una,Himachal Pradesh </string>
+    <string name="sugarcane14"> Udhampur,Jammu Kashmir </string>
+    <string name="sugarcane15"> Thrissur,Kerala </string>
+    <string name="sugarcane16"> Kendrapara,Odisha </string>
+    <string name="sugarcane17"> Hooghly,West Bengal </string>
+    //tea
+    <string name="tea1"> Nagaon,Assam </string>
+    <string name="tea2"> North 24 Parganas,West Bengal </string>
+    <string name="tea3"> Jorhat,Assam </string>
+    <string name="tea4"> Cachar,Assam </string>
+    <string name="tea5"> Kangra,Himachal Pradesh </string>
+    <string name="tea6"> Idukki,Kerala </string>
+    <string name="tea7"> Dhalai,Tripura </string>
+    <string name="tea8"> Khowai,Tripura </string>
+    <string name="tea9"> South Tripura,Tripura </string>
+    <string name="tea10"> Sipahijala,Tripura </string>
+    <string name="tea11"> Darjeeling,West Bengal </string>
+    //tobacco
+    <string name="tobacco1"> Khammam,Telangana </string>
+    <string name="tobacco2"> Nellore,Andhra Pradesh </string>
+    <string name="tobacco3"> Guntur,Andhra Pradesh </string>
+    <string name="tobacco4"> Purnia,Bihar </string>
+    <string name="tobacco5"> Katihar,Bihar </string>
+    <string name="tobacco6"> Anand,Gujarat </string>
+    <string name="tobacco7"> Nipani,Karnataka </string>
+    <string name="tobacco8"> Coimbatore,Tamil Nadu </string>
+    <string name="tobacco9"> East Godavari,Andhra Pradesh </string>
+    <string name="tobacco10"> West Godavari,Andhra Pradesh </string>
+    <string name="tobacco11"> Kannur,Kerala </string>
+    <string name="tobacco12"> Hushiarpur,Punjab </string>
+    <string name="tobacco13"> Gomati,Tripura </string>
+    <string name="tobacco14"> Jhansi,Uttar Pradesh </string>
+    <string name="tobacco15"> Lalitpur,Uttar Pradesh </string>
+    <string name="tobacco16"> Manipur,Uttar Pradesh </string>
+    <string name="tobacco17"> Sagar,Madhya Pradesh </string>
+    <string name="tobacco18"> Satna,Madhya Pradesh </string>
+    //turmeric
+    <string name="turmeric1"> Chittoor,Andhra Pradesh </string>
+    <string name="turmeric2"> Bargarh,Odisha </string>
+    <string name="turmeric3"> Nellore,Andhra Pradesh </string>
+    <string name="turmeric4"> Erode,Tamil Nadu </string>
+    <string name="turmeric5"> Jajpur,Odisha </string>
+    <string name="turmeric6"> Naupada,Odisha </string>
+    <string name="turmeric7"> Yadgir,Karnataka </string>
+    <string name="turmeric8"> Birbhum,West Bengal </string>
+    <string name="turmeric9"> Mahisagar,Gujarat </string>
+    <string name="turmeric10"> Kheda,Gujarat </string>
+    <string name="turmeric11"> South West Khasi Hills,Meghalaya </string>
+    <string name="turmeric12"> Gondia,Maharashtra </string>
+    <string name="turmeric13"> Dhubri,Assam </string>
+    <string name="turmeric14"> Kokrajhar,Assam </string>
+    //wheat
+    <string name="wheat1"> Sirsa,Haryana </string>
+    <string name="wheat2"> Khargone,Madhya Pradesh </string>
+    <string name="wheat3"> Nashik,Maharashtra </string>
+    <string name="wheat4"> Amreli,Gujarat </string>
+    <string name="wheat5"> West Godavari,Andhra Pradesh </string>
+    <string name="wheat6"> Golaghat,Assam </string>
+    <string name="wheat7"> Barpeta,Assam </string>
+    <string name="wheat8"> Buxar,Bihar </string>
+    <string name="wheat9"> Bhojpur,Bihar </string>
+    <string name="wheat10"> Sirmaur,Himachal Pradesh </string>
+    <string name="wheat11"> Udhampur,Jammu Kashmir </string>
+    <string name="wheat12"> Jammu,Jammu Kashmir </string>
+    <string name="wheat13"> Dharwad,Karnataka </string>
+    <string name="wheat14"> Mayurbhanj,Odisha </string>
+    <string name="wheat15"> Sundargarh,Odisha </string>
+    <string name="wheat16"> Debagarh,Odisha </string>
+    <string name="wheat18"> Gajapati,Odisha </string>
+    <string name="wheat19"> Bhilwara,Rajasthan </string>
+    <string name="wheat20"> Alwar,Rajasthan </string>
+    <string name="wheat21"> Ganganagar,Rajasthan </string>
+    <string name="wheat22"> Hanumangarh,Rajasthan </string>
+    <string name="wheat23"> Pauri Garhwal,Uttrakhand </string>
+    <string name="wheat24"> Murshidabad,West Bengal </string>
+    <string name="wheat25"> Nadia,West Bengal </string>
+    <string name="wheat26"> Kushinagar,Uttar Pradesh </string>
+    <string name="wheat27"> Shahjahanpur,Uttar Pradesh </string>
+    <string name="wheat28"> Bareilly,Uttar Pradesh </string>
+
+    //if own location clicked then weather
+    <string name="if_weather"> Weather &amp; Crop Suggestions </string>
+    <string name="if_weather_msg"> Do you want to know the weather forecast and get crops suggestions according to your location? </string>
+    <string name="yes"> YES </string>
+    <string name="no"> NO </string>
+
+    <string name="action_search">Search</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="later">Later</string>
+
+    <string name="wind">Wind</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Humidity</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+    <string name="uvindex">UV Index</string>
+
+    <string name="last_update">Last updated:\n%s</string>
+    <string name="last_update_widget">\nLast update: %s</string>
+
+    <string name="search_title">Search for city</string>
+
+    <string name="downloading_data">Downloading your data ...</string>
+    <string name="getting_location">Getting your location ...</string>
+
+    <string name="loading_data">Loading...</string>
+
+    <string name="error_dateFormat">DATE FORMAT ERROR</string>
+
+    <!--    <string name="setting_dateFormat">Date Format</string>-->
+    <!--    <string name="setting_dateFormatCustom">Custom Date Format</string>-->
+    <!--    <string name="setting_dateFormatCustom_summary">Provide the custom SimpleDateFormat string to be used</string>-->
+    <!--    <string name="setting_lengthUnits">Length units</string>-->
+    <!--    <string name="setting_speedUnits">Speed units</string>-->
+    <!--    <string name="setting_tempUnits">Temperature units</string>-->
+    <!--    <string name="setting_showTempAsInteger">Show temperature only as an integer</string>-->
+    <!--    <string name="setting_pressureUnits">Pressure units</string>-->
+    <!--    <string name="setting_theme">Theme</string>-->
+    <!--    <string name="setting_transparent_widget">Make widget transparent</string>-->
+    <!--    <string name="setting_auto_detect_location">Detect Location</string>-->
+    <!--    <string name="setting_differentiateDaysByTint">Differentiate Days with Color</string>-->
+    <string name="setting_refreshInterval">Background refresh interval</string>
+    <string name="setting_unit_mps">Meters per second (m/s)</string>
+    <string name="setting_unit_kph">Kilometers per hour (kph)</string>
+    <string name="setting_unit_mph">Miles per hour (mph)</string>
+    <string name="setting_unit_bft">Beaufort wind scale (bft)</string>
+    <string name="setting_unit_kn">Knots (kn)</string>
+    <!--    <string name="setting_wind_direction_format">Wind direction format</string>-->
+    <string name="settings_none">None</string>
+    <!--    <string name="setting_apiKey">API key</string>-->
+    <!--    <string name="setting_apiKey_summary">Custom API key for OpenWeatherMap queries</string>-->
+
+    <string name="setting_unit_Celsuis">Celsius</string>
+    <string name="setting_unit_Fahrenheit">Fahrenheit</string>
+    <string name="setting_unit_Kelvin">Kelvin</string>
+
+    <string name="setting_unit_mm">Millimeters (mm)</string>
+    <string name="setting_unit_in">Inches (in)</string>
+
+    <string name="setting_unit_hpa">hPa</string>
+    <string name="setting_unit_kpa">kPa</string>
+    <string name="setting_unit_mmhg">mm Hg</string>
+    <string name="setting_unit_inhg">in Hg</string>
+
+    <string name="speed_unit_mps">m/s</string>
+    <string name="speed_unit_kph">kph</string>
+    <string name="speed_unit_mph">mph</string>
+    <string name="speed_unit_kn">kn</string>
+
+    <string name="wind_direction_format_none">No indication</string>
+    <string name="wind_direction_format_arrows">Arrows</string>
+    <string name="wind_direction_format_abbreviations">Abbreviations</string>
+
+    <string name="pressure_unit_hpa">hPa</string>
+    <string name="pressure_unit_kpa">kPa</string>
+    <string name="pressure_unit_mmhg">mm Hg</string>
+
+    <!--    <string name="setting_theme_fresh">Fresh</string>-->
+    <!--    <string name="setting_theme_classic">Classic</string>-->
+    <!--    <string name="setting_theme_dark">Fresh Dark</string>-->
+    <!--    <string name="setting_theme_classic_dark">Classic Dark</string>-->
+    <!--    <string name="setting_theme_black">Fresh Black</string>-->
+    <!--    <string name="setting_theme_classic_black">Classic Black</string>-->
+
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <string name="msg_err_parsing_json">Connection timeout.</string>
+    <string name="msg_connection_problem">There is a problem with your internet connection.</string>
+    <string name="msg_connection_not_available">Connection not available.</string>
+    <string name="msg_city_not_found">Specified city is not found.</string>
+
+    <string name="weather_sunny" translatable="false">&#xf00d;</string>
+    <string name="weather_clear_night" translatable="false">&#xf02e;</string>
+    <string name="weather_foggy" translatable="false">&#xf014;</string>
+    <string name="weather_cloudy" translatable="false">&#xf013;</string>
+    <string name="weather_rainy" translatable="false">&#xf019;</string>
+    <string name="weather_snowy" translatable="false">&#xf01b;</string>
+    <string name="weather_thunder" translatable="false">&#xf01e;</string>
+    <string name="weather_drizzle" translatable="false">&#xf01c;</string>
+
+
+    <string name="wind_direction_north">N</string>
+    <string name="wind_direction_north_north_east">NNE</string>
+    <string name="wind_direction_north_east">NE</string>
+    <string name="wind_direction_east_north_east">ENE</string>
+    <string name="wind_direction_east">E</string>
+    <string name="wind_direction_east_south_east">ESE</string>
+    <string name="wind_direction_south_east">SE</string>
+    <string name="wind_direction_south_south_east">SSE</string>
+    <string name="wind_direction_south">S</string>
+    <string name="wind_direction_south_south_west">SSW</string>
+    <string name="wind_direction_south_west">SW</string>
+    <string name="wind_direction_west_south_west">WSW</string>
+    <string name="wind_direction_west">W</string>
+    <string name="wind_direction_west_north_west">WNW</string>
+    <string name="wind_direction_north_west">NW</string>
+    <string name="wind_direction_north_north_west">NNW</string>
+    <string name="msg_too_many_requests">Too many requests. Please try again.</string>
+
+    <!-- 1: temperature; 2: unit -->
+    <string name="dash_clock_status">%1$s%2$s</string>
+    <!-- 1: temperature; 2: unit; 3: weather description -->
+    <string name="dash_clock_expanded_title">%1$s%2$s - %3$s</string>
+    <!-- 1: city; 2: country; 3: wind; 4: speed units; 5: pressure; 6: pressure units; 7: humidity -->
+    <string name="dash_clock_expanded_body">%1$s, %2$s\nWind: %3$s %4$s\nPressure: %5$s %6$s\nHumidity: %7$s %%\n</string>
+    <!--    <string name="settings_title_units">Units</string>-->
+    <!--    <string name="settings_title_display">Display</string>-->
+    <string name="settings_title_data">Data</string>
+    <!--    <string name="setting_displayDecimalZeroes">Display decimal zeroes</string>-->
+    <string name="settings_title_location">Location</string>
+    <string name="setting_update_location_automatically">Update location in background</string>
+
+    <string name="location_settings">Location Settings</string>
+    <string name="location_settings_message">Location is not enabled. Do you wish to go to the settings menu?</string>
+    <string name="location_settings_button">Settings</string>
+    <string name="action_weather_map">Weather Map</string>
+    <string name="rain">Rain</string>
+    <string name="temperature">Temperature</string>
+    <!--    <string name="action_graphs">Graphs</string>-->
+    <!--    <string name="app_sign_name">Weathercast</string>-->
+    <!--    <string name="pref_previously_started" />-->
+    <string name="permission_request_denied">Permission request denied</string>
+    <!--    <string name="error_gif">x or y bound size should be at least %1$dpx and file size should be no more than %2$sM</string>-->
+    <string name="button_sure_default">Done</string>
+    <string name="button_sure">Exit</string>
+    <!--    <string name="button_preview">Pin</string>-->
+    <string name="apiKey" translatable="false">39a8783483d969cd7e3455239fe4ee39</string>
+
+    //weather my strings
+    <string name="thunderstorm"> Thunderstorm accompanied by gusty winds and lightning is expected in several parts. </string>
+    <string name="drizzle"> Isolated Rain Cools down Few regions, While Others Remain Hotter </string>
+    <string name="rain1"> Isolated Rain Cools down Few regions, While Others Remain Hotter </string>
+    <string name="snow"> Time Lapse Ride Through Snow-Covered Streets of the city. </string>
+    <string name="mist"> Time Lapse Ride Through mist covered areas of the city. </string>
+    <string name="smoke"> Dust Storm to Deteriorate Air Quality in several region. </string>
+    <string name="haze_clear"> Clear and blithe day with no clouds in the sky. </string>
+    <string name="dust_sand"> Dust storm to deteriorate air quality in several region. </string>
+    <string name="fog"> Another foggy day with minimum temperature likely to go down. </string>
+    <string name="ash"> Volcano violently erupts spewing ash and smoke into the sky. </string>
+    <string name="squall"> Sudden, sharp increase in wind speed lasting minutes with the possibility of rain. </string>
+    <string name="clouds"> Fraction of the sky obscured by clouds, possibility of rain. </string>
+    <string name="more_info"> More Info </string>
+
+    //Suggestions
+    <string name="suggestion_button">Crop Suggestions</string>
+    <string name="weatherinfo_suggestion"> Weather Information </string>
+    <string name="today_temperature"> Today\'s Temperature: </string>
+    <string name="ok_got_it"> OKAY,GOT IT </string>
+    <string name="today_humidity"> Today\'s Humidity: </string>
+
+    //Crop identification Camera activity
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="classify_button">Classify</string>
+    <string name="crop_label">Label</string>
+    <string name="crop_confidence">Confidence</string>
+    <string name="crop_more_details">More details</string>
+
 
     //Crop info page
     <string name="cropnametext"> Crop Name :</string>
@@ -21,9 +611,7 @@
     <string name="culti"> Cultivated At :</string>
     <string name="description"> Description :</string>
     <string name="sciname"> Scientific Name :</string>
-    <string name="cropinfo"> Crop Information </string>
-
-    <string name="your_loc"> Your Location Coordinates: </string>
+    <string name="cropinformation"> Crop Information </string>
 
     //BitterGourd information
     <string name="bg_name"> Bitter Gourd </string>
@@ -95,7 +683,7 @@
     <string name="maize_climate"> Sunny </string>
     <string name="maize_water"> A vigorous growing maize plant requires about 2 en dash 3 litres of water per day during peak growing period or an average consumptive use of water varies from 2.5 to 4.3 mm/day. </string>
     <string name="maize_culti"> Uttar Pradesh, Rajasthan, Madhya Pradesh, Bihar and Himachal Pradesh </string>
-    <string name="maize_des" formatted="false"> Maize, also known as corn in the US, Canada and Australia is the most widely produced crop all over the world. Maize have carbohydrate(70%) ,protein(10%) and oil(4%). </string>
+    <string name="maize_des"> Maize, also known as corn in the US, Canada and Australia is the most widely produced crop all over the world. Maize have carbohydrate(70%) ,protein(10%) and oil(4%). </string>
     <string name="maize_sciname"> Zea mays </string>
 
     //Methi information
@@ -184,7 +772,7 @@
     <string name="sorghum_sciname"> Sorghum bicolor </string>
 
     //soybean Information
-    <string name="soybean_name"> Soyabean </string>
+    <string name="soybean_name"> Soybean </string>
     <string name="soybean_water"> 450 – 700 mm </string>
     <string name="soybean_sun"> Full sun </string>
     <string name="soybean_des"> Soybean is one of the most grown and used oilseeds. In India, soybean is predominantly grown as a rainfed crop in all the states of Madhya Pradesh. </string>
@@ -223,7 +811,7 @@
     <string name="tobacco_name"> Tobacco </string>
     <string name="tobacco_water"> 61.60 to 152.10 mm</string>
     <string name="tobacco_sun"> Full sun</string>
-    <string name="tobacco_des"> Today, tobacco is one of the major commercial crops grown in India. Various types of tobaccos are cultivated in India for use in tobacco products such as Cigarette, Bidi, Cigar, Cheroot, Hookah, Chewing and Snuff. </string>
+    <string name="tobacco_des"> Today, tobacco is one of the major commercial crops grown in India. Various types of tobaccos are cultivated in India for use in tobacco products such as Cigarette, Bidi, Cigar, Cheroot, Hookah, Chewing and Snuff.</string>
     <string name="tobacco_ph"> 5.0 to 6.0</string>
     <string name="tobacco_soil"> Alluvial soils, black clayey or loamy soils, grey to red soils</string>
     <string name="tobacco_climate"> Tropical, subtropical and temperate</string>
