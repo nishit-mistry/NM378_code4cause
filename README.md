@@ -24,16 +24,28 @@ Cropifier is a AI based mobile application developed to identify crop using only
 
 10. **Cross Platform Compatibility** - Available in both Android and iOS devices.
 
+## **Deep Learning Architectures used:**
+The process of Data augmentation has been done. for that we have included grey scale image of crop to achieve greater accuracy at training and testing phase.
+
+**Inception Model:** Inception has Ability to factorize large convolution and use wider network rather than deeper network. Inception V3 uses RMSprop Optimizer. It takes and factorize 7x7 convolution which is larger than 5x5 conv for v2.
+![Image of Inception Model](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/InceptionModel.jpeg)
+**SSD MobileNet Model:** Depth wise separable convolution is used to reduce model size and complexity. SSD MobileNet takes only one single shot to dtect multiple object within a single image if present.
+![Image of MobileNetSSD](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/MobileSSD.jpeg)
+
 
 ## **Screenshots**
-![Image of Yaktocat](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/collage1.png)
+### **Android Application:**
+![Image of ss1](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/collage1.png)
 Multi-Lingual Support
-![Image of Yaktocat](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/collage2.png)
+![Image of ss2](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/collage2.png)
 Crops in initial growth stages can also be identified
-![Image of Yaktocat](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/collage3.png)
+![Image of ss3](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/collage3.png)
 Regional and Country View of map along with crop suggestions using weather conditions 
-![Image of Yaktocat](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/collage4.png)
+![Image of ss4](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/collage4.png)
 Real time crop identification and Offline access to information
+### **iOS Application:**
+![Image of ss5](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/collage5.png)
+Cross Platform Compatibility.Click [Here](https://github.com/nishit-mistry/NM378_code4cause/tree/master/cropifier_Flutter) to view our iOS Repository 
 
 ## **Authors**
 - https://github.com/nmistry45
