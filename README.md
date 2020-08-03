@@ -1,6 +1,7 @@
 # NM378_code4cause
 ## Cropifier - Interacting with crops through a new eye
 Cropifier is a AI based mobile application developed to identify crop using only field photo of a crop. The application allows the user to take photos and automatically identify the crop. The photo and crop information along with Geo-location information is stored in an internal database which can be exported/emailed. Cropifier is aimed at people especially data collection officials for identifying an important variety of the crops on the field and off the field as well. 
+### [SIH2020 Final Data Link](https://drive.google.com/drive/folders/1Y1sHI6Ob1xiYlBL1m7OBjCLerlaMogEV?usp=sharing)
 
 ## **Features**
 
@@ -58,6 +59,9 @@ Crops in initial growth stages can also be identified
 Regional and Country View of map along with crop suggestions using weather conditions 
 ![Image of ss4](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/collage4.png)
 Real time crop identification and Offline access to information
+![Image of ss5](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/multicrop.jpg)
+
+Multiple crop identified in one frame with good accuracy
 
 ### **iOS Application:**
 ![Image of ss6](https://github.com/nishit-mistry/NM378_code4cause/blob/master/Screenshots/collage5.png)
