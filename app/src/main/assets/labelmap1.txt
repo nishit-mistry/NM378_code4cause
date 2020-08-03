@@ -1,0 +1,12 @@
+barley
+chillies
+cotton
+groundnut
+indian mustard
+jute
+lentil
+maize
+oat
+rice
+sugarcane
+wheat
