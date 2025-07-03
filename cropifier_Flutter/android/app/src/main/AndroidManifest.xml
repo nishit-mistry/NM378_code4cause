@@ -18,7 +18,7 @@
         tools:ignore="Instantiatable">
 
         <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAzeBvxYJhE3UaKbg78DWafYPlqzEW5CYg"/>
+            android:value=""/>
 
         <activity
             android:name=".MainActivity"
